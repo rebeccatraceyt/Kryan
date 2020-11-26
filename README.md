@@ -60,20 +60,19 @@ Kryan is a Dublin based singer/songwriter multi-instrumentalist, focusing mainly
 
 ### Design
 #### Colour Scheme
-Main Colours:
-- Black
-- White
-- Grey
-- Red (accent)
+The main colours used throughout the website were a mixture of Black and White with Red accents.
 
 The chosen colour scheme is a reflection of the artist's look and feel.
 
 #### Typography
 The pairing of the fonts Cabin and Raleway was used throughout the website with Sans Serif as the fallback font in case of import failure. 
+
 Both Cabin and Raleway are sans typefaces and were chosen to reflect the modern personality of the website.
 
 #### Imagery
-The selected imagery is modern and cohesively aesthetic, reflecting the artist's look and feel. The imagery is catching and visually represents the theme of the website.
+The selected imagery is modern and cohesively aesthetic, reflecting the artist's look and feel. 
+
+The imagery is catching and visually represents the theme of the website.
 
 ### Wireframes
 
@@ -85,7 +84,67 @@ The selected imagery is modern and cohesively aesthetic, reflecting the artist's
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+### Design Features
+Each page of the website features a consistent responsive navigational system:
+- The **Header** contains a conventionally placed **logo** in the top left of the page (whereby by clicking this will redirect users back to the home page) and **navigation bar** in the top right of the page.
+- The **Footer** contains the appropriate **social media icons**, linking users to the three main social media pages of Kryan.
+
+<dl>
+  <dt><a href="#" target="_blank">Home Page</a></dt>
+  <dd>The Home Page is divided two columns wide on desktops and one column wide on mobile and tablet devices:
+     <ul>
+          <li><strong>Hero Image</strong> - Occupying 50% of the page width, on the left side, while viewing on a desktop. On mobile and tablet devices, the image becomes stacked at the top of the page, occupying 100% of the page width. The imagery used was specifically chosen as it created a impactful first impression, setting the tone of the website for the user.
+          </li>
+          <li><strong>Banner Container</strong> - Occupying 50% of the width, on the right side, while viewing on a desktop. On mobile and tablet devices, the container becomes stacked, underneath the <strong>Hero Image</strong>. The purpose of the container is to provide an area in the center to highlight the latest release from the artist. This style was chosen in order to draw the users attention to the information straight away. In this, there is a <strong>call to action</strong> button linking to the external page where users can select their preferred platform to listen to the latest release.
+          </li>
+     </ul>
+  </dd>
+
+  <dt><a href="#" target="_blank">Bio Page</a></dt>
+  <dd>The Bio Page is divided similarly to the Home Page in order to create a consistent look throughout. Just like the Home page, the Bio page is two columns wide on desktops and one column wide on mobile and tablet devices:
+     <ul>
+          <li><strong>Hero Image</strong> - Occupying 50% of the page width, on the left side, while viewing on a desktop. On mobile and tablet devices, the image becomes stacked at the top of the page, occupying 100% of the page width. The imagery used was specifically chosen to visually represent the tonality of the artist's persona.
+          </li>
+          <li><strong>Banner Container</strong> - Occupying 50% of the width, on the right side, while viewing on a desktop. On mobile and tablet devices, the container becomes stacked, underneath the <strong>Hero Image</strong>. The container provides the biographic information of the artist. It was styled this way in order to draw the users attention to the biography, avoiding information overload in an already text-based area.
+          </li>
+     </ul>
+  </dd>
+
+  <dt><a href="#" target="_blank">Listen Now Page</a></dt>
+  <dd>The Listen Now page uses a full page <strong>background image</strong>, providing a uniformed and consistent look for aesthetic purposes. The image is a secondary feature of this page, but still accurately representing the look and feel of the website. 
+  </dd>
+  <dd> A <strong>container</strong> overlays the background image. The purpose of this container is to uniformly represent the necessary information. Within this container there are various <strong>call to action</strong> buttons that link to external music platforms, e.g. Spotify. 
+  </dd>
+
+
+  <dt><a href="#" target="_blank">Live Page</a></dt>
+  <dd>The Live page uses a similar layout to the Listen Now page, in order to maintain consistency. It uses a full page <strong>background image</strong> to visually represent the tone of the page. 
+  </dd>
+  <dd> Much like the Listen Now page, a <strong>container</strong> is centered, providing the necessary information to the user, upcoming events in this case. The container has two <strong>call to action</strong> buttons, linking to external websites:
+     <ul>
+          <li>Venue website for information and directions</li>
+          <li>Platform to purchase tickets securely</li>
+     </ul>
+  </dd>
+
+  <dt><a href="#" target="_blank">Electronic Press Kit Page</a></dt>
+  <dd> The EPK Page has a full page <strong>static background image</strong> that is fixed and unmoving as the user scrolls through the page. Each section of information is housed in their own individual <strong>container</strong>, separated by a margin gaps. This style was created in order to emphasis the sections, as they appear to the user, on the screen without information overload. 
+  </dd>
+  <dd>There are several <strong>call to action</strong> buttons throughout the page:
+     <ul>
+          <li>Link to the external article where the quote is sourced from</li>
+          <li>A <strong>mailto</strong> function provides PR contact details for the artist</li>
+     </ul>
+  </dd>
+  <dd>The second to last container hosts two <strong>embedded links</strong> that were chosen to showcase the artist's best releases in both audio and video format:
+     <ul>
+          <li><strong>Spotify</strong> embedding, showcasing the most played music on Kryan's spotify page</li>
+          <li><strong>IGTV</strong> embedding, showcasing his latest music video</li>
+     </ul>
+  </dd>
+  <dd>
+  </dd>
+</dl>
  
 ### Existing Features
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
