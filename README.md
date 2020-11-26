@@ -1,9 +1,24 @@
 # Kryan Live
 
-This website was designed for the artist known as Kryan. The focus of the site is to create an online presence allowing members of the media, as well as new and current fans, to find out relevant information and to get to know Kryan. 
+This comprehensive website was designed for the artist known as Kryan. The focus of the site is to create an online presence allowing members of the media, as well as new and current fans, to find out relevant information and to get to know Kryan. 
 
 Kryan is a Dublin based singer/songwriter multi-instrumentalist, focusing mainly on pop music. With multiple single releases, Kryan has garnered attention across many media outlets since 2018. The purpose of the site was to highlight these achievements and to provide an avenue for communication with media and fans alike.
- 
+
+**Business goals for the website:**
+- Develop an online presence for Kryan
+- Provide an easily navigable website for users to find relevant information:
+     - New releases
+     - Biographic information
+- Provide a channel of communication for media enquires (Electronic Press Kit with PR email)
+- Provide a channel of communication for new and current  fans (Social Links - easily accessible throughout the site)
+
+**User goals for the website:**
+- Retrieve desired information:
+     - Biographic information
+     - New releases
+     - Upcoming live events
+     - Contact information (PR and social enquires)
+
 ## UX
  
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
