@@ -2,19 +2,19 @@
 
 This comprehensive website was designed for the artist known as Kryan. The focus of the site is to create an online presence allowing members of the media, as well as new and current fans, to find out relevant information and to get to know Kryan. 
 
-Kryan is a Dublin based singer/songwriter multi-instrumentalist, focusing mainly on pop music. With multiple single releases, Kryan has garnered attention across many media outlets since 2018. The purpose of the site was to highlight these achievements and to provide an avenue for communication with media and fans alike.
+Kryan is a Dublin based singer/songwriter multi-instrumentalist, focusing mainly on pop music. With multiple single releases, Kryan has garnered attention across many media outlets since 2018. The purpose of the site was to highlight these achievements and to provide an avenue for communication with media outlets and fans alike.
 
 **Business goals for the website:**
 - Develop an online presence for Kryan
 - Provide an easily navigable website for users to find relevant information:
      - New releases
-     - Biographic information
+     - Biographical information
 - Provide a channel of communication for media enquires (Electronic Press Kit with PR email)
 - Provide a channel of communication for new and current  fans (Social Links - easily accessible throughout the site)
 
 **User goals for the website:**
 - Retrieve desired information:
-     - Biographic information
+     - Biographical information
      - New releases
      - Upcoming live events
      - Contact information (PR and social enquires)
@@ -25,7 +25,7 @@ Kryan is a Dublin based singer/songwriter multi-instrumentalist, focusing mainly
 #### The ideal user of this website is:
 - Potential fans
 - Current fans
-- Media outlet
+- Media outlets
 - Event bookers
 
 ### User Stories
@@ -34,7 +34,7 @@ Kryan is a Dublin based singer/songwriter multi-instrumentalist, focusing mainly
 - As a new fan, I want to learn more about the artist's background in order to better understand their music and the meaning behind it.
 - As a new fan, I want to easily navigate to the artist's social links in order to keep up with the latest news and releases.
 - As a new fan, I want to easily find links to the hosted music platform of my choice, in order to listen to Kryan.
-- As a new fan, I want to be able to watch an embedded video to be able to get a snapshot of Kryan.
+- As a new fan, I want to be able to watch an embedded video to be able to get a snapshot of Kryan performing.
 
 #### Current Fans Goals:
 - As a current fan, I want to navigate to information about upcoming live events in order to securely order tickets.
@@ -44,7 +44,7 @@ Kryan is a Dublin based singer/songwriter multi-instrumentalist, focusing mainly
 #### Potential Bookers Goals:
 - As a potential booker, I want to easily navigate to the artist's Electronic Press Kit to source relevant information:
      - Media coverage
-     - Biographic information
+     - Biographical information
      - Sample music
      - PR contact details
 
@@ -60,12 +60,12 @@ Kryan is a Dublin based singer/songwriter multi-instrumentalist, focusing mainly
 
 ### Design
 #### Colour Scheme
-The main colours used throughout the website were a mixture of Black and White with Red accents.
+The main colours used throughout the website are a mixture of Black and White with Red accents.
 
 The chosen colour scheme is a reflection of the artist's look and feel.
 
 #### Typography
-The pairing of the fonts Cabin and Raleway was used throughout the website with Sans Serif as the fallback font in case of import failure. 
+The pairing of the fonts Cabin and Raleway is used throughout the website with Sans Serif as the fallback font in case of import failure. 
 
 Both Cabin and Raleway are sans typefaces and were chosen to reflect the modern personality of the website.
 
@@ -147,22 +147,57 @@ Each page of the website features a consistent responsive navigational system:
 </dl>
  
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+- Header Logo - Appearing on every page for brand recognition. Clicking the logo will return the users to the home page, as expected.
+- Header Navigation Bar - Appearing on every page for a consistent and easy and intuitive navigable system.
+- Footer Social Icons - Appearing on every page, the icons are appropriate representations of the Social Media platforms, linking users to Kryan's page on each.
+- Call To Action buttons - Appearing on every page, excluding the Bio Page. Maintaining a consistent and uniform design throughout the page. Clicking the buttons will send users to external sites for various purposes:
+     - Music platform selection page
+     - Articles featuring Kryan
+     - External ticket purchasing site
+     - Link to venue for upcoming events
+     - Mailto action function for contacting PR representative
+- Spotify Embed - Snapshot of Kryan's Spotify page, showcasing a select number of tracks users can choose to play.
+- IGTV Embed - iframe element for a video uploaded to Instagram, showcasing a stripped down version of a latest release.
+- [Bio Page](# "Bio Page") - Providing biographic information for the users to get an understanding of who the artist is, and how they have created their music.
+- [Listen Now Page](# "Listen Now Page") - Providing information on the various streaming sites Kryan is available on, with a call to action button for each.
+- [Live Page](# "Live Page") - Providing information on upcoming events. with call to action buttons for:
+     - The venue site, for further information and directions
+     - The ticket purchasing platform for pricing and ordering
+- [Electronic Press Kit Page](# "Electronic Press Kit Page") - Providing a compressed view of the artist with snapshots of relevant information:
+     - Media coverage (featured articles)
+     - Sample works - audio and video
+     - Contact channels for PR representative
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+### Features to Implement in the future
+- Merchandise Shop
+     - **Feature** - set up an shop where the artist can sell their merchandise directly to fans online.
+     - **Reason for not featuring in this release** - JavaScript needed to implement.
+ 
+ - Linkfire.com embedding
+     - **Feature** - smartlink embedding platform for music promotion
+     - **Reason for not featuring in this release** - Budget not available for services
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-### Features Left to Implement
-- Another feature idea
 
 ## Technologies Used
+### Languages Used
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+### Frameworks, Libraries & Programs Used
+- [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+     - Bootstrap was used to ... 
+- [Google Fonts](https://fonts.google.com/)
+    - Google fonts was used to import the fonts "Cabin" and "Raleway" into the style.css file. These fonts were used throughout the project.
+- [Font Awesome](https://fontawesome.com/)
+     - Font Awesome was used on all pages throughout the website to import icons (e.g. social media icons) for UX purposes.
+- [Git](https://git-scm.com/)
+     - Git was used for version control by utilising the GitPod terminal to commit to Git and push to GitHub.
+- [GitHub](https://github.com/)
+     - GitHub was used to store the project after pushing
+- [Adobe XD](https://www.adobe.com/ie/products/xd.html)
+     - Adobe XD was used to create the High-Fidelity mockups during the design phase of the project.
+- [Balsamiq](https://balsamiq.com/)
+     - Balsamiq was used to create the wireframes during the design phase of the project.
 
 
 ## Testing
