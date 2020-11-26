@@ -22,33 +22,33 @@ Kryan is a Dublin based singer/songwriter multi-instrumentalist, focusing mainly
 ## UX
 
 ### Ideal User Demographic
-**The ideal user of this website is:**
+#### The ideal user of this website is:
 - Potential fans
 - Current fans
 - Media outlet
 - Event bookers
 
 ### User Stories
-**New/Potential Fans Goals:**
+#### New/Potential Fans Goals:
 - As a new fan, I want to easily navigate through the website to find the relevant content, effortlessly.
 - As a new fan, I want to learn more about the artist's background in order to better understand their music and the meaning behind it.
 - As a new fan, I want to easily navigate to the artist's social links in order to keep up with the latest news and releases.
 - As a new fan, I want to easily find links to the hosted music platform of my choice, in order to listen to Kryan.
 - As a new fan, I want to be able to watch an embedded video to be able to get a snapshot of Kryan.
 
-**Current Fans Goals:**
+#### Current Fans Goals:
 - As a current fan, I want to navigate to information about upcoming live events in order to securely order tickets.
 - As a current fan, I want to find out about new and upcoming releases to be able to pre-save or listen to the music.
 - As a current fan, I want to easily navigate to the artist's music page on my desired music platform, e.g. Spotify.
 
-**Potential Bookers Goals:**
+#### Potential Bookers Goals:
 - As a potential booker, I want to easily navigate to the artist's Electronic Press Kit to source relevant information:
      - Media coverage
      - Biographic information
      - Sample music
      - PR contact details
 
-**Media Enquirer Goals:**
+#### Media Enquirer Goals:
 - A a media enquirer, I want to easily navigate to the artist's Electronic Press Kit to source relevant information:
      - Media coverage
      - Biographic information
@@ -57,6 +57,31 @@ Kryan is a Dublin based singer/songwriter multi-instrumentalist, focusing mainly
 - As a media enquirer, I want to easily find materials that could be useful for media coverage pieces:
      - New music links
      - Social links
+
+### Design
+#### Colour Scheme
+Main Colours:
+- Black
+- White
+- Grey
+- Red (accent)
+
+The chosen colour scheme is a reflection of the artist's look and feel.
+
+#### Typography
+The pairing of the fonts Cabin and Raleway was used throughout the website with Sans Serif as the fallback font in case of import failure. 
+Both Cabin and Raleway are sans typefaces and were chosen to reflect the modern personality of the website.
+
+#### Imagery
+The selected imagery is modern and cohesively aesthetic, reflecting the artist's look and feel. The imagery is catching and visually represents the theme of the website.
+
+### Wireframes
+
+   - Home Page Wireframe - [View](# "Home Page Wireframe")
+   - Bio Page Wireframe - [View](# "Bio Page Wireframe")
+   - Listen Now Page Wireframe - [View](# "Listen Now Page Wireframe")
+   - Live Page Wireframe - [View](# "Live Page Wireframe")
+   - Electronic Press Kit Page Wireframe - [View](# "Electronic Press Kit Page Wireframe")
 
 ## Features
 
