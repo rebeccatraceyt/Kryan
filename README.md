@@ -20,13 +20,43 @@ Kryan is a Dublin based singer/songwriter multi-instrumentalist, focusing mainly
      - Contact information (PR and social enquires)
 
 ## UX
- 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+### Ideal User Demographic
+**The ideal user of this website is:**
+- Potential fans
+- Current fans
+- Media outlet
+- Event bookers
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+### User Stories
+**New/Potential Fans Goals:**
+- As a new fan, I want to easily navigate through the website to find the relevant content, effortlessly.
+- As a new fan, I want to learn more about the artist's background in order to better understand their music and the meaning behind it.
+- As a new fan, I want to easily navigate to the artist's social links in order to keep up with the latest news and releases.
+- As a new fan, I want to easily find links to the hosted music platform of my choice, in order to listen to Kryan.
+- As a new fan, I want to be able to watch an embedded video to be able to get a snapshot of Kryan.
+
+**Current Fans Goals:**
+- As a current fan, I want to navigate to information about upcoming live events in order to securely order tickets.
+- As a current fan, I want to find out about new and upcoming releases to be able to pre-save or listen to the music.
+- As a current fan, I want to easily navigate to the artist's music page on my desired music platform, e.g. Spotify.
+
+**Potential Bookers Goals:**
+- As a potential booker, I want to easily navigate to the artist's Electronic Press Kit to source relevant information:
+     - Media coverage
+     - Biographic information
+     - Sample music
+     - PR contact details
+
+**Media Enquirer Goals:**
+- A a media enquirer, I want to easily navigate to the artist's Electronic Press Kit to source relevant information:
+     - Media coverage
+     - Biographic information
+     - Sample music
+     - PR contact details
+- As a media enquirer, I want to easily find materials that could be useful for media coverage pieces:
+     - New music links
+     - Social links
 
 ## Features
 
