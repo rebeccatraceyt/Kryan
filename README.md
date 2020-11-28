@@ -65,7 +65,7 @@ The main colours used throughout the website are a mixture of Black and White wi
 The chosen colour scheme is a reflection of the artist's look and feel.
 
 #### Typography
-The pairing of the fonts Cabin and Raleway is used throughout the website with Sans Serif as the fallback font in case of import failure. 
+The pairing of the fonts [Cabin](https://fonts.google.com/specimen/Cabin) and [Raleway](https://fonts.google.com/specimen/Raleway) is used throughout the website with Sans Serif as the fallback font in case of import failure. 
 
 Both Cabin and Raleway are sans typefaces and were chosen to reflect the modern personality of the website.
 
@@ -74,13 +74,13 @@ The selected imagery is modern and cohesively aesthetic, reflecting the artist's
 
 The imagery is catching and visually represents the theme of the website.
 
-### Wireframes
+### Wireframes and Mockups
 
-   - Home Page Wireframe - [View](# "Home Page Wireframe")
-   - Bio Page Wireframe - [View](# "Bio Page Wireframe")
-   - Listen Now Page Wireframe - [View](# "Listen Now Page Wireframe")
-   - Live Page Wireframe - [View](# "Live Page Wireframe")
-   - Electronic Press Kit Page Wireframe - [View](# "Electronic Press Kit Page Wireframe")
+   - Home Page - [View Wireframe](# "Home Page Wireframe") | [View Mockup](# "Home Page Mockup")
+   - Bio Page - [View Wireframe](# "Bio Page Wireframe") | [View Mockup](# "Bio Page Mockup")
+   - Listen Now Page - [View Wireframe](# "Listen Now Page Wireframe") | [View Mockup](# "Listen Now Page Mockup")
+   - Live Page - [View Wireframe](# "Live Page Wireframe") | [View Mockup](# "Live Page Mockup")
+   - Electronic Press Kit Page - [View Wireframe](# "Electronic Press Kit Page Wireframe") | [View Mockup](# "Electronic Press Kit Page Mockup")
 
 ## Features
 
@@ -90,7 +90,7 @@ Each page of the website features a consistent responsive navigational system:
 - The **Footer** contains the appropriate **social media icons**, linking users to the three main social media pages of Kryan.
 
 <dl>
-  <dt><a href="#" target="_blank">Home Page</a></dt>
+  <dt><a href="index.html" target="_blank">Home Page</a></dt>
   <dd>The Home Page is divided two columns wide on desktops and one column wide on mobile and tablet devices:
      <ul>
           <li><strong>Hero Image</strong> - Occupying 50% of the page width, on the left side, while viewing on a desktop. On mobile and tablet devices, the image becomes stacked at the top of the page, occupying 100% of the page width. The imagery used was specifically chosen as it created a impactful first impression, setting the tone of the website for the user.
@@ -100,7 +100,7 @@ Each page of the website features a consistent responsive navigational system:
      </ul>
   </dd>
 
-  <dt><a href="#" target="_blank">Bio Page</a></dt>
+  <dt><a href="bio.html" target="_blank">Bio Page</a></dt>
   <dd>The Bio Page is divided similarly to the Home Page in order to create a consistent look throughout. Just like the Home page, the Bio page is two columns wide on desktops and one column wide on mobile and tablet devices:
      <ul>
           <li><strong>Hero Image</strong> - Occupying 50% of the page width, on the left side, while viewing on a desktop. On mobile and tablet devices, the image becomes stacked at the top of the page, occupying 100% of the page width. The imagery used was specifically chosen to visually represent the tonality of the artist's persona.
@@ -110,14 +110,14 @@ Each page of the website features a consistent responsive navigational system:
      </ul>
   </dd>
 
-  <dt><a href="#" target="_blank">Listen Now Page</a></dt>
+  <dt><a href="listen.html" target="_blank">Listen Now Page</a></dt>
   <dd>The Listen Now page uses a full page <strong>background image</strong>, providing a uniformed and consistent look for aesthetic purposes. The image is a secondary feature of this page, but still accurately representing the look and feel of the website. 
   </dd>
   <dd> A <strong>container</strong> overlays the background image. The purpose of this container is to uniformly represent the necessary information. Within this container there are various <strong>call to action</strong> buttons that link to external music platforms, e.g. Spotify. 
   </dd>
 
 
-  <dt><a href="#" target="_blank">Live Page</a></dt>
+  <dt><a href="live.html" target="_blank">Live Page</a></dt>
   <dd>The Live page uses a similar layout to the Listen Now page, in order to maintain consistency. It uses a full page <strong>background image</strong> to visually represent the tone of the page. 
   </dd>
   <dd> Much like the Listen Now page, a <strong>container</strong> is centered, providing the necessary information to the user, upcoming events in this case. The container has two <strong>call to action</strong> buttons, linking to external websites:
@@ -127,7 +127,7 @@ Each page of the website features a consistent responsive navigational system:
      </ul>
   </dd>
 
-  <dt><a href="#" target="_blank">Electronic Press Kit Page</a></dt>
+  <dt><a href="epk.html" target="_blank">Electronic Press Kit Page</a></dt>
   <dd> The EPK Page has a full page <strong>static background image</strong> that is fixed and unmoving as the user scrolls through the page. Each section of information is housed in their own individual <strong>container</strong>, separated by a margin gaps. This style was created in order to emphasis the sections, as they appear to the user, on the screen without information overload. 
   </dd>
   <dd>There are several <strong>call to action</strong> buttons throughout the page:
@@ -158,12 +158,12 @@ Each page of the website features a consistent responsive navigational system:
      - Mailto action function for contacting PR representative
 - Spotify Embed - Snapshot of Kryan's Spotify page, showcasing a select number of tracks users can choose to play.
 - IGTV Embed - iframe element for a video uploaded to Instagram, showcasing a stripped down version of a latest release.
-- [Bio Page](# "Bio Page") - Providing biographic information for the users to get an understanding of who the artist is, and how they have created their music.
-- [Listen Now Page](# "Listen Now Page") - Providing information on the various streaming sites Kryan is available on, with a call to action button for each.
-- [Live Page](# "Live Page") - Providing information on upcoming events. with call to action buttons for:
+- [Bio Page](bio.html "Bio Page") - Providing biographic information for the users to get an understanding of who the artist is, and how they have created their music.
+- [Listen Now Page](listen.html "Listen Now Page") - Providing information on the various streaming sites Kryan is available on, with a call to action button for each.
+- [Live Page](live.html "Live Page") - Providing information on upcoming events. with call to action buttons for:
      - The venue site, for further information and directions
      - The ticket purchasing platform for pricing and ordering
-- [Electronic Press Kit Page](# "Electronic Press Kit Page") - Providing a compressed view of the artist with snapshots of relevant information:
+- [Electronic Press Kit Page](epk.html "Electronic Press Kit Page") - Providing a compressed view of the artist with snapshots of relevant information:
      - Media coverage (featured articles)
      - Sample works - audio and video
      - Contact channels for PR representative
@@ -173,7 +173,7 @@ Each page of the website features a consistent responsive navigational system:
      - **Feature** - set up an shop where the artist can sell their merchandise directly to fans online.
      - **Reason for not featuring in this release** - JavaScript needed to implement.
  
- - Linkfire.com embedding
+ - [LinkFire](https://www.linkfire.com/) embedding
      - **Feature** - smartlink embedding platform for music promotion
      - **Reason for not featuring in this release** - Budget not available for services
 
@@ -235,11 +235,8 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
 ### Media
-- The photos used in this site were obtained from ...
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
