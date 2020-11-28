@@ -236,8 +236,6 @@ The W3C Markup Validator and the W3C CSS Validator Services were used in validat
 2. As a media enquirer, I want to easily find materials that could be useful for media coverage pieces.
      1. Result
 
-
-
 ## Deployment
 
 ## Credits
