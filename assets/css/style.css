@@ -4,6 +4,9 @@
 :root {
     --mainfont: 'Cabin', sans-serif;
     --secondaryfont: 'Raleway', sans-serif;
+    --colour1: #242424;
+    --colour2: whitesmoke;
+    --accent: rgb(173, 20, 20);
 }
 
 body {
@@ -12,8 +15,12 @@ body {
 
 /*-------------------------------------- Nav Bar*/
 .navbar {
-    margin-bottom: 0px;
+    margin-bottom: 0;
     border: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(56, 54, 54, 0.075);
+}
+
+.navbar .nav-link a {
+    color: var(--accent);
 }
