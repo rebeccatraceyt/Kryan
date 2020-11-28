@@ -30,31 +30,31 @@ Kryan is a Dublin based singer/songwriter multi-instrumentalist, focusing mainly
 
 ### User Stories
 #### New/Potential Fans Goals:
-- As a new fan, I want to easily navigate through the website to find the relevant content, effortlessly.
-- As a new fan, I want to learn more about the artist's background in order to better understand their music and the meaning behind it.
-- As a new fan, I want to easily navigate to the artist's social links in order to keep up with the latest news and releases.
-- As a new fan, I want to easily find links to the hosted music platform of my choice, in order to listen to Kryan.
-- As a new fan, I want to be able to watch an embedded video to be able to get a snapshot of Kryan performing.
+1. As a new fan, I want to easily navigate through the website to find the relevant content, effortlessly.
+2. As a new fan, I want to learn more about the artist's background in order to better understand their music and the meaning behind it.
+3. As a new fan, I want to easily navigate to the artist's social links in order to keep up with the latest news and releases.
+4. As a new fan, I want to easily find links to the hosted music platform of my choice, in order to listen to Kryan.
+5. As a new fan, I want to be able to watch an embedded video to be able to get a snapshot of Kryan performing.
 
 #### Current Fans Goals:
-- As a current fan, I want to navigate to information about upcoming live events in order to securely order tickets.
-- As a current fan, I want to find out about new and upcoming releases to be able to pre-save or listen to the music.
-- As a current fan, I want to easily navigate to the artist's music page on my desired music platform, e.g. Spotify.
+1. As a current fan, I want to navigate to information about upcoming live events in order to securely order tickets.
+2. As a current fan, I want to find out about new and upcoming releases to be able to pre-save or listen to the music.
+3. As a current fan, I want to easily navigate to the artist's music page on my desired music platform, e.g. Spotify.
 
 #### Potential Bookers Goals:
-- As a potential booker, I want to easily navigate to the artist's Electronic Press Kit to source relevant information:
+1. As a potential booker, I want to easily navigate to the artist's Electronic Press Kit to source relevant information:
      - Media coverage
      - Biographical information
      - Sample music
      - PR contact details
 
 #### Media Enquirer Goals:
-- A a media enquirer, I want to easily navigate to the artist's Electronic Press Kit to source relevant information:
+1. A a media enquirer, I want to easily navigate to the artist's Electronic Press Kit to source relevant information:
      - Media coverage
      - Biographic information
      - Sample music
      - PR contact details
-- As a media enquirer, I want to easily find materials that could be useful for media coverage pieces:
+2. As a media enquirer, I want to easily find materials that could be useful for media coverage pieces:
      - New music links
      - Social links
 
@@ -177,7 +177,6 @@ Each page of the website features a consistent responsive navigational system:
      - **Feature** - smartlink embedding platform for music promotion
      - **Reason for not featuring in this release** - Budget not available for services
 
-
 ## Technologies Used
 ### Languages Used
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
@@ -201,36 +200,45 @@ Each page of the website features a consistent responsive navigational system:
 
 
 ## Testing
+The W3C Markup Validator and the W3C CSS Validator Services were used in validating each page of the project to ensure there were no syntax errors. 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+- View results for W3C Markup Validator [here](#)
+- View results for W3C CSS Validator [here](#)
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+### Testing User Stories as defined in User Experience ([UX](##UX)) Section
+#### New/Potential Fans Goals:
+1. As a new fan, I want to easily navigate through the website to find the relevant content, effortlessly.
+     1. Result
+2. As a new fan, I want to learn more about the artist's background in order to better understand their music and the meaning behind it.
+     1. Result
+3. As a new fan, I want to easily navigate to the artist's social links in order to keep up with the latest news and releases.
+     1. Result
+4. As a new fan, I want to easily find links to the hosted music platform of my choice, in order to listen to Kryan.
+     1. Result
+5. As a new fan, I want to be able to watch an embedded video to be able to get a snapshot of Kryan performing.
+     1. Result
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+#### Current Fans Goals:
+1. As a current fan, I want to navigate to information about upcoming live events in order to securely order tickets.
+     1. Result
+2. As a current fan, I want to find out about new and upcoming releases to be able to pre-save or listen to the music.
+     1. Result
+3. As a current fan, I want to easily navigate to the artist's music page on my desired music platform, e.g. Spotify.
+     1. Result
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+#### Potential Bookers Goals:
+1. As a potential booker, I want to easily navigate to the artist's Electronic Press Kit to source relevant information.
+     1. Result
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+#### Media Enquirer Goals:
+1. A a media enquirer, I want to easily navigate to the artist's Electronic Press Kit to source relevant information.
+     1. Result
+2. As a media enquirer, I want to easily find materials that could be useful for media coverage pieces.
+     1. Result
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Deployment
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
 
 ## Credits
 
