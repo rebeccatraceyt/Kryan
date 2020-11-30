@@ -58,8 +58,6 @@ body {
 }
 
 .right-text {
-    margin-left: auto;
-    margin-right: auto;
     text-align: center;
 }
 
@@ -71,5 +69,6 @@ body {
         height: 100vh;
         width: 50vw;
     }
+
     
 }
