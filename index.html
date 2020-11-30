@@ -18,42 +18,46 @@
 
     <!------------------------------------ HEADER ------------------------------------>
     <!-- Navigation Bar - Sourced from bootstrap.com and w3schools.com -->
-    <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="index.html">
-              <img src="assets/images/ph-logo.png" width="200" height="70" alt="Kryan Logo">
-            </a>
-          </div>
-          <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse text-center" id="navbarMenu">
-            <ul class="navbar-nav ml-auto"> 
-                <!-- hvr-grow class sourced from Hover.css (https://ianlunn.github.io/Hover/)-->
-              <li class="nav-item active hvr-grow"><a class="nav-link" href="index.html">Home</a></li> 
-              <li class="nav-item hvr-grow"><a class="nav-link" href="bio.html">Bio</a></li>
-              <li class="nav-item hvr-grow"><a class="nav-link" href="listen.html">Listen Now</a></li>
-              <li class="nav-item hvr-grow"><a class="nav-link" href="live.html">Live</a></li>
-              <li class="nav-item hvr-grow"><a class="nav-link" href="epk.html">Press Kit</a></li>
-            </ul>
-          </div>
-      </nav>
-    </div>
+    
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html">
+            <img src="assets/images/ph-logo.png" width="200" height="70" alt="Kryan Logo">
+          </a>
+        </div>
+        <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-right" id="navbarMenu">
+          <ul class="navbar-nav ml-auto"> 
+              <!-- hvr-grow class sourced from Hover.css (https://ianlunn.github.io/Hover/)-->
+            <li class="nav-item active hvr-grow"><a class="nav-link" href="index.html">Home</a></li> 
+            <li class="nav-item hvr-grow"><a class="nav-link" href="bio.html">Bio</a></li>
+            <li class="nav-item hvr-grow"><a class="nav-link" href="listen.html">Listen Now</a></li>
+            <li class="nav-item hvr-grow"><a class="nav-link" href="live.html">Live</a></li>
+            <li class="nav-item hvr-grow"><a class="nav-link" href="epk.html">Press Kit</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  
 
     <!------------------------------------ MAIN SECTION ------------------------------------>
     <section>
       <div class="container-fluid">
         <div class="row">
-            <div class="col-md-6 hero-one">
+            <div class="hero-one">
               <h1>Kryan</h1>
             </div>
-            <div class="col-md-6"></div>
+            <div class="right-text">
+              <h1>INTRO</h1>
+            </div>
         </div>
       </div>
     </section>
 
-    <!------------------------------------ FOOTER ------------------------------------>
+    <!------------------------------------ FOOTER  fixed-bottom ------------------------------------>
 
     <!------------------------------------ Scripts ------------------------------------>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
