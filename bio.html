@@ -6,9 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="description" content="Website for Irish pop musician Kryan">
     <meta http-equiv="author" content="Rebecca Tracey-Timoney">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"/>
-    <link rel="stylesheet" href="assets/css/style.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> <!-- Bootstrap Import-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> <!-- Font Awesome Import-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" 
+      integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg==" crossorigin="anonymous"/> <!-- Hover.css Import-->
+    <link rel="stylesheet" href="assets/css/style.css"/> <!-- style.css import-->
     <link rel="shortcut icon" href="#">
     <title>Kryan-Bio</title> 
   </head>
@@ -16,24 +18,26 @@
     <!-- HEADER -->
 
     <!-- Navigation Bar - Sourced from bootstrap.com -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg">
+      <div class="navbar-header">
         <a class="navbar-brand" href="index.html">
-          <img src="#" width="30" height="30" alt="">Kryan
+          <img src="assets/images/ph-logo.png" width="200" height="70" alt="Kryan Logo">
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse text-center" id="navbarMenu">
-          <ul class="navbar-nav ml-auto"> 
-              <!-- hvr-grow class sourced from Hover.css (https://ianlunn.github.io/Hover/)-->
-            <li class="nav-item hvr-grow"><a class="nav-link" href="index.html">Home</a></li>
-            <li class="nav-item active hvr-grow"><a class= "nav-link" href="bio.html">Bio</a></li>
-            <li class="nav-item hvr-grow"><a class="nav-link" href="listen.html">Listen Now</a></li>
-            <li class="nav-item hvr-grow"><a class="nav-link" href="live.html">Live</a></li>
-            <li class="nav-item hvr-grow"><a class="nav-link" href="epk.html">Press Kit</a></li>
-          </ul>
-        </div>
-      </nav>
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarMenu">
+        <ul class="navbar-nav ml-auto"> 
+            <!-- hvr-grow class sourced from Hover.css (https://ianlunn.github.io/Hover/)-->
+          <li class="nav-item active hvr-grow"><a class="nav-link" href="index.html">Home</a></li> 
+          <li class="nav-item hvr-grow"><a class= "nav-link" href="bio.html">Bio</a></li>
+          <li class="nav-item hvr-grow"><a class="nav-link" href="listen.html">Listen Now</a></li>
+          <li class="nav-item hvr-grow"><a class="nav-link" href="live.html">Live</a></li>
+          <li class="nav-item hvr-grow"><a class="nav-link" href="epk.html">Press Kit</a></li>
+        </ul>
+      </div>
+  </nav>
 
     <!-- Left Section -->
 
