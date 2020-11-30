@@ -1,7 +1,17 @@
-/* Google Font import for Cabin and Raleway*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/*------------------------------------------------------- Google Font Import and Implementation */
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Raleway:wght@300;700&display=swap');
 
-/*-------------------------------------------------- Root Variables */
+body {
+    font-family: var(--mainfont);
+}
+
+/*------------------------------------------------------- Root Variables */
 :root {
     --mainfont: 'Cabin', sans-serif;
     --secondaryfont: 'Raleway', sans-serif;
@@ -10,11 +20,8 @@
     --accent: rgb(173, 20, 20);
 }
 
-body {
-    font-family: var(--mainfont);
-}
 
-/*-------------------------------------------------- Nav Bar */
+/*------------------------------------------------------- Nav Bar */
 .navbar{
     background-color: rgba(53, 53, 53, 0.02);
     margin-bottom: 0;
@@ -25,16 +32,22 @@ body {
 }
 
 .navbar-nav > li > a {
+    font-family: var(--secondaryfont);
     color: var(--accent);  
     /* Bug that was found on 30/11 with solution sourced from Stack Overflow. Detailed report in Bugs section of README file*/
-
 }
 
 .custom-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(173, 20, 20)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    /* Sourced from Stackoverflow to recolour the toggle button on mobile devices (RGB value had to be entered instead of root varable).
+    https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color*/
   }
   
   .custom-toggler.navbar-toggler {
     border-color: var(--accent);
   } 
+
+.active {
+    text-shadow: 1px 0px var(--colour2);
+}
 
