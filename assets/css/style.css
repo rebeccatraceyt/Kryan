@@ -1,9 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
-
 /*------------------------------------------------------- Google Font Import and Implementation */
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Raleway:wght@300;700&display=swap');
 
@@ -26,7 +20,8 @@ body {
     background-color: rgba(53, 53, 53, 0.02);
     margin-bottom: 0;
     position: fixed;
-    margin-right: auto;
+    z-index: 1;
+    padding: 5px 30px;
     border: 0;
     width: 100%;
 }
@@ -38,7 +33,6 @@ body {
 }
 
 .active {
-    text-shadow: 1px 0px var(--colour2);
 }
 
 .custom-toggler .navbar-toggler-icon {
@@ -49,5 +43,15 @@ body {
   
 .custom-toggler.navbar-toggler {
     border-color: var(--accent);
-  } 
+  }
 
+.custom-toggler:active {
+    border-color: var(--accent);
+} 
+
+/*------------------------------------------------------- Homepage Hero Image */
+
+.hero-one {
+    background: url(/assets/images/ph-hero.png) bottom right fixed;
+    height: 100vh;
+}

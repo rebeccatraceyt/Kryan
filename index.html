@@ -15,37 +15,47 @@
     <title>Kryan</title> 
   </head>
   <body>
-    <!-- HEADER -->
 
+    <!------------------------------------ HEADER ------------------------------------>
     <!-- Navigation Bar - Sourced from bootstrap.com and w3schools.com -->
-    <nav class="navbar navbar-expand-lg">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="index.html">
-            <img src="assets/images/ph-logo.png" width="200" height="70" alt="Kryan Logo">
-          </a>
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">
+              <img src="assets/images/ph-logo.png" width="200" height="70" alt="Kryan Logo">
+            </a>
+          </div>
+          <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse text-center" id="navbarMenu">
+            <ul class="navbar-nav ml-auto"> 
+                <!-- hvr-grow class sourced from Hover.css (https://ianlunn.github.io/Hover/)-->
+              <li class="nav-item active hvr-grow"><a class="nav-link" href="index.html">Home</a></li> 
+              <li class="nav-item hvr-grow"><a class="nav-link" href="bio.html">Bio</a></li>
+              <li class="nav-item hvr-grow"><a class="nav-link" href="listen.html">Listen Now</a></li>
+              <li class="nav-item hvr-grow"><a class="nav-link" href="live.html">Live</a></li>
+              <li class="nav-item hvr-grow"><a class="nav-link" href="epk.html">Press Kit</a></li>
+            </ul>
+          </div>
+      </nav>
+    </div>
+
+    <!------------------------------------ MAIN SECTION ------------------------------------>
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 hero-one">
+              <h1>Kryan</h1>
+            </div>
+            <div class="col-md-6"></div>
         </div>
-        <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse text-center" id="navbarMenu">
-          <ul class="navbar-nav ml-auto"> 
-              <!-- hvr-grow class sourced from Hover.css (https://ianlunn.github.io/Hover/)-->
-            <li class="nav-item active hvr-grow"><a class="nav-link" href="index.html">Home</a></li> 
-            <li class="nav-item hvr-grow"><a class= "nav-link" href="bio.html">Bio</a></li>
-            <li class="nav-item hvr-grow"><a class="nav-link" href="listen.html">Listen Now</a></li>
-            <li class="nav-item hvr-grow"><a class="nav-link" href="live.html">Live</a></li>
-            <li class="nav-item hvr-grow"><a class="nav-link" href="epk.html">Press Kit</a></li>
-          </ul>
-        </div>
-    </nav>
+      </div>
+    </section>
 
-    <!-- Left Section -->
+    <!------------------------------------ FOOTER ------------------------------------>
 
-    <!-- Right Section -->
-
-    <!-- FOOTER -->
-
-    <!-- Scripts -->
+    <!------------------------------------ Scripts ------------------------------------>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
