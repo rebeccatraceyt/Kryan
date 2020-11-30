@@ -236,6 +236,11 @@ The W3C Markup Validator and the W3C CSS Validator Services were used in validat
 2. As a media enquirer, I want to easily find materials that could be useful for media coverage pieces.
      1. Result
 
+## Bugs 
+
+**Navbar Bug** - 
+A bug was detected early on with the Navigation bar. In implimenting a responsive navigation system, Bootstrap was used but there was bug that would not allow the navbar to be recoloured to suit the the chosen colour scheme. In researching a cause (and solution) the developer found a question posted on [Stack Overflow](https://stackoverflow.com/questions/46237610/bootstrap-4-navbar-color-wont-change) with a similar problem. It was from here that the developer was able to copy and edit the code given as a solution on Stack in order to impliment a solution to bug, with celebratory sucess.
+
 ## Deployment
 
 ## Credits

@@ -14,13 +14,17 @@ body {
 }
 
 /*-------------------------------------- Nav Bar*/
-.navbar {
+.navbar{
+    background-color: rgba(53, 53, 53, 0.301);
     margin-bottom: 0;
+    position: fixed;
+    margin-right: auto;
     border: 0;
     width: 100%;
-    background-color: rgba(56, 54, 54, 0.075);
 }
 
-.navbar .nav-link a {
-    color: var(--accent);
+.navbar-nav > li > a {
+    color: var(--accent);  
+    /* Bug that was found on 30/11 with solution sourced from Stack Overflow. Detailed report in Bugs section of README file*/
 }
+
