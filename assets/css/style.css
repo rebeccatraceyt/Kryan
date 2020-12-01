@@ -1,9 +1,13 @@
-/*------------------------------------------------------- Font Import and Implementation */
+/*------------------------------------------------------- Font Import and General Implentation*/
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Raleway:wght@300;700&display=swap');
 
 body {
-    font-family: var(--mainfont); /*  */
+    font-family: var(--mainfont);
 }
+
+/*------------------------------------------------------- Special Fonts */
+
+
 
 /*------------------------------------------------------- Root Variables */
 :root {
@@ -15,7 +19,7 @@ body {
 }
 
 
-/*------------------------------------------------------- Nav Bar */
+/*------------------------------------------------------- Nav Bar - Header */
 .navbar{
     background-color: rgba(53, 53, 53, 0.02);
     margin-bottom: 0;
@@ -46,6 +50,18 @@ body {
     border-color: var(--accent);
 } 
 
+/*------------------------------------------------------- Socials - Footer */
+.social-networks {
+    text-align: center;
+}  
+
+
+.social-networks li a i {
+    font-size: 2em;
+    color: var(--accent);
+    margin: 5px 10px;
+    
+}
 
 /*------------------------------------------------------- Homepage Styling*/
 .hero-one {
@@ -70,7 +86,8 @@ body {
 
 
 /*------------------------------------------------------- Media Queries */
-@media (min-width: 991px) {
+@media (min-width: 991px) { 
+    /* Breakpoint to maintain structural integrity on a Large Screen */
     
     /* Styling for active nav links */
     .active {
@@ -91,6 +108,10 @@ body {
         padding: 0em;
         color: var(--colour2);
         background-color: hsla(0, 0%, 0%, 0.884);
+    }
+
+    .social-networks {
+        text-align: right;
     }
     
     
