@@ -242,7 +242,7 @@ The W3C Markup Validator and the W3C CSS Validator Services were used in validat
 A bug was detected early on with the Navigation bar. In implimenting a responsive navigation system, Bootstrap was used but there was bug that would not allow the navbar to be recoloured to suit the the chosen colour scheme. In researching a cause (and solution) the developer found a question posted on [Stack Overflow](https://stackoverflow.com/questions/46237610/bootstrap-4-navbar-color-wont-change) with a similar problem. It was from here that the developer was able to copy and edit the code given as a solution on Stack in order to impliment a solution to the bug, with celebratory sucess.
 
 ### Home Page Responsiveness Bug
-A bug was detected in creating the HomePage where the mobile-first design approach was responsive but as soon as the breakpoint changed to a larger screen, the page layout would shift, creating inconsistentcies in the design. In order to rectify this, the developer utilised a solution posted for a similar problem on [Stack Overflow](https://stackoverflow.com/questions/5703552/how-can-i-center-text-horizontally-and-vertically-inside-a-div-block). 
+A bug was detected in creating the HomePage where the mobile-first design approach was responsive but as soon as the breakpoint changed to a larger screen, the page layout would shift, creating inconsistentcies in the design. In order to rectify this, the developer utilised a solution posted for a similar problem on [Stack Overflow](https://stackoverflow.com/questions/5703552/how-can-i-center-text-horizontally-and-vertically-inside-a-div-block). With this solution, the developer was able to create the desired responsivness without having to use excessive and unnecessary lines of code.
 
 ## Deployment
 
