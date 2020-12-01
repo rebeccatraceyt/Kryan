@@ -26,9 +26,9 @@ body {
 }
 
 .navbar-nav > li > a {
+    /* Bug that was found on 30/11 with solution sourced from Stack Overflow. Detailed report in the 'Bugs' section of README file*/
     font-family: var(--secondaryfont);
     color: var(--accent);  
-    /* Bug that was found on 30/11 with solution sourced from Stack Overflow. Detailed report in Bugs section of README file*/
 }
 
 .active {
@@ -37,13 +37,13 @@ body {
 
 .custom-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(173, 20, 20)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-    /* Sourced from Stackoverflow to recolour the toggle button on mobile devices (RGB value had to be entered instead of root varable).
+    /* Sourced from Stack Overflow to recolour the toggle button on mobile devices (RGB value had to be entered instead of root varable).
     https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color*/
-  }
+}
   
 .custom-toggler.navbar-toggler {
     border-color: var(--accent);
-  }
+}
 
 .custom-toggler:active {
     border-color: var(--accent);
@@ -61,18 +61,21 @@ body {
     color: var(--colour2);
     background-color: hsla(0, 0%, 0%, 0.884);
     text-align: center;
+    
+    width: 100vw;
+    height: 50vh;
+
+    /* Bug that was found on 01/12 with solution sourced from Stack Overflow. Detailed report in the 'Bugs' section of README file*/
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
-    height: 50vh;
 }
 
 
 /*------------------------------------------------------- Media Queries */
 @media (min-width: 991px) {
     
-    /* For Hero Image on bigger screen */
+    /* For image on bigger screen */
     .hero-one {
         height: 100vh;
         width: 50vw;
