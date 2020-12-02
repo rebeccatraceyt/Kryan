@@ -13,13 +13,15 @@ body {
 :root {
     --mainfont: 'Cabin', sans-serif;
     --secondaryfont: 'Raleway', sans-serif;
-    --colour1: #242424;
+    --colour1: hsl(0, 0%, 14%);
     --colour2: whitesmoke;
     --accent: rgb(173, 20, 20);
+    --overlay: rgba(0, 0, 0, 0.864)
 }
 
 
 /*------------------------------------------------------- Nav Bar - Header */
+/* Styling for navigation bar */
 .navbar{
     background-color: rgba(53, 53, 53, 0.02);
     margin-bottom: 0;
@@ -27,14 +29,26 @@ body {
     z-index: 1;
     border: 0;
     width: 100%;
+    font-size: 1.5em;
+    z-index: 3;
 }
 
 /* Styling for nav links in navigation bar */
+.navbar-nav {
+    background-color: rgb(53, 53, 53, 0.8);
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+}
 .navbar-nav > li > a {
     margin: 0px 8px;
     font-family: var(--secondaryfont);
     color: var(--accent);  
     /* Bug that was found on 30/11 with solution sourced from Stack Overflow. Detailed report in the 'Bugs' section of README file*/
+}
+.active {
+    background-color: var(--colour2);
+    border-radius: 15px;
 }
 
 /* Styling for navbar toggler */
@@ -50,16 +64,21 @@ body {
     border-color: var(--accent);
 } 
 
+
+
+
 /*------------------------------------------------------- Socials - Footer */
 .social-networks {
     text-align: center;
 }  
-
 .social-networks li a i {
     font-size: 2em;
     color: var(--accent);
     margin: 5px 10px;
     
+}
+.social-networks li a i:hover {
+    color: var(--colour2);
 }
 
 /*------------------------------------------------------- Homepage Styling*/
@@ -73,53 +92,83 @@ body {
 
     width: 100vw;
     height: 50vh;
+
 }
 
-.right-text {
+.right-side {
     color: var(--colour2);
-    background-color: hsla(0, 0%, 0%, 0.884);
+
+    padding-top: 20%;
+
     text-align: center;
     
-    width: 100vw;
-    height: 50vh;
-
-    /* Bug that was found on 01/12 with solution sourced from Stack Overflow. Detailed report in the 'Bugs' section of README file*/
+    /* Bug that was found on 01/12 with solution sourced from Stack Overflow. Detailed report in the 'Bugs' section of README file */
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-content: center;
+
+}
+
+
+.overlay {
+    background-color: var(--overlay);
+
+    /* Sourced from W3schools to create responsive overlay effect 
+    https://www.w3schools.com/howto/howto_css_overlay.asp */
+    width: 100vw; 
+    height: 50vh; 
+    z-index: 2;
 }
 
 
 /*------------------------------------------------------- Media Queries */
+/* Breakpoint to maintain structural integrity on a Large Screen */
 @media (min-width: 991px) { 
-    /* Breakpoint to maintain structural integrity on a Large Screen */
     
-    /* Styling for active nav links */
-    .active {
-        border-bottom: 1px inset var(--accent);
-        border-radius: 4px;
+    /* Styling for navigation bar*/
+    .navbar-nav {
+        background-color: rgba(53, 53, 53, 0);
+        font-size: 16px;
+    }
+    
+    .navbar-nav li a:hover{
+        color: var(--accent);
+
     }
 
     /* For image on bigger screen */
     .hero-one {
         /* Homepage Image compatible with larger screens */
         background: url(/assets/images/hero-d.jpg) bottom no-repeat cover;
+
         height: 100vh;
         width: 50vw;
     }
 
     /* For text on bigger screen */
-    .right-text {
-        width: 50vw;
-        height: 100vh;  
-        padding: 0em;
-        color: var(--colour2);
-        background-color: hsla(0, 0%, 0%, 0.884);
+    .right-side {
+        
+        padding-top: 25px;
+
+    }
+    .overlay {
+        width: 50vw; 
+        height: 100vh; 
+
+        background-color: var(--overlay); /* Black background with opacity */ /* Specify a stack order in case you're using a different order for other */
     }
 
     .social-networks {
         text-align: right;
     }
+}
+
+/* Breakpoint to maintain structural integrity on a Tablet device */
+@media (min-width: 700px) and (max-width: 991px) {
     
-    
+    /* Styling for navigation bar for screens larger than mobile device */
+    .navbar-nav {
+        font-size: 1em;
+        width: 30vw;
+    }
 }
