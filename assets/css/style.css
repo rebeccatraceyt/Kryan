@@ -65,7 +65,11 @@ body {
 
 /*------------------------------------------------------- Homepage Styling*/
 .hero-one {
-    background: url(/assets/images/ph-hero.png) bottom right fixed;
+    /* Hero Image compatible with mobile devices */
+    background-image: url(/assets/images/hero-m.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
     width: 100vw;
     height: 50vh;
 }
@@ -97,6 +101,8 @@ body {
 
     /* For image on bigger screen */
     .hero-one {
+        /* Homepage Image compatible with larger screens */
+        background: url(/assets/images/hero-d.jpg) bottom no-repeat cover;
         height: 100vh;
         width: 50vw;
     }
