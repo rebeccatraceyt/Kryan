@@ -55,7 +55,6 @@ body {
     text-align: center;
 }  
 
-
 .social-networks li a i {
     font-size: 2em;
     color: var(--accent);
@@ -70,6 +69,8 @@ body {
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
+    /* Bug that was found on 02/12 with solution sourced from Stack Overflow. Detailed report in the 'Bugs' section of README file*/
+
     width: 100vw;
     height: 50vh;
 }
