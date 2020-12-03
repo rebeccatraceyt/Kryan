@@ -98,27 +98,29 @@ body {
 .right-side {
     color: var(--colour2);
 
-    padding-top: 20%;
+    width: 100vw;
+    height: 50vh;
 
     text-align: center;
     
     /* Bug that was found on 01/12 with solution sourced from Stack Overflow. Detailed report in the 'Bugs' section of README file */
     display: flex;
     justify-content: center;
+    align-items: center;
     align-content: center;
 
 }
 
 
-.overlay {
+/*.overlay {
     background-color: var(--overlay);
 
     /* Sourced from W3schools to create responsive overlay effect 
-    https://www.w3schools.com/howto/howto_css_overlay.asp */
+    https://www.w3schools.com/howto/howto_css_overlay.asp 
     width: 100vw; 
     height: 50vh; 
     z-index: 2;
-}
+}*/
 
 
 /*------------------------------------------------------- Media Queries */
