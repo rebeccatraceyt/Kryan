@@ -20,7 +20,7 @@ body {
 }
 
 
-/*------------------------------------------------------- Nav Bar - Header */
+/*------------------------------------------------------- Header */
 /* Styling for navigation bar */
 .navbar{
     background-color: rgba(53, 53, 53, 0.02);
@@ -44,11 +44,11 @@ body {
     margin: 0px 8px;
     font-family: var(--secondaryfont);
     color: var(--accent);  
+    font-weight: 400;
     /* Bug that was found on 30/11 with solution sourced from Stack Overflow. Detailed report in the 'Bugs' section of README file*/
 }
-.active {
-    background-color: var(--colour2);
-    border-radius: 15px;
+.active{
+    color: var(--colour2);
 }
 
 /* Styling for navbar toggler */
@@ -68,18 +68,7 @@ body {
 
 
 /*------------------------------------------------------- Socials - Footer */
-.socials-large {
-    text-align: center;
-}  
-.socials-large li a i {
-    font-size: 2em;
-    color: var(--accent);
-    margin: 5px 10px;
-    
-}
-.socials-large li a i:hover {
-    color: var(--colour2);
-}
+
 
 /*------------------------------------------------------- Homepage Styling*/
 .hero-one {
@@ -96,6 +85,7 @@ body {
 }
 
 .right-side {
+    background-color: var(--colour1);
     color: var(--colour2);
 
     width: 100vw;
@@ -108,35 +98,30 @@ body {
     justify-content: center;
     align-items: center;
     align-content: center;
-
 }
 
+.right-side a {
+    color: var(--accent);
+}
 
-/*.overlay {
-    background-color: var(--overlay);
-
-    /* Sourced from W3schools to create responsive overlay effect 
-    https://www.w3schools.com/howto/howto_css_overlay.asp 
-    width: 100vw; 
-    height: 50vh; 
-    z-index: 2;
-}*/
 
 
 /*------------------------------------------------------- Media Queries */
 /* Breakpoint to maintain structural integrity on a Large Screen */
 @media (min-width: 991px) { 
     
-    /* Styling for navigation bar*/
+    /*--------------------------------- Header */
+
+    /* Styling for nav bar on bigger screens*/
     .navbar-nav {
         background-color: rgba(53, 53, 53, 0);
         font-size: 16px;
     }
-    
     .navbar-nav li a:hover{
         color: var(--accent);
-
     }
+
+    /*--------------------------------- Homepage Styling */
 
     /* For image on bigger screen */
     .hero-one {
@@ -149,17 +134,22 @@ body {
 
     /* For text on bigger screen */
     .right-side {
-        
-        padding-top: 25px;
-
-    }
-    .overlay {
-        width: 50vw; 
-        height: 100vh; 
-
-        background-color: var(--overlay); /* Black background with opacity */ /* Specify a stack order in case you're using a different order for other */
+        background-color: var(--colour1);
+        height: 100vh;
+        width: 50vw;
     }
 
+    /*--------------------------------- Footer */
+
+    /* For social links on bigger screen */
+    .socials-large li a i {
+        font-size: 1.5em;
+        color: var(--accent);
+        margin: 5px 2px;
+    }
+    .socials-large li a i:hover {
+        color: var(--colour2);
+    }
     .socials-large {
         text-align: right;
     }
@@ -168,6 +158,8 @@ body {
 /* Breakpoint to maintain structural integrity on a Tablet device */
 @media (min-width: 700px) and (max-width: 991px) {
     
+    /*--------------------------------- Header */
+
     /* Styling for navigation bar for screens larger than mobile device */
     .navbar-nav {
         font-size: 1em;
