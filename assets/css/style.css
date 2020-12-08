@@ -68,16 +68,16 @@ body {
 
 
 /*------------------------------------------------------- Socials - Footer */
-.social-networks {
+.socials-large {
     text-align: center;
 }  
-.social-networks li a i {
+.socials-large li a i {
     font-size: 2em;
     color: var(--accent);
     margin: 5px 10px;
     
 }
-.social-networks li a i:hover {
+.socials-large li a i:hover {
     color: var(--colour2);
 }
 
@@ -160,7 +160,7 @@ body {
         background-color: var(--overlay); /* Black background with opacity */ /* Specify a stack order in case you're using a different order for other */
     }
 
-    .social-networks {
+    .socials-large {
         text-align: right;
     }
 }
