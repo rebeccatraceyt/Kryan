@@ -21,7 +21,7 @@ body {
 .text-exception {
     color: var(--accent);
     font-family: var(--titlefont);
-    font-weight: 200%;
+    font-weight: 700;
 }
 
 /*------------------------------------------------------- Header */
@@ -79,9 +79,10 @@ body {
 /*------------------------------------------------------- Homepage Styling*/
 .home-hero {
     /* Hero Image compatible with mobile devices */
-    background-image: url(/assets/images/hero-m.jpg);
-    background-repeat: no-repeat;
-    background-position: center top;
+    background: url(/assets/images/hero-m.jpg) no-repeat center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     /* Bug that was found on 02/12 with solution sourced from Stack Overflow. Detailed report in the 'Bugs' section of README file*/
 
@@ -115,14 +116,16 @@ body {
 }
 
 .home-text h2 {
-    font-size: 150%;
+    font-size: 125%;
+    font-weight: 400;
 }
 /*------------------------------------------------------- BioPage Styling*/
 .bio-hero {
     /* Hero Image compatible with mobile devices */
-    background-image: url(/assets/images/hero2-m.jpg);
-    background-repeat: no-repeat;
-    background-position: center top;
+    background: url(/assets/images/hero2-m.jpg) no-repeat center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     
     width: 100vw;
@@ -153,11 +156,14 @@ body {
 
 /*------------------------------------------------------- LivePage Styling*/
 .live-bg {
-    background: url(images/bg.jpg) no-repeat center center fixed; 
+    background: url(/assets/images/hero3.jpg) no-repeat center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
+    width: 100vw;
+    height: 100vh;
 }
 
 
@@ -178,7 +184,11 @@ body {
     /* For image on bigger screen */
     .home-hero {
         /* Homepage Image compatible with larger screens */
-        background: url(/assets/images/hero-d.jpg) bottom no-repeat cover;
+        background: url(/assets/images/hero-d.jpg) no-repeat center top;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
 
         height: 100vh;
         width: 50vw;
@@ -205,7 +215,11 @@ body {
     /* For image on bigger screen */
     .bio-hero {
         /* Homepage Image compatible with larger screens */
-        background: url(/assets/images/hero2-d.jpg) bottom no-repeat cover;
+        background: url(/assets/images/hero2-d.jpg) no-repeat cover top;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
 
         height: 100vh;
         width: 50vw;
