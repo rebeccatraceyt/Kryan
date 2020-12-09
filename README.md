@@ -189,9 +189,11 @@ A bug was detected in the Social Links when trying to implement the Bootstrap di
 padding: 0px; 
 margin: 0px auto;
 ```
-### Biographic Info - Bio Page
+### Biographic Info Bug - Bio Page
 A bug was detected on the Bio page whereby when the page was viewed on a smaller screen, the overflow content of the `p` element would be cut off, losing some of the biographic text. In order to solve the problem, the developer found a similar problem on [Stack Overflow](https://stackoverflow.com/questions/52394425/100vh-cuts-off-content-when-window-height-is-small) where they were able to better understand the viewport limitations and find a solution, which was a simple switch from `height: 100vh;` to `min-height: 100vh;`.
 
+### Events `<div>` Bug - Live Page
+A bug was detected where the `div` container used to implementing the upcoming events data was anchoring to the top of the page, under the navigation bar. The developer was able to find a similar problem on [Stack Overflow](https://stackoverflow.com/questions/953918/how-to-align-a-div-to-the-middle-horizontally-width-of-the-page) where they copied and edited the code in order to understand the problem and find a solution.
 
 ## Technologies Used
 ### Languages Used

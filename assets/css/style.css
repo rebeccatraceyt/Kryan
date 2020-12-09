@@ -180,6 +180,8 @@ body {
 
 .event-info {
     background-color: var(--bg-div);
+
+    /* Bug that was found on 09/12 with solution sourced from Stack Overflow. Detailed report in the 'Bugs' section of README file*/  
     position: absolute;
     left: 50%;
     top: 50%;
@@ -187,7 +189,6 @@ body {
     -ms-transform: translate(-50%, -50%); /* for IE 9 */
     -webkit-transform: translate(-50%, -50%); /* for Safari */
 
-    /* optional size in px or %: */
     width: 75%;
     height: 50%;
 
