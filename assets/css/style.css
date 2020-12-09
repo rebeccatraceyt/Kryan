@@ -34,20 +34,21 @@ body {
 }
 
 /* Styling for nav links in navigation bar */
-.navbar-nav {
+.navbar-nav{
     background-color: rgb(53, 53, 53, 0.8);
-    text-align: center;
     border-radius: 20px;
     padding: 10px;
 }
-.navbar-nav > li > a {
-    margin: 0px 8px;
+.navbar-nav li a {
     font-family: var(--secondaryfont);
-    color: var(--accent);  
+    text-align: center;
+    color: var(--accent); 
+    font-size: 1em; 
     font-weight: 400;
+    line-height: 130%;
     /* Bug that was found on 30/11 with solution sourced from Stack Overflow. Detailed report in the 'Bugs' section of README file*/
 }
-.active{
+.navbar-nav .active{
     color: var(--colour2);
 }
 
@@ -64,14 +65,16 @@ body {
     border-color: var(--accent);
 } 
 
-
-
-
-/*------------------------------------------------------- Socials - Footer */
-
+/*------------------------------------------------------- Socials - Header */
+/* Social Links appear in the nav bar header on smaller screens*/
+.socials-nav {
+    color: var(--accent); 
+    padding: 0px;
+    margin: 0px auto;
+}
 
 /*------------------------------------------------------- Homepage Styling*/
-.hero-one {
+.home-hero {
     /* Hero Image compatible with mobile devices */
     background-image: url(/assets/images/hero-m.jpg);
     background-repeat: no-repeat;
@@ -81,10 +84,9 @@ body {
 
     width: 100vw;
     height: 50vh;
-
 }
 
-.right-side {
+.home-text {
     background-color: var(--colour1);
     color: var(--colour2);
 
@@ -100,7 +102,7 @@ body {
     align-content: center;
 }
 
-.right-side a {
+.home-text a {
     color: var(--accent);
 }
 
@@ -124,7 +126,7 @@ body {
     /*--------------------------------- Homepage Styling */
 
     /* For image on bigger screen */
-    .hero-one {
+    .home-hero {
         /* Homepage Image compatible with larger screens */
         background: url(/assets/images/hero-d.jpg) bottom no-repeat cover;
 
@@ -133,18 +135,20 @@ body {
     }
 
     /* For text on bigger screen */
-    .right-side {
+    .home-text{
         background-color: var(--colour1);
+
         height: 100vh;
         width: 50vw;
     }
 
-    /*--------------------------------- Footer */
+    /*--------------------------------- Socials - Footer */
 
-    /* For social links on bigger screen */
+    /* Social links appear in the footer on bigger screen */
     .socials-large li a i {
         font-size: 1.5em;
         color: var(--accent);
+
         margin: 5px 2px;
     }
     .socials-large li a i:hover {
