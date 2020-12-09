@@ -151,7 +151,7 @@ body {
 
 /*------------------------------------------------------- Media Queries */
 /* Breakpoint to maintain structural integrity on a Large Screen */
-@media (min-width: 991px) { 
+@media (min-width: 991px){ 
     
     /*--------------------------------- Header */
 
