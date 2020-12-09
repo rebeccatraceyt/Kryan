@@ -109,12 +109,15 @@ body {
     color: var(--accent);
 }
 
-.home-text div h1 {
+.home-text h1 {
     font-family: var(--specialfont);
-    font-size: 400%;
+    font-size: 250%;
 }
 
-/*------------------------------------------------------- Bio Styling*/
+.home-text h2 {
+    font-size: 150%;
+}
+/*------------------------------------------------------- BioPage Styling*/
 .bio-hero {
     /* Hero Image compatible with mobile devices */
     background-image: url(/assets/images/hero2-m.jpg);
@@ -124,10 +127,7 @@ body {
     
     width: 100vw;
     min-height: 60vh;
-    /* Bug that was found on 09/12 with solution sourced from Stack Overflow. Detailed report in the 'Bugs' section of README file*/
-
-    
-    
+    /* Bug that was found on 09/12 with solution sourced from Stack Overflow. Detailed report in the 'Bugs' section of README file*/  
 }
 .bio-text {
     background-color: var(--colour1);
@@ -140,7 +140,7 @@ body {
 
     text-align: left;
 
-    padding: 20px 50px;
+    padding: 20px 30px;
     
     display: flex;
     justify-content: center;
@@ -151,9 +151,18 @@ body {
     text-align: left;
 }
 
+/*------------------------------------------------------- LivePage Styling*/
+.live-bg {
+    background: url(images/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 
 /*------------------------------------------------------- Media Queries */
-/* Breakpoint to maintain structural integrity on a Large Screen */
+/* Breakpoint to maintain structural integrity on a Laptop Screen */
 @media (min-width: 991px){ 
     
     /*--------------------------------- Header */
@@ -178,12 +187,20 @@ body {
     /* For text on bigger screen */
     .home-text{
         background-color: var(--colour1);
-
+        padding: 0px 20px;
         height: 100vh;
         width: 50vw;
     }
 
-    /*--------------------------------- Bio Styling */
+    .home-text h1 {
+        font-size: 500%;
+    }
+
+    .home-text h2 {
+        font-size: 250%;
+    }
+
+    /*--------------------------------- BioPage Styling */
 
     /* For image on bigger screen */
     .bio-hero {
@@ -201,9 +218,9 @@ body {
         height: 100vh;
         width: 50vw;
 
-        padding: 20px 50px;
+        padding: 10px 55px;
 
-        justify-content: center;
+        justify-content: baseline;
         align-items: center;
         align-content: center;
     }
@@ -225,6 +242,7 @@ body {
     }
 }
 
+
 /* Breakpoint to maintain structural integrity on a Tablet device */
 @media (min-width: 700px) and (max-width: 991px) {
 
@@ -236,11 +254,21 @@ body {
         width: 30vw;
     }
 
-    /*--------------------------------- Bio Styling */
+    /*--------------------------------- Homepage Styling */
+
+    .home-text h1 {
+        font-size: 600%;
+    }
+
+    .home-text h2 {
+        font-size: 350%;
+    }
+
+
+    /*--------------------------------- BioPage Styling */
 
     /* For text on screens larger than mobile device */
     .bio-hero {
-        background: url(/assets/images/hero2-t.jpg) bottom no-repeat cover;
 
         height: 60vh;
         width: 100vw;
