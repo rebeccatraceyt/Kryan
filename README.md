@@ -176,7 +176,7 @@ A bug was detected early on with the Navigation bar. In implimenting a responsiv
 ### Home Page Responsiveness Bug
 A bug was detected in creating the HomePage where the mobile-first design approach was responsive but as soon as the breakpoint changed to a larger screen, the page layout would shift, creating inconsistentcies in the design. In order to rectify this, the developer utilised a solution posted for a similar problem on [Stack Overflow](https://stackoverflow.com/questions/5703552/how-can-i-center-text-horizontally-and-vertically-inside-a-div-block). With this solution, the developer was able to create the desired responsivness without having to use excessive and unnecessary lines of code.
 
-### Hero Image Bug
+### Hero Image Bug - Home Page
 A bug was detected when implementing the hero image to be used for the Home Page. The developer used the shorthand background element to implement the image but soon found there was an issue with the responsiveness of the image using this. When coding the background-size using the shorthand method, the image would disappear. The developer used an answer to a similar problem on [Stack Overflow](https://stackoverflow.com/questions/26236486/background-size-cover-not-working) in order to understand the problem and, in turn, find a solution.
 
 ### Social Links Bug
@@ -185,6 +185,9 @@ A bug was detected in the Social Links when trying to implement the Bootstrap di
 padding: 0px; 
 margin: 0px auto;
 ```
+### Biographic Info - Bio Page
+A bug was detected on the Bio page whereby when the page was viewed on a smaller screen, the overflow content of the `p` element would be cut off, losing some of the biographic text. In order to solve the problem, the developer found a similar problem on [Stack Overflow](https://stackoverflow.com/questions/52394425/100vh-cuts-off-content-when-window-height-is-small) where they were able to better understand the viewport limitations and find a solution, which was a simple switch from `height: 100vh;` to `min-height: 100vh;`.
+
 
 ## Technologies Used
 ### Languages Used
