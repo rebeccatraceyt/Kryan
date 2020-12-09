@@ -121,10 +121,13 @@ body {
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
-    /* Bug that was found on 02/12 with solution sourced from Stack Overflow. Detailed report in the 'Bugs' section of README file*/
-
+    
     width: 100vw;
     min-height: 60vh;
+    /* Bug that was found on 09/12 with solution sourced from Stack Overflow. Detailed report in the 'Bugs' section of README file*/
+
+    
+    
 }
 .bio-text {
     background-color: var(--colour1);
