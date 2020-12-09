@@ -3,14 +3,23 @@
 
 /*------------------------------------------------------- Root Variables */
 :root {
+    /* Font variables */
     --titlefont: 'Roboto', sans-serif;
     --bodyfont: 'Lato', sans-serif;
     --specialfont: 'Montserrat', sans-serif;
+
+    /* Colour variables for font */
     --colour1: #141414;
     --colour2: #F6F6F6;
     --accent: #7B0000;
-    --navbgsm: rgba(40, 40, 40, 0.901);
-    --navbglg: rgba(40, 40, 40, 0);
+
+    /* Colour variables for navbars */
+    --nav-sm: rgba(40, 40, 40, 0.901);
+    --nav-lg: rgba(40, 40, 40, 0);
+    --bg-opaque: rgba(40, 40, 40, 0.5);
+
+    /* Colour variables for divs */
+    --bg-div: rgba(241, 241, 241, 0.952);
 }
 /*------------------------------------------------------- Special Fonts */
 body {
@@ -29,17 +38,16 @@ body {
 .navbar{
     margin-bottom: 0;
     position: fixed;
-    z-index: 1;
     border: 0;
     width: 100%;
     z-index: 3;
+    padding: 0px;
 }
 
 /* Styling for nav links in navigation bar */
 .navbar-nav{
-    background-color: var(--navbgsm);
+    background-color: var(--nav-sm);
     border-radius: 20px;
-    padding: 10px;
 }
 .navbar-nav li a {
     font-family: var(--titlefont);
@@ -66,6 +74,10 @@ body {
 .custom-toggler:active {
     border-color: var(--accent);
 } 
+
+.navbar .live-nav {
+    background-color: var(--bg-opaque);
+}
 
 /*------------------------------------------------------- Socials - Header */
 /* Social Links appear in the nav bar header on smaller screens*/
@@ -139,10 +151,8 @@ body {
 
     width: 100vw;
     min-height: 40vh;
-    
 
     text-align: left;
-
     padding: 20px 30px;
     
     display: flex;
@@ -162,8 +172,26 @@ body {
     -o-background-size: cover;
     background-size: cover;
 
+    opacity: 0.70;
+
     width: 100vw;
     height: 100vh;
+}
+
+.event-info {
+    background-color: var(--bg-div);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); /* for IE 9 */
+    -webkit-transform: translate(-50%, -50%); /* for Safari */
+
+    /* optional size in px or %: */
+    width: 75%;
+    height: 50%;
+
+
 }
 
 
@@ -175,8 +203,7 @@ body {
 
     /* Styling for nav bar on bigger screens*/
     .navbar-nav {
-        background-color: var(--navbglg);
-        margin: 0px 2px;
+        background-color: var(--nav-lg);
     }
 
     /*--------------------------------- Homepage Styling */
