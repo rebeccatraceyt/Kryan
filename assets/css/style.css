@@ -17,6 +17,13 @@ body {
     font-family: var(--bodyfont);
 }
 
+/* Styling for text that need to be distinguished */
+.text-exception {
+    color: var(--accent);
+    font-family: var(--titlefont);
+    font-weight: 200%;
+}
+
 /*------------------------------------------------------- Header */
 /* Styling for navigation bar */
 .navbar{
@@ -107,6 +114,36 @@ body {
     font-size: 400%
 }
 
+/*------------------------------------------------------- Bio Styling*/
+.bio-hero {
+    /* Hero Image compatible with mobile devices */
+    background-image: url(/assets/images/hero-m.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    /* Bug that was found on 02/12 with solution sourced from Stack Overflow. Detailed report in the 'Bugs' section of README file*/
+
+    width: 100vw;
+    height: 50vh;
+}
+.bio-text {
+    background-color: var(--colour1);
+    color: var(--colour2);
+    font-size: 1.25em;
+
+    width: 100vw;
+
+    text-align: left;
+    padding: 25px 25px;
+    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.bio-text div h2 {
+    font-family: var(--titlefont);
+    text-align: left;
+}
 
 
 /*------------------------------------------------------- Media Queries */
@@ -140,6 +177,31 @@ body {
         width: 50vw;
     }
 
+    /*--------------------------------- Bio Styling */
+
+    /* For image on bigger screen */
+    .bio-hero {
+        /* Homepage Image compatible with larger screens */
+        background: url(/assets/images/hero-d.jpg) bottom no-repeat cover;
+
+        height: 100vh;
+        width: 50vw;
+    }
+
+    /* For text on bigger screen */
+    .bio-text{
+        background-color: var(--colour1);
+
+        height: 100vh;
+        width: 50vw;
+
+        padding: 0px 100px;
+
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
     /*--------------------------------- Socials - Footer */
 
     /* Social links appear in the footer on bigger screen */
@@ -168,6 +230,18 @@ body {
         width: 30vw;
     }
 
+    /*--------------------------------- Bio Styling */
+
+    /* For text on screens larger than mobile device */
+    .bio-text{
+        background-color: var(--colour1);
+
+        height: 100vh;
+        width: 50vw;
+
+        justify-content: center;
+        align-content: center;
+    }
     /*--------------------------------- Socials - Footer */
 
     /* Social links appear in the footer on tablet device */
