@@ -6,10 +6,11 @@
     --titlefont: 'Roboto', sans-serif;
     --bodyfont: 'Lato', sans-serif;
     --specialfont: 'Montserrat', sans-serif;
-    --colour1: hsl(0, 0%, 14%);
-    --colour2: whitesmoke;
-    --accent: rgb(173, 20, 20);
-    --overlay: rgba(0, 0, 0, 0.864)
+    --colour1: #141414;
+    --colour2: #F6F6F6;
+    --accent: #7B0000;
+    --navbgsm: rgba(40, 40, 40, 0.901);
+    --navbglg: rgba(40, 40, 40, 0);
 }
 /*------------------------------------------------------- Special Fonts */
 body {
@@ -19,7 +20,6 @@ body {
 /*------------------------------------------------------- Header */
 /* Styling for navigation bar */
 .navbar{
-    background-color: rgba(53, 53, 53, 0.02);
     margin-bottom: 0;
     position: fixed;
     z-index: 1;
@@ -30,7 +30,7 @@ body {
 
 /* Styling for nav links in navigation bar */
 .navbar-nav{
-    background-color: rgb(53, 53, 53, 0.8);
+    background-color: var(--navbgsm);
     border-radius: 20px;
     padding: 10px;
 }
@@ -102,8 +102,9 @@ body {
     color: var(--accent);
 }
 
-.home-text h1 {
+.home-text div h1 {
     font-family: var(--specialfont);
+    font-size: 400%
 }
 
 
@@ -116,7 +117,7 @@ body {
 
     /* Styling for nav bar on bigger screens*/
     .navbar-nav {
-        background-color: rgba(53, 53, 53, 0);
+        background-color: var(--navbglg);
         margin: 0px 2px;
     }
 
@@ -171,7 +172,7 @@ body {
 
     /* Social links appear in the footer on tablet device */
     .socials-large li a i {
-        font-size: 1em;
+        font-size: 1.5em;
         color: var(--accent);
 
         margin: 5px 2px;
