@@ -78,7 +78,6 @@ The imagery is catching and visually represents the theme of the website.
 
    - Home Page - [View Wireframe](# "Home Page Wireframe") | [View Mockup](# "Home Page Mockup")
    - Bio Page - [View Wireframe](# "Bio Page Wireframe") | [View Mockup](# "Bio Page Mockup")
-   - Listen Now Page - [View Wireframe](# "Listen Now Page Wireframe") | [View Mockup](# "Listen Now Page Mockup")
    - Live Page - [View Wireframe](# "Live Page Wireframe") | [View Mockup](# "Live Page Mockup")
    - Electronic Press Kit Page - [View Wireframe](# "Electronic Press Kit Page Wireframe") | [View Mockup](# "Electronic Press Kit Page Mockup")
 
@@ -110,17 +109,10 @@ Each page of the website features a consistent responsive navigational system:
      </ul>
   </dd>
 
-  <dt><a href="listen.html" target="_blank">Listen Now Page</a></dt>
-  <dd>The Listen Now page uses a full page <strong>background image</strong>, providing a uniformed and consistent look for aesthetic purposes. The image is a secondary feature of this page, but still accurately representing the look and feel of the website. 
-  </dd>
-  <dd> A <strong>container</strong> overlays the background image. The purpose of this container is to uniformly represent the necessary information. Within this container there are various <strong>call to action</strong> buttons that link to external music platforms, e.g. Spotify. 
-  </dd>
-
-
   <dt><a href="live.html" target="_blank">Live Page</a></dt>
-  <dd>The Live page uses a similar layout to the Listen Now page, in order to maintain consistency. It uses a full page <strong>background image</strong> to visually represent the tone of the page. 
+  <dd>The Live page uses a full page <strong>background image</strong>, providing a uniformed and consistent look for aesthetic purposes. The image is a secondary feature of this page, but still accurately representing the look and feel of the website. 
   </dd>
-  <dd> Much like the Listen Now page, a <strong>container</strong> is centered, providing the necessary information to the user, upcoming events in this case. The container has two <strong>call to action</strong> buttons, linking to external websites:
+  <dd> A <strong>container</strong> is centered, overlaying the background image. The purpose of this container is to uniformly provide the necessary information to the user, upcoming events in this case. Within this container there are two <strong>call to action</strong> buttons, linking to external websites:
      <ul>
           <li>Venue website for information and directions</li>
           <li>Platform to purchase tickets securely</li>
@@ -159,7 +151,6 @@ Each page of the website features a consistent responsive navigational system:
 - Spotify Embed - Snapshot of Kryan's Spotify page, showcasing a select number of tracks users can choose to play.
 - IGTV Embed - iframe element for a video uploaded to Instagram, showcasing a stripped down version of a latest release.
 - [Bio Page](bio.html "Bio Page") - Providing biographic information for the users to get an understanding of who the artist is, and how they have created their music.
-- [Listen Now Page](listen.html "Listen Now Page") - Providing information on the various streaming sites Kryan is available on, with a call to action button for each.
 - [Live Page](live.html "Live Page") - Providing information on upcoming events. with call to action buttons for:
      - The venue site, for further information and directions
      - The ticket purchasing platform for pricing and ordering
@@ -176,6 +167,24 @@ Each page of the website features a consistent responsive navigational system:
  - [LinkFire](https://www.linkfire.com/) embedding
      - **Feature** - smartlink embedding platform for music promotion
      - **Reason for not featuring in this release** - Budget not available for services
+
+## Bugs 
+
+### Navbar Bug
+A bug was detected early on with the Navigation bar. In implimenting a responsive navigation system, Bootstrap was used but there was bug that would not allow the navbar to be recoloured to suit the the chosen colour scheme. In researching a cause (and solution) the developer found a question posted on [Stack Overflow](https://stackoverflow.com/questions/46237610/bootstrap-4-navbar-color-wont-change) with a similar problem. It was from here that the developer was able to copy and edit the code given as a solution on Stack in order to impliment a solution to the bug, with celebratory sucess.
+
+### Home Page Responsiveness Bug
+A bug was detected in creating the HomePage where the mobile-first design approach was responsive but as soon as the breakpoint changed to a larger screen, the page layout would shift, creating inconsistentcies in the design. In order to rectify this, the developer utilised a solution posted for a similar problem on [Stack Overflow](https://stackoverflow.com/questions/5703552/how-can-i-center-text-horizontally-and-vertically-inside-a-div-block). With this solution, the developer was able to create the desired responsivness without having to use excessive and unnecessary lines of code.
+
+### Hero Image Bug
+A bug was detected when implementing the hero image to be used for the Home Page. The developer used the shorthand background element to implement the image but soon found there was an issue with the responsiveness of the image using this. When coding the background-size using the shorthand method, the image would disappear. The developer used an answer to a similar problem on [Stack Overflow](https://stackoverflow.com/questions/26236486/background-size-cover-not-working) in order to understand the problem and, in turn, find a solution.
+
+### Social Links Bug
+A bug was detected in the Social Links when trying to implement the Bootstrap display property in order to only show the Social links in the toggler menu on smaller devices. In nesting an unordered list within another unordered list, the `padding-inline-start` of the `ul` user agent stylesheet would be set at a value of `40px`. The problem with this was that it was overriding the `d-inline` class that was called. In order to rectify this, the developer had to override the `padding-inline-start` value, using code sourced from [Stack Overflow](https://stackoverflow.com/questions/54000514/unordered-list-in-css-will-not-center) with:
+```
+padding: 0px; 
+margin: 0px auto;
+```
 
 ## Technologies Used
 ### Languages Used
@@ -235,26 +244,6 @@ The W3C Markup Validator and the W3C CSS Validator Services were used in validat
      1. Result
 2. As a media enquirer, I want to easily find materials that could be useful for media coverage pieces.
      1. Result
-
-## Bugs 
-
-### Navbar Bug
-A bug was detected early on with the Navigation bar. In implimenting a responsive navigation system, Bootstrap was used but there was bug that would not allow the navbar to be recoloured to suit the the chosen colour scheme. In researching a cause (and solution) the developer found a question posted on [Stack Overflow](https://stackoverflow.com/questions/46237610/bootstrap-4-navbar-color-wont-change) with a similar problem. It was from here that the developer was able to copy and edit the code given as a solution on Stack in order to impliment a solution to the bug, with celebratory sucess.
-
-### Home Page Responsiveness Bug
-A bug was detected in creating the HomePage where the mobile-first design approach was responsive but as soon as the breakpoint changed to a larger screen, the page layout would shift, creating inconsistentcies in the design. In order to rectify this, the developer utilised a solution posted for a similar problem on [Stack Overflow](https://stackoverflow.com/questions/5703552/how-can-i-center-text-horizontally-and-vertically-inside-a-div-block). With this solution, the developer was able to create the desired responsivness without having to use excessive and unnecessary lines of code.
-
-### Hero Image Bug
-A bug was detected when implementing the hero image to be used for the Home Page. The developer used the shorthand background element to implement the image but soon found there was an issue with the responsiveness of the image using this. When coding the background-size using the shorthand method, the image would disappear. The developer used an answer to a similar problem on [Stack Overflow](https://stackoverflow.com/questions/26236486/background-size-cover-not-working) in order to understand the problem and, in turn, find a solution.
-
-### Social Links Bug
-A bug was detected in the Social Links when trying to implement the Bootstrap display property in order to only show the Social links in the toggler menu on smaller devices. In nesting an unordered list within another unordered list, the `padding-inline-start` of the `ul` user agent stylesheet would be set at a value of `40px`. The problem with this was that it was overriding the `d-inline` class that was called. In order to rectify this, the developer had to override the `padding-inline-start` value, using code sourced from [Stack Overflow](https://stackoverflow.com/questions/54000514/unordered-list-in-css-will-not-center) with:
-```
-padding: 0px; 
-margin: 0px auto;
-```
-
-
 
 ## Deployment
 
