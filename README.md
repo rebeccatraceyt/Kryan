@@ -65,9 +65,9 @@ The main colours used throughout the website are a mixture of Black and White wi
 The chosen colour scheme is a reflection of the artist's look and feel.
 
 #### Typography
-The pairing of the fonts [Cabin](https://fonts.google.com/specimen/Cabin) and [Raleway](https://fonts.google.com/specimen/Raleway) is used throughout the website with Sans Serif as the fallback font in case of import failure. 
+The pairing of the fonts [Roboto](https://fonts.google.com/specimen/Roboto) and [Lato](https://fonts.google.com/specimen/Lato) is used throughout the website with Sans Serif as the fallback font in case of import failure. 
 
-Both Cabin and Raleway are sans typefaces and were chosen to reflect the modern personality of the website.
+For features that needed to be highlighted, such as the featured single on the Homepage, the font [Montserrat](https://fonts.google.com/specimen/Montserrat) was used, with Sans Serif as the fallback. This was in order to create a consistency with the digital artwork of the single release
 
 #### Imagery
 The selected imagery is modern and cohesively aesthetic, reflecting the artist's look and feel. 
@@ -195,7 +195,7 @@ margin: 0px auto;
 - [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
      - Bootstrap was used to ... 
 - [Google Fonts](https://fonts.google.com/)
-    - Google fonts was used to import the fonts "Cabin" and "Raleway" into the style.css file. These fonts were used throughout the project.
+    - Google fonts was used to import the fonts "Roboto", "Lato" and "Montserrat" into the style.css file. These fonts were used throughout the project.
 - [Font Awesome](https://fontawesome.com/)
      - Font Awesome was used on all pages throughout the website to import icons (e.g. social media icons) for UX purposes.
 - [Git](https://git-scm.com/)
