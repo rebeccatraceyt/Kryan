@@ -4,13 +4,13 @@ This comprehensive website was designed for the artist known as Kryan. The focus
 
 Kryan is a Dublin based singer/songwriter multi-instrumentalist, focusing mainly on pop music. With multiple single releases, Kryan has garnered attention across many media outlets since 2018. The purpose of the site was to highlight these achievements and to provide an avenue for communication with media outlets and fans alike.
 
-**Business goals for the website:**
+**Client goals for the website:**
 - Develop an online presence for Kryan
 - Provide an easily navigable website for users to find relevant information:
      - New releases
      - Biographical information
-- Provide a channel of communication for media enquires (Electronic Press Kit with PR email)
-- Provide a channel of communication for new and current  fans (Social Links - easily accessible throughout the site)
+- Provide a channel of communication for media enquires (Electronic Press Kit with contact information)
+- Provide a channel of communication for new and current fans (Social Links - easily accessible throughout the site)
 
 **User goals for the website:**
 - Retrieve desired information:
@@ -60,14 +60,14 @@ Kryan is a Dublin based singer/songwriter multi-instrumentalist, focusing mainly
 
 ### Design
 #### Colour Scheme
-The main colours used throughout the website are a mixture of Black and White with Red accents.
+The main colours used throughout the website are a mixture of Black and White, with Red accents.
 
 The chosen colour scheme is a reflection of the artist's look and feel.
 
 #### Typography
 The pairing of the fonts [Roboto](https://fonts.google.com/specimen/Roboto) and [Lato](https://fonts.google.com/specimen/Lato) is used throughout the website with Sans Serif as the fallback font in case of import failure. 
 
-For features that needed to be highlighted, such as the featured single on the Homepage, the font [Montserrat](https://fonts.google.com/specimen/Montserrat) was used, with Sans Serif as the fallback. This was in order to create a consistency with the digital artwork of the single release
+For features that needed to be highlighted, such as the featured single on the Homepage, the font [Montserrat](https://fonts.google.com/specimen/Montserrat) was used, with Sans Serif as the fallback. This was in order to create a consistency with the digital artwork of the single's release.
 
 #### Imagery
 The selected imagery is modern and cohesively aesthetic, reflecting the artist's look and feel. 
@@ -86,7 +86,9 @@ The imagery is catching and visually represents the theme of the website.
 ### Design Features
 Each page of the website features a consistent responsive navigational system:
 - The **Header** contains a conventionally placed **logo** in the top left of the page (whereby by clicking this will redirect users back to the home page) and **navigation bar** in the top right of the page.
-- The **Footer** contains the appropriate **social media icons**, linking users to the three main social media pages of Kryan.
+- On larger screens, the **Footer** contains the appropriate **social media icons**, linking users to the main social pages of Kryan. For smaller screens, the footer is hidden and the social icons are instead displayed with the navigation links in the header.
+- On smaller screens, the navigation bar collapses into a **toggler** icon whereby clicking it will reveal the navigation and social links.
+
 
 <dl>
   <dt><a href="index.html" target="_blank">Home Page</a></dt>
@@ -100,7 +102,7 @@ Each page of the website features a consistent responsive navigational system:
   </dd>
 
   <dt><a href="bio.html" target="_blank">Bio Page</a></dt>
-  <dd>The Bio Page is divided similarly to the Home Page in order to create a consistent look throughout. Just like the Home page, the Bio page is two columns wide on desktops and one column wide on mobile and tablet devices:
+  <dd>The Bio Page is divided similarly to the Home Page in order to maintain consistency. Just like the Home page, the Bio page is two columns wide on desktops and one column wide on mobile and tablet devices:
      <ul>
           <li><strong>Hero Image</strong> - Occupying 50% of the page width, on the left side, while viewing on a desktop. On mobile and tablet devices, the image becomes stacked at the top of the page, occupying 100% of the page width. The imagery used was specifically chosen to visually represent the tonality of the artist's persona.
           </li>
@@ -112,23 +114,25 @@ Each page of the website features a consistent responsive navigational system:
   <dt><a href="live.html" target="_blank">Live Page</a></dt>
   <dd>The Live page uses a full page <strong>background image</strong>, providing a uniformed and consistent look for aesthetic purposes. The image is a secondary feature of this page, but still accurately representing the look and feel of the website. 
   </dd>
-  <dd> A <strong>container</strong> is centered, overlaying the background image. The purpose of this container is to uniformly provide the necessary information to the user, upcoming events in this case. Within this container there are two <strong>call to action</strong> buttons, linking to external websites:
+  <dd> A <strong>container</strong> is centered, overlaying the background image. The purpose of this container is to uniformly provide the necessary information to the user, upcoming events in this case. The container is divided into two, with two columns on a desktop and stacked columns on smaller screens. One column represents the upcoming dates information. Within this colum there are two <strong>call to action</strong> buttons, linking to external websites:
      <ul>
-          <li>Venue website for information and directions</li>
-          <li>Platform to purchase tickets securely</li>
+          <li>Event page</li>
+          <li>Ticketing platform</li>
      </ul>
+     The second column contains an <strong>iFrame</strong> feature of the event's venue location. Providing users with easy access to directions to the venue.
+
   </dd>
 
   <dt><a href="epk.html" target="_blank">Electronic Press Kit Page</a></dt>
-  <dd> The EPK Page has a full page <strong>static background image</strong> that is fixed and unmoving as the user scrolls through the page. Each section of information is housed in their own individual <strong>container</strong>, separated by a margin gaps. This style was created in order to emphasis the sections, as they appear to the user, on the screen without information overload. 
+  <dd> On the desktop, the EPK Page has a half page static background <strong>image carousel</strong> that is fixed and unmoving as the user scrolls through the page. The other half of the pages houses the EPK information in one <strong>container</strong>. The information is separated by a <strong>horizontal ruler</strong> in order to emphasis each piece. On a smaller screen, the page becomes stacked, whereby the images are at the top of the page, but not fixed, followed by the information. 
   </dd>
   <dd>There are several <strong>call to action</strong> buttons throughout the page:
      <ul>
           <li>Link to the external article where the quote is sourced from</li>
-          <li>A <strong>mailto</strong> function provides PR contact details for the artist</li>
+          <li>A <strong>modal</strong> function providing a point of contact for users</li>
      </ul>
   </dd>
-  <dd>The second to last container hosts two <strong>embedded links</strong> that were chosen to showcase the artist's best releases in both audio and video format:
+  <dd>There are two <strong>embedded links</strong> that were chosen to showcase the artist's best releases in both audio and video format:
      <ul>
           <li><strong>Spotify</strong> embedding, showcasing the most played music on Kryan's spotify page</li>
           <li><strong>IGTV</strong> embedding, showcasing his latest music video</li>
@@ -139,32 +143,32 @@ Each page of the website features a consistent responsive navigational system:
 </dl>
  
 ### Existing Features
-- Header Logo - Appearing on every page for brand recognition. Clicking the logo will return the users to the home page, as expected.
-- Header Navigation Bar - Appearing on every page for a consistent and easy and intuitive navigable system.
-- Footer Social Icons - Appearing on every page, the icons are appropriate representations of the Social Media platforms, linking users to Kryan's page on each.
-- Call To Action buttons - Appearing on every page, excluding the Bio Page. Maintaining a consistent and uniform design throughout the page. Clicking the buttons will send users to external sites for various purposes:
+- **Header Logo** - Appearing on every page for brand recognition. Clicking the logo will return the users to the home page, as expected.
+- **Header Navigation Bar** - Appearing on every page for a consistent and easy and intuitive navigable system.
+- **Social Icons** - Appearing on every page, the icons are appropriate representations of the Social Media platforms, linking users to Kryan's page on each. On larger screens, the icons appear in the footer. On smallers screens the icons appear in the collapsed toggler funtion.
+- **Call To Action buttons** - Appearing on every page, excluding the Bio Page. Maintaining a consistent and uniform design throughout the page. Clicking the buttons will send users to external sites for various purposes:
      - Music platform selection page
      - Articles featuring Kryan
      - External ticket purchasing site
-     - Link to venue for upcoming events
+     - Link to events page
      - Mailto action function for contacting PR representative
-- Spotify Embed - Snapshot of Kryan's Spotify page, showcasing a select number of tracks users can choose to play.
-- IGTV Embed - iframe element for a video uploaded to Instagram, showcasing a stripped down version of a latest release.
-- [Bio Page](bio.html "Bio Page") - Providing biographic information for the users to get an understanding of who the artist is, and how they have created their music.
-- [Live Page](live.html "Live Page") - Providing information on upcoming events. with call to action buttons for:
+- **Spotify Embed** - Snapshot of Kryan's Spotify page, showcasing a select number of tracks users can choose to play.
+- **IGTV Embed** - iframe element for a video uploaded to Instagram, showcasing a stripped down version of a latest release.
+- **[Bio Page](bio.html "Bio Page")** - Providing biographic information for the users to get an understanding of who the artist is, and how they have created their music.
+- **[Live Page](live.html "Live Page")** - Providing information on upcoming events. with call to action buttons for:
      - The venue site, for further information and directions
      - The ticket purchasing platform for pricing and ordering
-- [Electronic Press Kit Page](epk.html "Electronic Press Kit Page") - Providing a compressed view of the artist with snapshots of relevant information:
+- **[Electronic Press Kit Page](epk.html "Electronic Press Kit Page")** - Providing a compressed view of the artist with snapshots of relevant information:
      - Media coverage (featured articles)
      - Sample works - audio and video
      - Contact channels for PR representative
 
 ### Features to Implement in the future
-- Merchandise Shop
+- **Merchandise Shop**
      - **Feature** - set up an shop where the artist can sell their merchandise directly to fans online.
      - **Reason for not featuring in this release** - JavaScript needed to implement.
  
- - [LinkFire](https://www.linkfire.com/) embedding
+ - **[LinkFire](https://www.linkfire.com/) embedding**
      - **Feature** - smartlink embedding platform for music promotion
      - **Reason for not featuring in this release** - Budget not available for services
 
@@ -205,8 +209,6 @@ A bug was detected on the Bio page whereby when the page was viewed on a smaller
      - Git was used for version control by utilising the GitPod terminal to commit to Git and push to GitHub.
 - [GitHub](https://github.com/)
      - GitHub was used to store the project after pushing
-- [Adobe XD](https://www.adobe.com/ie/products/xd.html)
-     - Adobe XD was used to create the High-Fidelity mockups during the design phase of the project.
 - [Balsamiq](https://balsamiq.com/)
      - Balsamiq was used to create the wireframes during the design phase of the project.
 
