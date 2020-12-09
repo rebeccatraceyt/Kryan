@@ -1,24 +1,20 @@
-/*------------------------------------------------------- Font Import and General Implentation*/
-@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Raleway:wght@300;700&display=swap');
-
-body {
-    font-family: var(--mainfont);
-}
-
-/*------------------------------------------------------- Special Fonts */
-
-
+/*------------------------------------------------------- Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@900&family=Roboto:wght@400;700&display=swap');
 
 /*------------------------------------------------------- Root Variables */
 :root {
-    --mainfont: 'Cabin', sans-serif;
-    --secondaryfont: 'Raleway', sans-serif;
+    --titlefont: 'Roboto', sans-serif;
+    --bodyfont: 'Lato', sans-serif;
+    --specialfont: 'Montserrat', sans-serif;
     --colour1: hsl(0, 0%, 14%);
     --colour2: whitesmoke;
     --accent: rgb(173, 20, 20);
     --overlay: rgba(0, 0, 0, 0.864)
 }
-
+/*------------------------------------------------------- Special Fonts */
+body {
+    font-family: var(--bodyfont);
+}
 
 /*------------------------------------------------------- Header */
 /* Styling for navigation bar */
@@ -29,7 +25,6 @@ body {
     z-index: 1;
     border: 0;
     width: 100%;
-    font-size: 1.5em;
     z-index: 3;
 }
 
@@ -40,11 +35,11 @@ body {
     padding: 10px;
 }
 .navbar-nav li a {
-    font-family: var(--secondaryfont);
+    font-family: var(--titlefont);
+    font-weight: 400;
     text-align: center;
     color: var(--accent); 
-    font-size: 1em; 
-    font-weight: 400;
+    font-size: 1.25em; 
     line-height: 130%;
     /* Bug that was found on 30/11 with solution sourced from Stack Overflow. Detailed report in the 'Bugs' section of README file*/
 }
@@ -107,6 +102,10 @@ body {
     color: var(--accent);
 }
 
+.home-text h1 {
+    font-family: var(--specialfont);
+}
+
 
 
 /*------------------------------------------------------- Media Queries */
@@ -118,10 +117,7 @@ body {
     /* Styling for nav bar on bigger screens*/
     .navbar-nav {
         background-color: rgba(53, 53, 53, 0);
-        font-size: 16px;
-    }
-    .navbar-nav li a:hover{
-        color: var(--accent);
+        margin: 0px 2px;
     }
 
     /*--------------------------------- Homepage Styling */
@@ -169,5 +165,21 @@ body {
     .navbar-nav {
         font-size: 1em;
         width: 30vw;
+    }
+
+    /*--------------------------------- Socials - Footer */
+
+    /* Social links appear in the footer on tablet device */
+    .socials-large li a i {
+        font-size: 1em;
+        color: var(--accent);
+
+        margin: 5px 2px;
+    }
+    .socials-large li a i:hover {
+        color: var(--colour2);
+    }
+    .socials-large {
+        text-align: center;
     }
 }
