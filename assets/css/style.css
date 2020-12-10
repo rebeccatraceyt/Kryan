@@ -47,6 +47,7 @@ body {
 .navbar-nav{
     background-color: var(--nav-sm);
     border-radius: 20px;
+
 }
 .navbar-nav li a {
     font-family: var(--titlefont);
@@ -60,14 +61,6 @@ body {
 .navbar-nav .active{
     color: var(--colour2);
 }
-
-
-/* Code used to define the class set in Bio.html to change navbar colour on scroll.
-    Source from: https://jsfiddle.net/we9L9h2r/ */
-.navbar-fixed-top .scrolled {
-    background-color: var(--nav-sm) !important;
-    transition: background-color 200ms linear;
-  }  
 
 /* Styling for navbar toggler */
 .custom-toggler .navbar-toggler-icon {
@@ -86,6 +79,12 @@ body {
 .navbar .live-nav { 
     background-color: var(--bg-opaque);
 }
+
+.bio-nav { 
+    background-color: var(--colour1);
+}
+
+
 
 /*------------------------------------------------------- Socials - Header */
 /* Social Links appear in the nav bar header on smaller screens*/
@@ -166,6 +165,11 @@ body {
     font-family: var(--titlefont);
 }
 
+.bio-accordion a {
+    color: var(--accent);
+    font-family: var(--bodyfont);
+}
+
 /*------------------------------------------------------- LivePage Styling*/
 .live-bg {
     background: url(/assets/images/hero3.jpg) no-repeat center fixed; 
@@ -210,7 +214,6 @@ body {
         border-radius: 0px;
     }
 
-
     /*--------------------------------- Homepage Styling */
 
     /* For image on bigger screen */
@@ -252,7 +255,7 @@ body {
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        
+
         height: 100vh;
         width: 50vw;
     }
@@ -263,16 +266,20 @@ body {
 
         height: 100vh;
         width: 50vw;
-        padding: 100px 25px 0px 25px;
-
-        overflow-y: scroll;
+        padding: 100px 0px 50px 25px;
 
         align-items: center;
         align-content: center;
+
+        overflow-x: hidden;
     }
 
     .bio-text .bio-title {
         padding: 200px 100px 5px 100px;
+    }
+
+    .bio-accordion {
+        overflow-y: scroll;
     }
 
     /*--------------------------------- Socials - Footer */
@@ -288,6 +295,7 @@ body {
         color: var(--colour2);
     }
     .socials-large {
+        background-color: var(--colour1);
         text-align: right;
     }
 }
@@ -304,10 +312,6 @@ body {
         font-size: 1em;
         width: 30vw;
     }
- 
-    .navbar-fixed-top.scrolled {
-        background-color: var(--nav-lg) !important;
-      }  
 
     /*--------------------------------- Homepage Styling */
 
