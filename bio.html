@@ -7,8 +7,10 @@
     <meta name="description" content="Website for Irish pop musician Kryan">
     <meta http-equiv="author" content="Rebecca Tracey-Timoney">
     <link rel="shortcut icon" href="assets/images/icon.png">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> <!-- Bootstrap Import-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous"> <!-- Font Awesome Import-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> <!-- Bootstrap Import-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" 
+    integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous"> <!-- Font Awesome Import-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" 
       integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg==" crossorigin="anonymous"/> <!-- Hover.css Import-->
     <link rel="stylesheet" href="assets/css/style.css"/> <!-- style.css import-->
@@ -60,18 +62,73 @@
             </div>
             
             <!------------- Text ------------->
-            <div class="col-12 col-lg-6 bio-text">
-              <div>
-                <h2 class="bio-title">Meet <span class="text-exception">Kryan</span></h2>
-                <div>
-                  <h3>Jordo and the Legs</h3>
-                  <p>Irish tap dancer Ryan “The Legs” Kelly and Jordan O’Leary, guitarist of Dublins heavy acoustic act “The Scratch” started busking together on Grafton Street in the Summer of 2019. 
-                    The act quickly and consistently managed to gather large crowds on the streets, as well as multiple viral videos, some of which reaching up to 20 Million views on Facebook and YouTube. 
-                    They have gotten nods of respect from the likes of Riverdance legend and composer Bill Whelan and Hollywood’s Irish Chris O’Dowd. They have been a source of joy for many shoppers and locals on Grafton street, both young and old. 
-                    Their show consists of old Irish reels and jigs, played with furious speed on the guitar while Ryan and his legs go 90 in intermittent bursts of pure raw power, with plenty of craic and crowd pleasing interaction thrown in along the way.</p>
-                    <!-- Paragraph only broken this way for coding purposes -->
+            <div class="col-12 col-lg-6 bio-info">
+                <div class="bio-title">
+                  <h2>Meet <span class="text-exception">Kryan</span></h2>
                 </div>
-              </div>  
+                <div class="bio-text">
+                  <p>
+                    Hey! My name is Kryan (pronounced 'cryin') </br>
+                    Dublin-based singer/songwriter 'Kryan' first garnered attention when he released his debut single "Alone" in August of 2018. 
+                    Kryan would later return with "Rumours" in 2019. After taking the first half of 2020 off to rebrand his sound/image, 
+                    'Kryan' made a return with "I Always Knew", produced by David Morys Prendergast (Kodaline, Overhead The Albatross) with a new 
+                    confidence and a determination that could conquer the world, twice over. New single “Scars” out November 20, 2020.
+                    <!-- Paragraph only broken this way for coding purposes -->
+                  </p>
+                  <p>Click to read about some of my other works:</p>
+
+                  <!-- Code sourced from W3Schools in order to understand accordion collapsible menus.
+                        https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_collapsible_accordion&stacked=h -->
+                  <div class="container">
+                    <div class="panel-group" id="accordion">
+                      <div class="panel panel-default">
+                        <div class="panel-heading">
+                          <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Jordo and the Legs</a>
+                          </h4>
+                        </div>
+                        <div id="collapse1" class="panel-collapse collapse in">
+                          <div class="panel-body">
+                            <p>Irish tap dancer Ryan “The Legs” Kelly and Jordan O’Leary, guitarist of Dublins heavy acoustic act “The Scratch” started busking together on Grafton Street in the Summer of 2019. 
+                              The act quickly and consistently managed to gather large crowds on the streets, as well as multiple viral videos, some of which reaching up to 20 Million views on Facebook and YouTube. 
+                              They have gotten nods of respect from the likes of Riverdance legend and composer Bill Whelan and Hollywood’s Irish Chris O’Dowd. They have been a source of joy for many shoppers and locals on Grafton street, both young and old. 
+                              Their show consists of old Irish reels and jigs, played with furious speed on the guitar while Ryan and his legs go 90 in intermittent bursts of pure raw power, with plenty of craic and crowd pleasing interaction thrown in along the way.
+                              <!-- Paragraph only broken this way for coding purposes -->
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="panel panel-default">
+                        <div class="panel-heading">
+                          <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Collapsible Group 2</a>
+                          </h4>
+                        </div>
+                        <div id="collapse2" class="panel-collapse collapse">
+                          <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                        </div>
+                      </div>
+                      <div class="panel panel-default">
+                        <div class="panel-heading">
+                          <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Collapsible Group 3</a>
+                          </h4>
+                        </div>
+                        <div id="collapse3" class="panel-collapse collapse">
+                          <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                        </div>
+                      </div>
+                    </div> 
+                  </div>
+
+
+                  
+                  
+                </div> 
             </div>
         </div>
       </div>
@@ -98,7 +155,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     
-    <!-- Code used in order to change nav-bar colour on scroll, for UX purposes. 
+    <!-- Code used in order to change nav-bar colour on scroll, for UI purposes. 
       Source from: https://jsfiddle.net/we9L9h2r/ -->
     <script>
       $(function () {

@@ -39,9 +39,8 @@ body {
     margin-bottom: 0;
     position: fixed;
     border: 0;
-    width: 100%;
+    width: 100vw;
     z-index: 3;
-    padding: 0px;
 }
 
 /* Styling for nav links in navigation bar */
@@ -62,7 +61,10 @@ body {
     color: var(--colour2);
 }
 
-.navbar-fixed-top.scrolled {
+
+/* Code used to define the class set in Bio.html to change navbar colour on scroll.
+    Source from: https://jsfiddle.net/we9L9h2r/ */
+.navbar-fixed-top .scrolled {
     background-color: var(--nav-sm) !important;
     transition: background-color 200ms linear;
   }  
@@ -80,7 +82,8 @@ body {
     border-color: var(--accent);
 } 
 
-.navbar .live-nav {
+/* Changes navbar bg for Live page for UI purposes */
+.navbar .live-nav { 
     background-color: var(--bg-opaque);
 }
 
@@ -106,7 +109,6 @@ body {
     width: 100vw;
     height: 50vh;
 }
-
 .home-text {
     background-color: var(--colour1);
     color: var(--colour2);
@@ -122,20 +124,18 @@ body {
     align-items: center;
     align-content: center;
 }
-
 .home-text a {
     color: var(--accent);
 }
-
 .home-text h1 {
     font-family: var(--specialfont);
     font-size: 250%;
 }
-
 .home-text h2 {
     font-size: 125%;
     font-weight: 400;
 }
+
 /*------------------------------------------------------- BioPage Styling*/
 .bio-hero {
     /* Hero Image compatible with mobile devices */
@@ -149,24 +149,21 @@ body {
     min-height: 60vh;
     /* Bug that was found on 09/12 with solution sourced from Stack Overflow. Detailed report in the 'Bugs' section of README file*/  
 }
-.bio-text {
+.bio-info {
     background-color: var(--colour1);
     color: var(--colour2);
-    font-size: 125%;
 
     width: 100vw;
     min-height: 40vh;
+    padding: 25px;
 
     text-align: left;
-    padding: 20px 30px;
     
-    display: flex;
     justify-content: center;
     align-content: center;
 }
-.bio-text div h2 {
+.bio-title {
     font-family: var(--titlefont);
-    text-align: left;
 }
 
 /*------------------------------------------------------- LivePage Styling*/
@@ -210,7 +207,9 @@ body {
     /* Styling for nav bar on bigger screens*/
     .navbar-nav {
         background-color: var(--nav-lg);
+        border-radius: 0px;
     }
+
 
     /*--------------------------------- Homepage Styling */
 
@@ -248,28 +247,32 @@ body {
     /* For image on bigger screen */
     .bio-hero {
         /* Homepage Image compatible with larger screens */
-        background: url(/assets/images/hero2-d.jpg) no-repeat cover top;
+        background: url(/assets/images/hero2-d.jpg) no-repeat fixed cover top;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-
+        
         height: 100vh;
         width: 50vw;
     }
 
     /* For text on bigger screen */
-    .bio-text{
+    .bio-info{
         background-color: var(--colour1);
 
         height: 100vh;
         width: 50vw;
+        padding: 100px 25px 0px 25px;
 
-        padding: 10px 55px;
+        overflow-y: scroll;
 
-        justify-content: baseline;
         align-items: center;
         align-content: center;
+    }
+
+    .bio-text .bio-title {
+        padding: 200px 100px 5px 100px;
     }
 
     /*--------------------------------- Socials - Footer */
@@ -301,6 +304,10 @@ body {
         font-size: 1em;
         width: 30vw;
     }
+ 
+    .navbar-fixed-top.scrolled {
+        background-color: var(--nav-lg) !important;
+      }  
 
     /*--------------------------------- Homepage Styling */
 
@@ -322,14 +329,10 @@ body {
         width: 100vw;
     }
 
-    .bio-text{
+    .bio-info{
         background-color: var(--colour1);
-
         width: 100vw;
-
         padding: 50px 50px;
-
-        display: flex;
         align-items: baseline;    
     }
     /*--------------------------------- Socials - Footer */
