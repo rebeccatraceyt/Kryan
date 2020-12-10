@@ -18,7 +18,7 @@
 
     <!------------------------------------ HEADER ------------------------------------>
     <!-- Navigation Bar - Sourced from bootstrap.com -->
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
           <a class="navbar-brand" href="index.html">
@@ -62,10 +62,15 @@
             <!------------- Text ------------->
             <div class="col-12 col-lg-6 bio-text">
               <div>
-                <h2>Meet <span class="text-exception">Kryan</span></h2>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                </p>
+                <h2 class="bio-title">Meet <span class="text-exception">Kryan</span></h2>
+                <div>
+                  <h3>Jordo and the Legs</h3>
+                  <p>Irish tap dancer Ryan “The Legs” Kelly and Jordan O’Leary, guitarist of Dublins heavy acoustic act “The Scratch” started busking together on Grafton Street in the Summer of 2019. 
+                    The act quickly and consistently managed to gather large crowds on the streets, as well as multiple viral videos, some of which reaching up to 20 Million views on Facebook and YouTube. 
+                    They have gotten nods of respect from the likes of Riverdance legend and composer Bill Whelan and Hollywood’s Irish Chris O’Dowd. They have been a source of joy for many shoppers and locals on Grafton street, both young and old. 
+                    Their show consists of old Irish reels and jigs, played with furious speed on the guitar while Ryan and his legs go 90 in intermittent bursts of pure raw power, with plenty of craic and crowd pleasing interaction thrown in along the way.</p>
+                    <!-- Paragraph only broken this way for coding purposes -->
+                </div>
               </div>  
             </div>
         </div>
@@ -92,5 +97,17 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+    <!-- Code used in order to change nav-bar colour on scroll, for UX purposes. 
+      Source from: https://jsfiddle.net/we9L9h2r/ -->
+    <script>
+      $(function () {
+        $(document).scroll(function () {
+          var $nav = $(".navbar-fixed-top");
+          $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+        });
+      });
+     </script>
+
   </body>
 </html>

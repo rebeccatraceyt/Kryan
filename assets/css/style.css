@@ -62,6 +62,11 @@ body {
     color: var(--colour2);
 }
 
+.navbar-fixed-top.scrolled {
+    background-color: var(--nav-sm) !important;
+    transition: background-color 200ms linear;
+  }  
+
 /* Styling for navbar toggler */
 .custom-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(173, 20, 20)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
@@ -287,6 +292,7 @@ body {
 
 /* Breakpoint to maintain structural integrity on a Tablet device */
 @media (min-width: 700px) and (max-width: 991px) {
+    
 
     /*--------------------------------- Header */
 
@@ -330,15 +336,13 @@ body {
 
     /* Social links appear in the footer on tablet device */
     .socials-large li a i {
-        font-size: 1.5em;
+        font-size: 2em;
         color: var(--accent);
 
-        margin: 5px 2px;
-    }
-    .socials-large li a i:hover {
-        color: var(--colour2);
+        margin: 8px 2px 3px 2px;
     }
     .socials-large {
+        background-color: var(--colour1);
         text-align: center;
     }
 }
