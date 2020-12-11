@@ -17,12 +17,15 @@
   <body>
 
     <!------------------------------------ HEADER ------------------------------------>
-    <!-- Navigation Bar - Sourced from bootstrap.com -->
+    
+    <!---------- Header Logo ---------->
     <div class="navbar-logo">
       <a  href="index.html">
         <img src="assets/images/logo.png" width="200" height="70" alt="Kryan Logo">
       </a>
     </div>
+
+    <!-- Navigation Bar - Sourced from bootstrap.com -->
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,17 +52,67 @@
         </div>
       </div>
     </nav>
-    <!------------------------------------ Quote ------------------------------------>
+    
+    <!------------------------------------ MAIN SECTION ------------------------------------>
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+            <!----------- Carousel ---------->
 
-    <!------------------------------------ Bio ------------------------------------>
-
-    <!------------------------------------ Embedding ------------------------------------>
-
-    <!------------------------------------ Contact Info ------------------------------------>
+            <!-- Code sourced from W3Schools in order to understand carousels.
+                https://www.w3schools.com/bootstrap4/bootstrap_carousel.asp -->
+            <div class="col-12 col-lg-6 c-style"> 
+              <div id="epk-images" class="carousel slide" data-ride="carousel">
+              
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                  <li data-target="#epk-images" data-slide-to="0" class="active"></li>
+                  <li data-target="#epk-images" data-slide-to="1"></li>
+                  <li data-target="#epk-images" data-slide-to="2"></li>
+                </ul>
+                
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                  <div class="carousel-item active w-100 c-image1">
+                    <!-- Image 1 called in CSS -->
+                    <span class="background-image" role="img" aria-label="Kryan at Whelans"></span>
+                  </div>
+                  <div class="carousel-item w-100 c-image2">
+                    <!-- Image 2 called in CSS -->
+                    <span class="background-image" role="img" aria-label="Kryan at Whelans"></span>
+                  </div>
+                  <div class="carousel-item w-100 c-image3">
+                    <!-- Image 3 called in CSS-->
+                    <span class="background-image" role="img" aria-label="Kryan"></span>
+                  </div>
+                </div>
+                
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#epk-images" data-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#epk-images" data-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </a>
+              </div>
+            </div>
+            
+            <!------------- Text ------------->
+            <div class="col-12 col-lg-6 home-text"> 
+              <div>
+                <h1>EPK</h1>
+              </div>  
+            </div>
+        </div>
+      </div>
+    </section>
 
     <!------------------------------------ FOOTER ------------------------------------>
     <footer class="container-fluid fixed-bottom">
       <div class="row">
+        <div class="col left-footer d-none d-lg-block d-xl-block">
+          <!-- Empty div in order to divide the footer -->
+        </div>
         <div class="col socials-large d-none d-md-block d-lg-block">
           <ul class="list-inline">
             <li class="list-inline-item"><a href="https://www.facebook.com/kryanlive/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>

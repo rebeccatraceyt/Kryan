@@ -220,6 +220,45 @@ body {
 
 }
 
+/*------------------------------------------------------- EPK Styling*/
+/* Styling for carousel images */
+.c-style {
+    width: 100vw;
+    height: 30vh;
+
+    padding: 0;
+}
+
+.c-image1 {
+    background: url(/assets/images/c1-m.jpg) no-repeat center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    width: 100vw;
+    min-height: 30vh;
+}
+.c-image2 {
+    background: url(/assets/images/c2-m.jpg) no-repeat center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    width: 100vw;
+    min-height: 30vh;
+}
+.c-image3 {
+    background: url(/assets/images/c3-m.jpg) no-repeat center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    width: 100vw;
+    min-height: 30vh;
+}
 
 /*------------------------------------------------------- Media Queries */
 /* Breakpoint to maintain structural integrity on a Laptop Screen */
