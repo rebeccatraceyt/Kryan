@@ -196,13 +196,17 @@ A bug was detected on the Bio page whereby when the page was viewed on a smaller
 A bug was detected where the `div` container used to implementing the upcoming events data was anchoring to the top of the page, under the navigation bar. The developer was able to find a similar problem on [Stack Overflow](https://stackoverflow.com/questions/953918/how-to-align-a-div-to-the-middle-horizontally-width-of-the-page) where they copied and edited the code in order to understand the problem and find a solution.
 
 ## Technologies Used
-### Languages Used
+### Main Languages Used
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
+### Additional Languages Used
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+     - Used in the Bio Page to implement a function that allowed the Navbar to change colour when user scrolls through page on mobile device, for UI purposes.
+
 ### Frameworks, Libraries & Programs Used
 - [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
-     - Bootstrap was used to ... 
+     - Bootstrap was used to implement the responsiveness of the site, using bootstrap classes.
 - [Google Fonts](https://fonts.google.com/)
     - Google fonts was used to import the fonts "Roboto", "Lato" and "Montserrat" into the style.css file. These fonts were used throughout the project.
 - [Font Awesome](https://fontawesome.com/)
