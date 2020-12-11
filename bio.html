@@ -25,7 +25,7 @@
         <img src="assets/images/logo.png" width="200" height="70" alt="Kryan Logo">
       </a>
     </div>
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg bio-nav">
       <div class="container-fluid">
         <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -169,5 +169,16 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+    <!-- Changes background of navigation bar on scroll for UI purposes.
+        Sourced from https://jsfiddle.net/we9L9h2r/ -->
+    <script>
+      $(function () {
+        $(document).scroll(function () {
+          var $nav = $(".bio-nav");
+          $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+        });
+      });
+    </script>
   </body>
 </html>

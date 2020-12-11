@@ -17,6 +17,7 @@
     --nav-sm: rgba(40, 40, 40, 0.901);
     --nav-lg: rgba(40, 40, 40, 0);
     --bg-opaque: rgba(40, 40, 40, 0.5);
+    --nav-scroll: rgba(40, 40, 40, 0.699);
 
     /* Colour variables for divs */
     --bg-div: rgba(241, 241, 241, 0.952);
@@ -44,6 +45,7 @@ body {
     right: 0;
     position: fixed;
     z-index: 3;
+    padding: 10px;
 }
 
 /* Styling for logo */
@@ -91,10 +93,19 @@ body {
 .custom-toggler:active {
     border-color: var(--accent);
 } 
+.navbar-toggler {
+    margin: 12px 12px 12px 0px;
+}
 
 /* Changes navbar bg for Live page for UI purposes */
 .navbar .live-nav { 
     background-color: var(--bg-opaque);
+}
+
+/* Defines actions to be taken by Bio page navbar on scroll - For mobile devices */
+.bio-nav.scrolled {
+    background-color: var(--colour1) !important;
+    transition: background-color 200ms linear;
 }
 
 /*------------------------------------------------------- Socials - Header */
@@ -172,7 +183,6 @@ body {
 .bio-title {
     font-family: var(--titlefont);
 }
-
 .bio-accordion a {
     color: var(--accent);
     font-family: var(--bodyfont);
@@ -333,7 +343,6 @@ body {
     }
     .nav-padding {
         padding-top: 30px;
-        margin-left: 75vw;
         /* Needed for toogler navbar on mobile devices */
     }
 
