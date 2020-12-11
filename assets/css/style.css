@@ -1,5 +1,5 @@
 /*------------------------------------------------------- Font Import */
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@900&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:wght@900&family=Roboto:wght@400;700&display=swap');
 
 /*------------------------------------------------------- Root Variables */
 :root {
@@ -24,6 +24,7 @@
 /*------------------------------------------------------- Special Fonts */
 body {
     font-family: var(--bodyfont);
+    font-weight: 300;
 }
 
 /* Styling for text that need to be distinguished */
@@ -175,6 +176,7 @@ body {
 .bio-accordion a {
     color: var(--accent);
     font-family: var(--bodyfont);
+    font-weight: 400;
 }
 
 /*------------------------------------------------------- LivePage Styling*/
@@ -278,7 +280,7 @@ body {
 
         height: 100vh;
         width: 50vw;
-        padding: 100px 0px 50px 25px;
+        padding: 25vh 5vw;
 
         align-items: center;
         align-content: center;
