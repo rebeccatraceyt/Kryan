@@ -44,7 +44,7 @@ body {
     width: 100vw;
     right: 0;
     position: fixed;
-    z-index: 3;
+    z-index: 100;
     padding: 10px;
 }
 
@@ -56,7 +56,7 @@ body {
     position: fixed;
     width: 50vw;
     left: 0;
-    z-index: 13;
+    z-index: 100;
 }
 
 /* Styling for nav links in navigation bar */
@@ -64,6 +64,7 @@ body {
     background-color: var(--nav-sm);
     padding: 10px;
     border-radius: 15px;
+    z-index: 100;
 }
 .navbar-nav li a {
     font-family: var(--titlefont);
@@ -216,8 +217,6 @@ body {
 
     width: 75%;
     height: 50%;
-
-
 }
 
 /*------------------------------------------------------- EPK Styling*/
@@ -226,6 +225,7 @@ body {
     width: 100vw;
     height: 30vh;
 
+    /* Fixes default padding issue with carousel */
     padding: 0;
 }
 
