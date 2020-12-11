@@ -202,7 +202,7 @@ A bug was detected where the `div` container used to implementing the upcoming e
 
 ### Additional Languages Used
 - [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
-     - Used in the Bio Page to implement a function that allowed the Navbar to change colour when user scrolls through page on mobile device, for UI purposes.
+     - Used to implement a function that allowed the Navbar to change colour when user scrolls through page on mobile device, for UI purposes.
 
 ### Frameworks, Libraries & Programs Used
 - [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/)

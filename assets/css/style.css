@@ -102,8 +102,8 @@ body {
     background-color: var(--bg-opaque);
 }
 
-/* Defines actions to be taken by Bio page navbar on scroll - For mobile devices */
-.bio-nav.scrolled {
+/* Defines actions to be taken by navbar on scroll - For mobile devices */
+.scroll-nav.scrolled {
     background-color: var(--colour1) !important;
     transition: background-color 200ms linear;
 }
@@ -229,6 +229,7 @@ body {
     padding: 0;
 }
 
+/* Calling in each image to carousel to ensure responsiveness */
 .c-image1 {
     background: url(/assets/images/c1-m.jpg) no-repeat center top;
     -webkit-background-size: cover;
@@ -342,6 +343,47 @@ body {
         overflow-y: scroll;
         overflow: hidden;
         /* Solved issue with scrollbar on collapsable accordian menu */
+    }
+
+    /*--------------------------------- EPK Styling */  
+    /* Styling for carousel images on larger screens */
+    .c-style {
+        width: 50vw;
+        height: 100vh;
+
+        padding: 0;
+    }
+
+    /* Calling in each image to carousel to ensure responsiveness */
+    .c-image1 {
+        background: url(/assets/images/c1-d.jpg) no-repeat center top;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        
+        height: 100vh;
+        width: 50vw;
+    }
+    .c-image2 {
+        background: url(/assets/images/c2-d.jpg) no-repeat center top;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        
+        height: 100vh;
+        width: 50vw;
+    }
+    .c-image3 {
+        background: url(/assets/images/c3-d.jpg) no-repeat center top;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        
+        height: 100vh;
+        width: 50vw;
     }
 
     /*--------------------------------- Socials - Footer */

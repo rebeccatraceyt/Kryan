@@ -28,7 +28,7 @@
     </div>
 
     <!-- Navigation Bar - Sourced from bootstrap.com -->
-    <nav class="navbar navbar-expand-lg bio-nav">
+    <nav class="navbar navbar-expand-lg scroll-nav">
       <div class="container-fluid">
         <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -178,7 +178,7 @@
     <script>
       $(function () {
         $(document).scroll(function () {
-          var $nav = $(".bio-nav");
+          var $nav = $(".scroll-nav");
           $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
         });
       });
