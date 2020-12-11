@@ -47,6 +47,7 @@ body {
 
 /* Styling for logo */
 .navbar-logo {
+    padding: 10px 0px 0px 10px;
     margin-bottom: 0;
     border: 0;
     position: fixed;
@@ -115,13 +116,13 @@ body {
     /* Bug that was found on 02/12 with solution sourced from Stack Overflow. Detailed report in the 'Bugs' section of README file*/
 
     width: 100vw;
-    height: 50vh;
+    height: 60vh;
 }
 .home-text {
     background-color: var(--colour1);
     color: var(--colour2);
     width: 100vw;
-    height: 50vh;
+    height: 40vh;
     text-align: center;
     
     /* Bug that was found on 01/12 with solution sourced from Stack Overflow. Detailed report in the 'Bugs' section of README file */
