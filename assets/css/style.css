@@ -36,31 +36,30 @@ body {
 /*------------------------------------------------------- Header */
 /* Styling for navigation bar */
 .navbar{
-    background-color: var(--colour1);
+    background-color: transparent;
     margin-bottom: 0;
-    position: fixed;
     border: 0;
+    width: 100vw;
     right: 0;
-    width: 50vw;
+    position: fixed;
     z-index: 3;
-    padding: 10px;
 }
 
+/* Styling for logo */
 .navbar-logo {
     margin-bottom: 0;
-    position: fixed;
     border: 0;
+    position: fixed;
     width: 50vw;
     left: 0;
     z-index: 13;
-    padding: 10px;
 }
 
 /* Styling for nav links in navigation bar */
 .navbar-nav{
     background-color: var(--nav-sm);
-    border-radius: 20px;
-
+    padding: 10px;
+    border-radius: 15px;
 }
 .navbar-nav li a {
     font-family: var(--titlefont);
@@ -73,6 +72,9 @@ body {
 }
 .navbar-nav .active{
     color: var(--colour2);
+}
+.nav-padding {
+    padding-top: 30px;
 }
 
 /* Styling for navbar toggler */
@@ -92,14 +94,6 @@ body {
 .navbar .live-nav { 
     background-color: var(--bg-opaque);
 }
-
-.bio-header { 
-    background: aquamarine no-repeat scroll right top;
-    width: 50vw;
-    height: 10%;
-}
-
-
 
 /*------------------------------------------------------- Socials - Header */
 /* Social Links appear in the nav bar header on smaller screens*/
@@ -126,10 +120,8 @@ body {
 .home-text {
     background-color: var(--colour1);
     color: var(--colour2);
-
     width: 100vw;
     height: 50vh;
-
     text-align: center;
     
     /* Bug that was found on 01/12 with solution sourced from Stack Overflow. Detailed report in the 'Bugs' section of README file */
@@ -172,7 +164,6 @@ body {
     padding: 25px;
 
     text-align: left;
-    
     justify-content: center;
     align-content: center;
 }
@@ -224,9 +215,17 @@ body {
     /*--------------------------------- Header */
 
     /* Styling for nav bar on bigger screens*/
+    .navbar {
+        background-color: var(--colour1);
+        float: right;
+        width: 50vw;
+    }
     .navbar-nav {
         background-color: var(--nav-lg);
         border-radius: 0px;
+    }
+    .nav-padding {
+        padding-top: 0;
     }
 
     /*--------------------------------- Homepage Styling */
@@ -243,7 +242,6 @@ body {
         height: 100vh;
         width: 50vw;
     }
-
     /* For text on bigger screen */
     .home-text{
         background-color: var(--colour1);
@@ -251,11 +249,9 @@ body {
         height: 100vh;
         width: 50vw;
     }
-
     .home-text h1 {
         font-size: 500%;
     }
-
     .home-text h2 {
         font-size: 250%;
     }
@@ -287,14 +283,13 @@ body {
         align-content: center;
         overflow: auto;
     }
-
     .bio-text .bio-title {
         padding: 200px 100px 5px 100px;
     }
-
     .bio-accordion {
         overflow-y: scroll;
         overflow: hidden;
+        /* Solved issue with scrollbar on collapsable accordian menu */
     }
 
     /*--------------------------------- Socials - Footer */
@@ -312,6 +307,12 @@ body {
     .socials-large {
         background-color: var(--colour1);
         text-align: right;
+        width: 50vw;
+    }
+
+    /* Divides footer into two columns to push socials to right of page*/
+    .left-footer {
+        width: 50vw;
     }
 }
 
@@ -327,17 +328,20 @@ body {
         font-size: 1em;
         width: 30vw;
     }
+    .nav-padding {
+        padding-top: 30px;
+        margin-left: 75vw;
+        /* Needed for toogler navbar on mobile devices */
+    }
 
     /*--------------------------------- Homepage Styling */
 
     .home-text h1 {
         font-size: 600%;
     }
-
     .home-text h2 {
         font-size: 350%;
     }
-
 
     /*--------------------------------- BioPage Styling */
 
@@ -347,13 +351,13 @@ body {
         height: 60vh;
         width: 100vw;
     }
-
     .bio-info{
         background-color: var(--colour1);
         width: 100vw;
         padding: 50px 50px;
         align-items: baseline;    
     }
+
     /*--------------------------------- Socials - Footer */
 
     /* Social links appear in the footer on tablet device */
