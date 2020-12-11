@@ -223,7 +223,7 @@ body {
 /* Styling for carousel images */
 .c-style {
     width: 100vw;
-    height: 30vh;
+    height: 40vh;
 
     /* Fixes default padding issue with carousel */
     padding: 0;
@@ -238,7 +238,7 @@ body {
     background-size: cover;
     
     width: 100vw;
-    min-height: 30vh;
+    min-height: 40vh;
 }
 .c-image2 {
     background: url(/assets/images/c2-m.jpg) no-repeat center top;
@@ -248,7 +248,7 @@ body {
     background-size: cover;
     
     width: 100vw;
-    min-height: 30vh;
+    min-height: 40vh;
 }
 .c-image3 {
     background: url(/assets/images/c3-m.jpg) no-repeat center top;
@@ -258,7 +258,7 @@ body {
     background-size: cover;
     
     width: 100vw;
-    min-height: 30vh;
+    min-height: 40vh;
 }
 
 .epk-text {
@@ -266,7 +266,7 @@ body {
     color: var(--colour2);
 
     width: 100vw;
-    min-height: 70vh;
+    min-height: 60vh;
     padding: 25px;
 
     text-align: left;
