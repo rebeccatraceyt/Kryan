@@ -261,6 +261,19 @@ body {
     min-height: 30vh;
 }
 
+.epk-text {
+    background-color: var(--colour1);
+    color: var(--colour2);
+
+    width: 100vw;
+    min-height: 70vh;
+    padding: 25px;
+
+    text-align: left;
+    justify-content: center;
+    align-content: center;
+}
+
 /*------------------------------------------------------- Media Queries */
 /* Breakpoint to maintain structural integrity on a Laptop Screen */
 @media (min-width: 991px){ 
@@ -297,7 +310,6 @@ body {
     }
     /* For text on bigger screen */
     .home-text{
-        background-color: var(--colour1);
         padding: 0px 20px;
         height: 100vh;
         width: 50vw;
@@ -326,8 +338,6 @@ body {
 
     /* For text on bigger screen */
     .bio-info{
-        background-color: var(--colour1);
-
         height: 100vh;
         width: 50vw;
         padding: 25vh 5vw;
@@ -384,6 +394,18 @@ body {
         
         height: 100vh;
         width: 50vw;
+    }
+
+    .epk-text {
+        background-color: var(--colour1);
+
+        height: 100vh;
+        width: 50vw;
+        padding: 25vh 5vw;
+
+        align-items: center;
+        align-content: center;
+        overflow: auto;
     }
 
     /*--------------------------------- Socials - Footer */
