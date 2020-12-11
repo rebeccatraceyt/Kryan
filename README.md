@@ -74,6 +74,8 @@ The selected imagery is modern and cohesively aesthetic, reflecting the artist's
 
 The imagery is catching and visually represents the theme of the website.
 
+All imagery provides alternative text to be used in the event that the element cannot be rendered. The template used to provide alt text for background images can be found [here](http://www.davidmacd.com/blog/alternate-text-for-css-background-images.html).
+
 ### Wireframes and Mockups
 
    - Home Page - [View Wireframe](# "Home Page Wireframe") | [View Mockup](# "Home Page Mockup")
