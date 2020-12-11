@@ -36,11 +36,24 @@ body {
 /*------------------------------------------------------- Header */
 /* Styling for navigation bar */
 .navbar{
+    background-color: var(--colour1);
     margin-bottom: 0;
     position: fixed;
     border: 0;
-    width: 100vw;
+    right: 0;
+    width: 50vw;
     z-index: 3;
+    padding: 10px;
+}
+
+.navbar-logo {
+    margin-bottom: 0;
+    position: fixed;
+    border: 0;
+    width: 50vw;
+    left: 0;
+    z-index: 13;
+    padding: 10px;
 }
 
 /* Styling for nav links in navigation bar */
@@ -80,8 +93,10 @@ body {
     background-color: var(--bg-opaque);
 }
 
-.bio-nav { 
-    background-color: var(--colour1);
+.bio-header { 
+    background: aquamarine no-repeat scroll right top;
+    width: 50vw;
+    height: 10%;
 }
 
 
@@ -270,8 +285,7 @@ body {
 
         align-items: center;
         align-content: center;
-
-        overflow-x: hidden;
+        overflow: auto;
     }
 
     .bio-text .bio-title {
@@ -280,6 +294,7 @@ body {
 
     .bio-accordion {
         overflow-y: scroll;
+        overflow: hidden;
     }
 
     /*--------------------------------- Socials - Footer */
