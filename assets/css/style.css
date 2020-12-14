@@ -286,6 +286,9 @@ hr.epk-hr {
     width: 70%;
     margin: 25px auto;
 }
+.epk-iframe {
+    text-align:center;
+}
 
 /*------------------------------------------------------- Media Queries */
 /* Breakpoint to maintain structural integrity on a Laptop Screen */
