@@ -284,6 +284,7 @@ hr.epk-hr {
     border: 0.1px solid var(--hr-colour);
     text-align: center;
     width: 70%;
+    margin: 25px auto;
 }
 
 /*------------------------------------------------------- Media Queries */
