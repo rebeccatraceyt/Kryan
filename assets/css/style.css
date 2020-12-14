@@ -9,9 +9,9 @@
     --specialfont: 'Montserrat', sans-serif;
 
     /* Colour variables for font */
-    --colour1: #141414;
-    --colour2: #F6F6F6;
-    --accent: #7B0000;
+    --colour1: rgb(20, 20, 20);
+    --colour2: rgb(246, 246, 246);
+    --accent: rgb(123, 0, 0);
 
     /* Colour variables for navbars */
     --nav-sm: rgba(40, 40, 40, 0.901);
@@ -21,6 +21,9 @@
 
     /* Colour variables for divs */
     --bg-div: rgba(241, 241, 241, 0.952);
+
+    /* Colour variables for horizontal rulers */
+    --hr-colour: rgba(246, 246, 246, 0.377);
 }
 /*------------------------------------------------------- Special Fonts */
 body {
@@ -80,6 +83,7 @@ body {
 }
 .nav-padding {
     padding-top: 30px;
+    /* Needed for toogler navbar on mobile devices */
 }
 
 /* Styling for navbar toggler */
@@ -98,7 +102,7 @@ body {
     margin: 12px 12px 12px 0px;
 }
 
-/* Changes navbar bg for Live page for UI purposes */
+/* Changes navbar bg for Live page for UX purposes */
 .navbar .live-nav { 
     background-color: var(--bg-opaque);
 }
@@ -212,8 +216,8 @@ body {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%); /* for IE 9 */
-    -webkit-transform: translate(-50%, -50%); /* for Safari */
+    -ms-transform: translate(-50%, -50%); 
+    -webkit-transform: translate(-50%, -50%); 
 
     width: 75%;
     height: 50%;
@@ -228,7 +232,6 @@ body {
     /* Fixes default padding issue with carousel */
     padding: 0;
 }
-
 /* Calling in each image to carousel to ensure responsiveness */
 .c-image1 {
     background: url(/assets/images/c1-m.jpg) no-repeat center top;
@@ -264,14 +267,23 @@ body {
 .epk-text {
     background-color: var(--colour1);
     color: var(--colour2);
+    font-size: 1.2em;
 
     width: 100vw;
     min-height: 60vh;
     padding: 25px;
 
-    text-align: left;
     justify-content: center;
     align-content: center;
+}
+.epk-text a:hover {
+    color: var(--accent);
+    text-decoration: none;
+}
+hr.epk-hr {
+    border: 0.1px solid var(--hr-colour);
+    text-align: center;
+    width: 70%;
 }
 
 /*------------------------------------------------------- Media Queries */
@@ -443,10 +455,6 @@ body {
     .navbar-nav {
         font-size: 1em;
         width: 30vw;
-    }
-    .nav-padding {
-        padding-top: 30px;
-        /* Needed for toogler navbar on mobile devices */
     }
 
     /*--------------------------------- Homepage Styling */
