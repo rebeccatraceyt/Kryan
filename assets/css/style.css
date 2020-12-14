@@ -286,8 +286,27 @@ hr.epk-hr {
     width: 70%;
     margin: 25px auto;
 }
+#epk-insta {
+    margin: auto;
+    min-width: 50%;
+    max-width: 80%;
+    padding: 10px;
+    display: block;
+}
+.instagram-media {
+    min-width: 70% !important;
+    /* Bug that was found on 14/12 with solution sourced from WordPress. Detailed report in the 'Bugs' section of README file*/  
+
+}
 .epk-iframe {
     text-align:center;
+    margin: auto;
+    /* Source from Stack Overflow in order to center the Spotify iFrame embed in the middle of the page
+        https://stackoverflow.com/questions/59411725/how-would-i-center-this-iframe-on-a-webpage */
+}
+.epk-modal {
+    text-align: center;
+    margin: auto;
 }
 
 /*------------------------------------------------------- Media Queries */
