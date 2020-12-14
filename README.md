@@ -197,6 +197,9 @@ A bug was detected on the Bio page whereby when the page was viewed on a smaller
 ### Events `<div>` Bug - Live Page
 A bug was detected where the `div` container used to implementing the upcoming events data was anchoring to the top of the page, under the navigation bar. The developer was able to find a similar problem on [Stack Overflow](https://stackoverflow.com/questions/953918/how-to-align-a-div-to-the-middle-horizontally-width-of-the-page) where they copied and edited the code in order to understand the problem and find a solution.
 
+### IGTV Bug - Press Kit Page
+A bug was detected in the in IGTV embedding code which was affecting the responsivness of the embed. The `min-width: 326px` value was distorting the video when viewing on a mobile device. Using a post with a similiar problem from [WordPress](https://wordpress.org/support/topic/problem-embedding-instagram/) the developer was able to override this with a `!important` value after the set element, allowing it to be responisive across all devices. The developer recognises that this may not be best practice but, in this case, it was necessary in order to maintain responsivness.
+
 ## Technologies Used
 ### Main Languages Used
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
