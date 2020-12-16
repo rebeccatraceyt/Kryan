@@ -14,9 +14,8 @@
     --accent: rgb(123, 0, 0);
 
     /* Colour variables for navbars */
-    --nav-sm: rgba(40, 40, 40, 0.901);
-    --nav-lg: rgba(40, 40, 40, 0);
-    --bg-opaque: rgba(40, 40, 40, 0.5);
+    --nav-dark: rgba(40, 40, 40, 0.901);
+    --nav-light: rgba(40, 40, 40, 0);
     --nav-scroll: rgba(40, 40, 40, 0.699);
 
     /* Colour variables for divs */
@@ -64,7 +63,7 @@ body {
 
 /* Styling for nav links in navigation bar */
 .navbar-nav{
-    background-color: var(--nav-sm);
+    background-color: var(--nav-dark);
     padding: 10px;
     border-radius: 15px;
     z-index: 100;
@@ -102,9 +101,9 @@ body {
     margin: 12px 12px 12px 0px;
 }
 
-/* Changes navbar bg for Live page for UX purposes */
-.navbar .live-nav { 
-    background-color: var(--bg-opaque);
+/* Changes navbar for Live page for UX purposes */
+.live-nav { 
+    background-color: transparent;
 }
 
 /* Defines actions to be taken by navbar on scroll - For mobile devices */
@@ -353,7 +352,7 @@ input[type=text], input[type=email], textarea {
         width: 50vw;
     }
     .navbar-nav {
-        background-color: var(--nav-lg);
+        background-color: var(--nav-light);
         border-radius: 0px;
     }
     .nav-padding {
