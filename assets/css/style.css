@@ -267,7 +267,7 @@ body {
 .epk-text {
     background-color: var(--colour1);
     color: var(--colour2);
-    font-size: 1.1em;
+    font-size: 1.2em;
 
     width: 100vw;
     min-height: 60vh;
@@ -296,6 +296,8 @@ hr.epk-hr {
     /* Bug that was found on 14/12 with solution sourced from WordPress. Detailed report in the 'Bugs' section of README file*/  
 
 }
+
+/* Spotify embed styling */
 .epk-iframe {
     text-align:center;
     margin: auto;
@@ -306,6 +308,37 @@ hr.epk-hr {
     text-align: center;
     margin: auto;
 }
+
+/* "Get in touch" Button to trigger modal */
+.modal-click {
+    background-color: var(--colour2);
+    color: var(--accent);
+    font-size: 1.2em;
+}
+.modal-content {
+    background-color: var(--colour2);
+    color: var(--accent);
+}
+.modal-body button {
+    background-color: var(--accent);
+    color: var(--colour2);
+    width: 30%;
+}
+.modal-body button:hover {
+    color: var(--colour2);
+}
+
+/* Copied and edited from W3Schools example */
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
 
 /*------------------------------------------------------- Media Queries */
 /* Breakpoint to maintain structural integrity on a Laptop Screen */
