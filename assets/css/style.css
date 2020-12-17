@@ -323,7 +323,7 @@ hr.epk-hr {
 .modal-body button {
     background-color: var(--accent);
     color: var(--colour2);
-    width: 30%;
+    width: 60%;
 }
 .modal-body button:hover {
     color: var(--colour2);
@@ -425,7 +425,19 @@ input[type=text], input[type=email], textarea {
         /* Solved issue with scrollbar on collapsable accordian menu */
     }
 
-    /*--------------------------------- EPK Styling */  
+    /*--------------------------------- EPK Styling */
+    .epk-text {
+        background-color: var(--colour1);
+
+        height: 100vh;
+        width: 50vw;
+        padding: 25vh 5vw;
+
+        align-items: center;
+        align-content: center;
+        overflow: auto;
+    }
+      
     /* Styling for carousel images on larger screens */
     .c-style {
         width: 50vw;
@@ -466,16 +478,9 @@ input[type=text], input[type=email], textarea {
         width: 50vw;
     }
 
-    .epk-text {
-        background-color: var(--colour1);
-
-        height: 100vh;
-        width: 50vw;
-        padding: 25vh 5vw;
-
-        align-items: center;
-        align-content: center;
-        overflow: auto;
+    /* Modal button re-sizing for larger devices */
+    .modal-body button {
+        width: 30%;
     }
 
     /*--------------------------------- Socials - Footer */
