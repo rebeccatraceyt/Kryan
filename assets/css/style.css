@@ -223,6 +223,29 @@ body {
 }
 
 /*------------------------------------------------------- EPK Styling*/
+.epk-text {
+    background-color: var(--colour1);
+    color: var(--colour2);
+    font-size: 1.2em;
+
+    width: 100vw;
+    min-height: 60vh;
+    padding: 25px;
+
+    justify-content: center;
+    align-content: center;
+}
+.epk-text a:hover {
+    color: var(--accent);
+    text-decoration: none;
+}
+hr.epk-hr {
+    border: 1px solid var(--hr-colour);
+    text-align: center;
+    width: 70%;
+    margin: 25px auto;
+}
+
 /* Styling for carousel images */
 .c-style {
     width: 100vw;
@@ -263,28 +286,7 @@ body {
     min-height: 40vh;
 }
 
-.epk-text {
-    background-color: var(--colour1);
-    color: var(--colour2);
-    font-size: 1.2em;
-
-    width: 100vw;
-    min-height: 60vh;
-    padding: 25px;
-
-    justify-content: center;
-    align-content: center;
-}
-.epk-text a:hover {
-    color: var(--accent);
-    text-decoration: none;
-}
-hr.epk-hr {
-    border: 1px solid var(--hr-colour);
-    text-align: center;
-    width: 70%;
-    margin: 25px auto;
-}
+/* IGTV embed styling */
 #epk-insta {
     margin: auto;
     padding: 10px;
@@ -293,7 +295,6 @@ hr.epk-hr {
 .instagram-media {
     min-width: 70% !important;
     /* Bug that was found on 14/12 with solution sourced from WordPress. Detailed report in the 'Bugs' section of README file*/  
-
 }
 
 /* Spotify embed styling */
@@ -303,16 +304,17 @@ hr.epk-hr {
     /* Source from Stack Overflow in order to center the Spotify iFrame embed in the middle of the page
         https://stackoverflow.com/questions/59411725/how-would-i-center-this-iframe-on-a-webpage */
 }
-.epk-modal {
-    text-align: center;
-    margin: auto;
-}
 
-/* "Get in touch" Button to trigger modal */
+/* Modal styling */
 .modal-click {
+    /* "Get in touch" Button styling */
     background-color: var(--colour2);
     color: var(--accent);
     font-size: 1.2em;
+}
+.epk-modal {
+    text-align: center;
+    margin: auto;
 }
 .modal-content {
     background-color: var(--colour2);
@@ -326,8 +328,11 @@ hr.epk-hr {
 .modal-body button:hover {
     color: var(--colour2);
 }
+#message-success { 
+    display: none; 
+}
 
-/* Copied and edited from W3Schools example */
+/* Copied and edited from W3Schools example to style contact form */
 input[type=text], input[type=email], textarea {
     width: 100%;
     padding: 12px;
@@ -337,7 +342,7 @@ input[type=text], input[type=email], textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
-  }
+}
 
 /*------------------------------------------------------- Media Queries */
 /* Breakpoint to maintain structural integrity on a Laptop Screen */

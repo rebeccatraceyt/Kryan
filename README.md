@@ -155,7 +155,7 @@ Each page of the website features a consistent responsive navigational system:
      - Link to events page
      - Mailto action function for contacting PR representative
 - **Spotify Embed** - Snapshot of Kryan's Spotify page, showcasing a select number of tracks users can choose to play.
-- **IGTV Embed** - iframe element for a video uploaded to Instagram, showcasing a stripped down version of a latest release.
+- **IGTV Embed** - iframe element for a video uploaded to Instagram, showcasing a stripped down version of a latest release. This embed was copied straight from Instagram. The developer did not want to alter this text in order to maintain the integrity of the embedding. The only change made was to override the `min-width` value to `min-width: 70% !important;` in order to fixed a problem with the responsiveness of the embed.
 - **[Bio Page](bio.html "Bio Page")** - Providing biographic information for the users to get an understanding of who the artist is, and how they have created their music.
 - **[Live Page](live.html "Live Page")** - Providing information on upcoming events. with call to action buttons for:
      - The venue site, for further information and directions
