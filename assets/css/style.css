@@ -128,6 +128,7 @@ body {
 }
 
 /*------------------------------------------------------- Homepage Styling */
+/* General styling for hero image */
 .home-hero {
     /* Hero Image compatible with mobile devices */
     background: url(/assets/images/hero-m.jpg) no-repeat center top;
@@ -140,6 +141,8 @@ body {
     width: 100vw;
     height: 60vh;
 }
+
+/* General styling for home page text */
 .home-text {
     background-color: var(--colour1);
     color: var(--colour2);
@@ -166,6 +169,7 @@ body {
 }
 
 /*------------------------------------------------------- BioPage Styling */
+/* General styling for hero image */
 .bio-hero {
     /* Hero Image compatible with mobile devices */
     background: url(/assets/images/hero2-m.jpg) no-repeat center top;
@@ -178,6 +182,8 @@ body {
     min-height: 60vh;
     /* Bug that was found on 09/12 with solution sourced from Stack Overflow. Detailed report in the 'Bugs' section of README file*/  
 }
+
+/* General styling for Bio text */
 .bio-info {
     background-color: var(--colour1);
     color: var(--colour2);
@@ -193,13 +199,16 @@ body {
 .bio-title {
     font-family: var(--titlefont);
 }
+
+/* Styling for accordion text */
 .bio-accordion a {
     color: var(--accent);
     font-family: var(--bodyfont);
     font-weight: 400;
 }
 
-/*------------------------------------------------------- LivePage Styling */
+/*------------------------------------------------------- Live Page Styling */
+/* Background styling */
 .live-bg {
     background: url(/assets/images/hero3.jpg) no-repeat center fixed; 
     -webkit-background-size: cover;
@@ -213,6 +222,7 @@ body {
     height: 100vh;
 }
 
+/* General styling for event div */
 .event-info {
     background-color: var(--bg-div-light);
     border: 5px solid var(--colour1);
@@ -220,39 +230,42 @@ body {
     /* Bug that was found on 09/12 with solution sourced from Stack Overflow. Detailed report in the 'Bugs' section of README file*/  
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 55%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%); 
     -webkit-transform: translate(-50%, -50%); 
 
-    width: 75%;
-    height: 50%;
+    min-width: 75%;
+    height: auto;
 
     padding: 10px;
 }
-
 .event-info h1 {
     color: var(--accent);
-    font-size: 2.1em;
-    width: 100;
+    font-size: 2em;
     padding-bottom: 10px;
+
 }
 
+
+/* Event details styling */
 .event-details {
-    margin: 0px auto;
-    padding: 20px 10px;
-    width: 90%;
-    height: 100%;
     background-color: var(--bg-div-dark);
     border: 1px solid var(--colour1);
+    margin: 0px auto;
+    padding: 20px 10px 5px 10px;
+    width: 100%;
+    height: 100%;
+
+    position: relative;
 }
 .event-details h2 {
     color: var(--accent);
-    font-size: 1.8em;
+    font-size: 1em;
 }
 .event-details h4 {
     color: var(--colour1);
-    font-size: 1.4em;
+    font-size: 1em;
 }
 .event-details h4 a {
     color: var(--accent);
@@ -260,6 +273,8 @@ body {
 .event-details a:hover {
     text-decoration: none;
 }
+
+/* Styling for ticket button */
 .ticket-btn {
     display: flex;
     justify-content: center;
@@ -268,13 +283,31 @@ body {
 .ticket-btn button {
     background-color: var(--accent);
     border: 1px solid var(--colour1);
+    padding: 2px 7px;
 }
 .ticket-btn a {
     color: var(--colour2);
-    font-size: 1.5em;
+    font-size: 1.2em;
+}
+
+/* Event location styling */
+.event-location {
+    margin: auto;
+    padding: 20px 10px 5px 10px;
+    width: 100%;
+    position: relative;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+iframe.event-location  {
+    width: 100% !important;
+    height: 100% !important;
 }
 
 /*------------------------------------------------------- EPK Styling */
+/* General styling for right side of page */
 .epk-text {
     background-color: var(--colour1);
     color: var(--colour2);
@@ -291,6 +324,8 @@ body {
     color: var(--accent);
     text-decoration: none;
 }
+
+/* Horizontal ruler stylings */
 hr.epk-hr {
     border: 1px solid var(--hr-colour);
     text-align: center;
@@ -360,9 +395,13 @@ hr.epk-hr {
 /* Modal styling */
 .modal-click {
     /* "Get in touch" Button styling */
+    background-color: var(--accent);
+    color: var(--colour2);
+    font-size: 1.2em;
+}
+.modal-click:hover {
     background-color: var(--colour2);
     color: var(--accent);
-    font-size: 1.2em;
 }
 .epk-modal {
     text-align: center;
@@ -397,6 +436,66 @@ input[type=text], input[type=email], textarea {
 }
 
 /*------------------------------------------------------- Media Queries */
+
+/* Breakpoint to maintain structural integrity on a Tablet device */
+@media (min-width: 700px) and (max-width: 991px) {
+    
+    /*--------------------------------- Header */
+
+    /* Styling for navigation bar for screens larger than mobile device */
+    .navbar-nav {
+        font-size: 1em;
+        width: 30vw;
+    }
+
+    /*--------------------------------- Homepage Styling */
+
+    /* For text on screens larger than mobile device */
+    .home-text h1 {
+        font-size: 600%;
+    }
+    .home-text h2 {
+        font-size: 350%;
+    }
+
+    /*--------------------------------- BioPage Styling */
+
+    /* For image on screens larger than mobile device */
+    .bio-hero {
+
+        height: 60vh;
+        width: 100vw;
+    }
+
+    /* For text on screens larger than mobile device */
+    .bio-info{
+        background-color: var(--colour1);
+        width: 100vw;
+        padding: 50px 50px;
+        align-items: baseline;    
+    }
+
+    /*--------------------------------- Live Page Styling */
+
+   
+    /*--------------------------------- Socials - Footer */
+
+    /* Social links appear in the footer on tablet device */
+    .socials-large li a i {
+        font-size: 2em;
+        color: var(--accent);
+
+        margin: 8px 2px 3px 2px;
+    }
+    .socials-large {
+        background-color: var(--colour1);
+        text-align: center;
+    }
+    .list-inline {
+        margin: 10px 5px;
+    }
+}
+
 /* Breakpoint to maintain structural integrity on a Laptop Screen */
 @media (min-width: 991px){ 
     
@@ -482,7 +581,13 @@ input[type=text], input[type=email], textarea {
         /* Solved issue with scrollbar on collapsable accordian menu */
     }
 
+    /*--------------------------------- Live Page Styling */
+
+
+    
     /*--------------------------------- EPK Styling */
+
+    /* For text on bigger screen */
     .epk-text {
         background-color: var(--colour1);
 
@@ -544,7 +649,7 @@ input[type=text], input[type=email], textarea {
 
     /* Social links appear in the footer on bigger screen */
     .socials-large li a i {
-        font-size: 1.5em;
+        font-size: 2em;
         color: var(--accent);
 
         margin: 5px 2px;
@@ -565,63 +670,9 @@ input[type=text], input[type=email], textarea {
     .left-footer {
         width: 50vw;
     }
-
     .live-footer {
         text-align: center;
     }
 }
 
 
-/* Breakpoint to maintain structural integrity on a Tablet device */
-@media (min-width: 700px) and (max-width: 991px) {
-    
-
-    /*--------------------------------- Header */
-
-    /* Styling for navigation bar for screens larger than mobile device */
-    .navbar-nav {
-        font-size: 1em;
-        width: 30vw;
-    }
-
-    /*--------------------------------- Homepage Styling */
-
-    .home-text h1 {
-        font-size: 600%;
-    }
-    .home-text h2 {
-        font-size: 350%;
-    }
-
-    /*--------------------------------- BioPage Styling */
-
-    /* For text on screens larger than mobile device */
-    .bio-hero {
-
-        height: 60vh;
-        width: 100vw;
-    }
-    .bio-info{
-        background-color: var(--colour1);
-        width: 100vw;
-        padding: 50px 50px;
-        align-items: baseline;    
-    }
-
-    /*--------------------------------- Socials - Footer */
-
-    /* Social links appear in the footer on tablet device */
-    .socials-large li a i {
-        font-size: 2em;
-        color: var(--accent);
-
-        margin: 8px 2px 3px 2px;
-    }
-    .socials-large {
-        background-color: var(--colour1);
-        text-align: center;
-    }
-    .list-inline {
-        margin: 10px 5px;
-    }
-}
