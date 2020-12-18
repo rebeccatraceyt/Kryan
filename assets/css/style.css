@@ -19,7 +19,8 @@
     --nav-scroll: rgba(40, 40, 40, 0.699);
 
     /* Colour variables for divs */
-    --bg-div: rgba(241, 241, 241, 0.952);
+    --bg-div-light: rgba(241, 241, 241, 0.952);
+    --bg-div-dark: rgba(0, 0, 0, 0.493);
 
     /* Colour variables for horizontal rulers */
     --hr-colour: rgba(246, 246, 246, 0.377);
@@ -116,6 +117,7 @@ body {
     transition: background-color 200ms linear;
 }
 
+
 /*------------------------------------------------------- Socials - Header */
 /* Social Links appear in the nav bar header on smaller screens*/
 .socials-nav {
@@ -125,7 +127,7 @@ body {
     /* Bug that was found on 09/12 with solution sourced from Stack Overflow. Detailed report in the 'Bugs' section of README file*/
 }
 
-/*------------------------------------------------------- Homepage Styling*/
+/*------------------------------------------------------- Homepage Styling */
 .home-hero {
     /* Hero Image compatible with mobile devices */
     background: url(/assets/images/hero-m.jpg) no-repeat center top;
@@ -163,7 +165,7 @@ body {
     font-weight: 400;
 }
 
-/*------------------------------------------------------- BioPage Styling*/
+/*------------------------------------------------------- BioPage Styling */
 .bio-hero {
     /* Hero Image compatible with mobile devices */
     background: url(/assets/images/hero2-m.jpg) no-repeat center top;
@@ -197,7 +199,7 @@ body {
     font-weight: 400;
 }
 
-/*------------------------------------------------------- LivePage Styling*/
+/*------------------------------------------------------- LivePage Styling */
 .live-bg {
     background: url(/assets/images/hero3.jpg) no-repeat center fixed; 
     -webkit-background-size: cover;
@@ -212,7 +214,8 @@ body {
 }
 
 .event-info {
-    background-color: var(--bg-div);
+    background-color: var(--bg-div-light);
+    border: 5px solid var(--colour1);
 
     /* Bug that was found on 09/12 with solution sourced from Stack Overflow. Detailed report in the 'Bugs' section of README file*/  
     position: absolute;
@@ -224,9 +227,54 @@ body {
 
     width: 75%;
     height: 50%;
+
+    padding: 10px;
 }
 
-/*------------------------------------------------------- EPK Styling*/
+.event-info h1 {
+    color: var(--accent);
+    font-size: 2.1em;
+    width: 100;
+    padding-bottom: 10px;
+}
+
+.event-details {
+    margin: 0px auto;
+    padding: 20px 10px;
+    width: 90%;
+    height: 100%;
+    background-color: var(--bg-div-dark);
+    border: 1px solid var(--colour1);
+}
+.event-details h2 {
+    color: var(--accent);
+    font-size: 1.8em;
+}
+.event-details h4 {
+    color: var(--colour1);
+    font-size: 1.4em;
+}
+.event-details h4 a {
+    color: var(--accent);
+}
+.event-details a:hover {
+    text-decoration: none;
+}
+.ticket-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ticket-btn button {
+    background-color: var(--accent);
+    border: 1px solid var(--colour1);
+}
+.ticket-btn a {
+    color: var(--colour2);
+    font-size: 1.5em;
+}
+
+/*------------------------------------------------------- EPK Styling */
 .epk-text {
     background-color: var(--colour1);
     color: var(--colour2);
