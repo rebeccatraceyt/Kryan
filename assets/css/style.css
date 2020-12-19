@@ -21,6 +21,7 @@
     /* Colour variables for divs */
     --bg-div-light: rgba(241, 241, 241, 0.952);
     --bg-div-dark: rgba(0, 0, 0, 0.493);
+    --bg-div-darker: rgba(0, 0, 0, 0.664);
 
     /* Colour variables for horizontal rulers */
     --hr-colour: rgba(246, 246, 246, 0.377);
@@ -232,13 +233,14 @@ body {
     /* Bug that was found on 09/12 with solution sourced from Stack Overflow. Detailed report in the 'Bugs' section of README file*/  
     position: fixed;
     left: 50%;
-    top: 50%;
+    top: 55%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%); 
     -webkit-transform: translate(-50%, -50%); 
 
-    min-width: 75%;
+    width: auto;
     height: auto;
+    max-width: 75%;
     max-height: 70%;
 
     padding: 10px;
@@ -252,27 +254,38 @@ body {
 
 /* Event details styling */
 .event-details {
-    background-color: var(--bg-div-dark);
+    background-color: var(--bg-div-darker);
     border: 1px solid var(--colour1);
+    
+    padding: 20px;
     margin: 0px auto;
-    padding: 20px 10px 5px 10px;
-    width: 100%;
+
+    min-width: 50%;
     height: 100%;
 
-    position: relative;
+    /* In order to center text on mobile devices */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.event-details h2 {
+
+/* Styling for Event text - nested in Event details */
+.event-text {
+    background-color: var(--bg-div-light);
+    padding: 20px;
+}
+.event-text h2 {
     color: var(--accent);
     font-size: 1em;
 }
-.event-details h4 {
+.event-text h4 {
     color: var(--colour1);
     font-size: 1em;
 }
-.event-details h4 a {
+.event-text h4 a {
     color: var(--accent);
 }
-.event-details a:hover {
+.event-text a:hover {
     text-decoration: none;
 }
 
@@ -281,22 +294,24 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.ticket-btn button {
-    background-color: var(--accent);
-    border: 1px solid var(--colour1);
-    padding: 2px 7px;
+    padding: 5px;
 }
 .ticket-btn a {
+    background-color: var(--accent);
     color: var(--colour2);
     font-size: 1.2em;
+    padding: 2px 7px;
+}
+.ticket-btn a:hover {
+    color: var(--accent);
+    background-color: var(--colour2);
 }
 
 /* Event location styling */
 .event-location {
     margin: auto;
     padding: 20px 10px 5px 10px;
-    width: 100%;
+    min-width: 50%;
     position: relative;
     
     display: flex;
@@ -304,8 +319,10 @@ body {
     align-items: center;
 }
 iframe.event-location  {
+    position: absolute;
     width: 100% !important;
     height: 100% !important;
+
 }
 
 /*------------------------------------------------------- EPK Styling */
