@@ -98,7 +98,6 @@ body {
     background-color: var(--colour1);
 }
 
-
 /* Styling for navbar toggler */
 .custom-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(173, 20, 20)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
@@ -120,7 +119,6 @@ body {
     background-color: var(--colour1) !important;
     transition: background-color 200ms linear;
 }
-
 
 /*------------------------------------------------------- Socials - Header */
 
@@ -404,47 +402,42 @@ hr.epk-hr {
         https://stackoverflow.com/questions/59411725/how-would-i-center-this-iframe-on-a-webpage */
 }
 
-/* Modal styling */
-.modal-click {
+/* Contact form styling */
+.epk-contact {
+    padding: 10px 20px 10px 20px;
+}
+.epk-contact div{
+    text-align: center;
+}
+.epk-contact h3 {
+    padding-bottom: 10px;
+}
+.epk-contact p {
+    text-align: left;
+    padding-inline-start: 5%;
+}
+.epk-contact button {
     /* "Get in touch" Button styling */
     background-color: var(--accent);
     color: var(--colour2);
     font-size: 1.2em;
 }
-.modal-click:hover {
+.epk-contact button:hover {
     background-color: var(--colour2);
     color: var(--accent);
-}
-.epk-modal {
-    text-align: center;
-    margin: auto;
-}
-.modal-content {
-    background-color: var(--colour2);
-    color: var(--accent);
-}
-.modal-body button {
-    background-color: var(--accent);
-    color: var(--colour2);
-    width: 60%;
-}
-.modal-body button:hover {
-    color: var(--colour2);
-}
-#message-success { 
-    display: none; 
+    border: 1px solid var(--colour1);
 }
 
 /* Copied and edited from W3Schools example to style contact form */
 input[type=text], input[type=email], textarea {
-    width: 100%;
-    padding: 12px;
+    width: 90%;
+    padding: 7px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
-    resize: vertical;
+    resize: none;
 }
 
 /*------------------------------------------------------- Media Queries */
@@ -536,6 +529,18 @@ input[type=text], input[type=email], textarea {
 
     }
    
+    /*--------------------------------- EPK Styling */
+    
+    .epk-contact p {
+        text-align: left;
+        padding-inline-start: 10%;
+    }
+
+    /* Contact form input re-sizing for larger devices */
+    input[type=text], input[type=email], textarea {
+        width: 80%;
+    }
+
     /*--------------------------------- Socials - Footer */
 
     /* Social links appear in the footer on tablet device */
@@ -678,6 +683,7 @@ input[type=text], input[type=email], textarea {
         min-width: 40%;
         min-height: 100%;
 
+        /* Bug that was found on 19/12 with solution sourced from Stack Overflow. Detailed report in the 'Bugs' section of README file*/  
         position: relative;
         overflow: hidden;
         
@@ -747,9 +753,15 @@ input[type=text], input[type=email], textarea {
         width: 50vw;
     }
 
-    /* Modal button re-sizing for larger devices */
-    .modal-body button {
-        width: 30%;
+    /* Contact form re-sizing for larger devices */
+    .epk-contact p {
+        text-align: left;
+        padding-inline-start: 12%;
+    }
+
+    /* Contact form input re-sizing for larger devices */
+    input[type=text], input[type=email], textarea {
+        width: 80%;
     }
 
     /*--------------------------------- Socials - Footer */
