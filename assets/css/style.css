@@ -187,6 +187,7 @@ body {
 .bio-info {
     background-color: var(--colour1);
     color: var(--colour2);
+    font-size: 1.2em;
 
     width: 100vw;
     min-height: 40vh;
@@ -220,6 +221,7 @@ body {
 
     width: 100vw;
     height: 100vh;
+    
 }
 
 /* General styling for event div */
@@ -228,15 +230,16 @@ body {
     border: 5px solid var(--colour1);
 
     /* Bug that was found on 09/12 with solution sourced from Stack Overflow. Detailed report in the 'Bugs' section of README file*/  
-    position: absolute;
+    position: fixed;
     left: 50%;
-    top: 55%;
+    top: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%); 
     -webkit-transform: translate(-50%, -50%); 
 
     min-width: 75%;
     height: auto;
+    max-height: 70%;
 
     padding: 10px;
 }
@@ -244,7 +247,6 @@ body {
     color: var(--accent);
     font-size: 2em;
     padding-bottom: 10px;
-
 }
 
 
