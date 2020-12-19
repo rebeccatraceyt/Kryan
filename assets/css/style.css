@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:wght@900&family=Roboto:wght@400;700&display=swap');
 
 /*------------------------------------------------------- Root Variables */
+
 :root {
     /* Font variables */
     --titlefont: 'Roboto', sans-serif;
@@ -27,6 +28,7 @@
     --hr-colour: rgba(246, 246, 246, 0.377);
 }
 /*------------------------------------------------------- Special Fonts */
+
 body {
     font-family: var(--bodyfont);
     font-weight: 300;
@@ -40,6 +42,7 @@ body {
 }
 
 /*------------------------------------------------------- Header */
+
 /* Styling for navigation bar */
 .navbar{
     margin-bottom: 0;
@@ -120,6 +123,7 @@ body {
 
 
 /*------------------------------------------------------- Socials - Header */
+
 /* Social Links appear in the nav bar header on smaller screens*/
 .socials-nav {
     color: var(--accent); 
@@ -129,6 +133,7 @@ body {
 }
 
 /*------------------------------------------------------- Homepage Styling */
+
 /* General styling for hero image */
 .home-hero {
     /* Hero Image compatible with mobile devices */
@@ -170,6 +175,7 @@ body {
 }
 
 /*------------------------------------------------------- BioPage Styling */
+
 /* General styling for hero image */
 .bio-hero {
     /* Hero Image compatible with mobile devices */
@@ -210,6 +216,7 @@ body {
 }
 
 /*------------------------------------------------------- Live Page Styling */
+
 /* Background styling */
 .live-bg {
     background: url(/assets/images/hero3.jpg) no-repeat center fixed; 
@@ -233,24 +240,24 @@ body {
     /* Bug that was found on 09/12 with solution sourced from Stack Overflow. Detailed report in the 'Bugs' section of README file*/  
     position: fixed;
     left: 50%;
-    top: 55%;
+    top: 60%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%); 
     -webkit-transform: translate(-50%, -50%); 
 
-    width: auto;
-    height: auto;
-    max-width: 75%;
-    max-height: 70%;
+    min-width: 80%;
+    max-width: 90%;
+    min-height: auto;
+    max-height: 80%;
+
 
     padding: 10px;
 }
 .event-info h1 {
     color: var(--accent);
-    font-size: 2em;
+    font-size: 1.5em;
     padding-bottom: 10px;
 }
-
 
 /* Event details styling */
 .event-details {
@@ -267,6 +274,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.events-columns {
+    padding: 20px 20px 10px 20px;
 }
 
 /* Styling for Event text - nested in Event details */
@@ -307,25 +317,8 @@ body {
     background-color: var(--colour2);
 }
 
-/* Event location styling */
-.event-location {
-    margin: auto;
-    padding: 20px 10px 5px 10px;
-    min-width: 50%;
-    position: relative;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-iframe.event-location  {
-    position: absolute;
-    width: 100% !important;
-    height: 100% !important;
-
-}
-
 /*------------------------------------------------------- EPK Styling */
+
 /* General styling for right side of page */
 .epk-text {
     background-color: var(--colour1);
@@ -496,6 +489,52 @@ input[type=text], input[type=email], textarea {
 
     /*--------------------------------- Live Page Styling */
 
+    /* General styling for event div on screens larger than mobile devices */
+    .event-info {
+        top: 50%;
+
+        min-width: 90%;
+        max-width: 90%;
+        min-height: auto;
+        max-height: 70%;
+    }
+    .event-info h1 {
+        font-size: 1.9em;
+    }
+
+    /* Styling for Event text on screens larger than mobile devices */
+    .event-text h2 {
+        font-size: 1.4em;
+    }
+    .event-text h4 {
+        font-size: 1.4em;
+    }
+
+    /* Styling for ticket button on screens larger than mobile devices */
+    .ticket-btn a {
+        font-size: 1.6em;
+    }
+
+    /* Event location styling (hidden smaller screens for UX purposes) */
+    .event-location {
+        margin: auto;
+        padding: 0px 10px 0px 10px;
+        min-width: 40%;
+        min-height: 100%;
+
+        position: relative;
+        overflow: hidden;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .event-location iframe {
+        position: absolute;
+        width: 100% !important;
+        height: 100% !important;
+
+    }
    
     /*--------------------------------- Socials - Footer */
 
@@ -602,7 +641,56 @@ input[type=text], input[type=email], textarea {
 
     /*--------------------------------- Live Page Styling */
 
+    /* General styling for event div on larger screens */
+    .event-info {
+        top: 55vh;
 
+        min-width: 60%;
+        max-width: 60%;
+        min-height: auto;
+        max-height: 80%;
+    }
+    .event-info h1 {
+        font-size: 2.6em;
+        padding-bottom: 1px;
+    }
+
+    /* Styling for Event text - nested in Event details on larger screens */
+    .event-text h2 {
+        font-size: 1.5em;
+    }
+    .event-text h4 {
+        font-size: 1.3em;
+    }
+
+    /* Styling for ticket button on larger screens */
+    .ticket-btn a {
+        background-color: var(--accent);
+        color: var(--colour2);
+        font-size: 1.6em;
+        padding: 2px 7px;
+    }
+
+     /* Event location styling (hidden smaller screens for UX purposes) */
+     .event-location {
+        margin: auto;
+        padding: 0px 10px 0px 10px;
+        min-width: 40%;
+        min-height: 100%;
+
+        position: relative;
+        overflow: hidden;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .event-location iframe {
+        position: absolute;
+        width: 100% !important;
+        height: 100% !important;
+
+    }
     
     /*--------------------------------- EPK Styling */
 
