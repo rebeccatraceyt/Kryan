@@ -325,8 +325,15 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 ## Credits
 
 ### Content
+- The text used in the biographic paragraphs were written by the artist, Ryan Kelly.
+- The quote used in the Press Kit page is sourced from [Indie Buddy](https://www.indiebuddie.com/kryan-scars-premiere/).
 
 ### Media
+- All images were sourced from the artist, Ryan Kelly.
+- The text used in the 404 error page was sourced from [CopyAndPasteFonts](https://www.copyandpastefont.com/) and edited by the developer.
 
 ### Acknowledgements
+- I would like to thank my friends and family for their valued opinions and critic during the process of design and development.
+- I would like to thank my mentor, Seun, for her invaluable help and guidance throughout the process.
+- Lastly, I would like to extend my deepest gratitude to Ryan for trusting me in designing this site for him.
 
