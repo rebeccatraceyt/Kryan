@@ -1,5 +1,34 @@
 # Kryan Live
+## Table of contents
+1. [Introduction](##Introduction-[⇧])
+2. [UX](##UX-[⇧])
+    1. [Ideal User Demographic](###Ideal-User-Demographic)
+    2. [User Stories](###User-Stories)
+    3. [Design](###Design)
+    4. [Wireframes](###Wireframes)
+3. [Features](##Features-[⇧])
+    1. [Design Features](###Design-Features)
+    2. [Existing Features](###Existing-Features)
+    3. [Features to Implement in the future](###Features-to-Implement-in-the-future)
+4. [Bugs](##Bugs-[⇧])
+5. [Technologies Used](##Technologies-Used-[⇧])
+     1. [Main Languages Used](###Main-Languages-Used)
+     2. [Additional Languages Used](###Additional-Languages-Used)
+     3. [Frameworks, Libraries & Programs Used](###Frameworks,-Libraries-&-Programs-Used)
+6. [Testing](##Testing-[⇧])
+     1. [Testing User Stories](###Testing-User-Stories)
+7. [Deployment](##Deployment-[⇧])
+     1. [Deploying on GitHub Pages](###Deploying-on-GitHub-Pages)
+     2. [Forking the Repository](###Forking-the-Repository)
+     3. [Creating a Clone](###Creating-a-Clone)
+8. [Credits](##Credits-[⇧])
+     1. [Content](###Content)
+     2. [Media](###Media)
+     3. [Code](###Code)
+9. [Acknowledgements](##Acknowledgements-[⇧])
 
+
+## Introduction [⇧](#Kryan-Live)
 This comprehensive website was designed for the artist known as Kryan. The focus of the site is to create an online presence allowing members of the media, as well as new and current fans, to find out relevant information and to get to know Kryan. 
 
 ![KryanLive Mockup Images](assets/readme-files/mockup.png)
@@ -23,7 +52,7 @@ Kryan is a Dublin based singer/songwriter multi-instrumentalist, focusing mainly
      - Upcoming live events
      - Contact information (PR and social enquires)
 
-## UX
+## UX [⇧](#Kryan-Live)
 
 ### Ideal User Demographic
 #### The ideal user of this website is:
@@ -87,7 +116,7 @@ All imagery provides alternative text to be used in the event that the element c
    - Live Page - [Wireframe](assets/readme-files/live.png "Live Page Wireframe")
    - Electronic Press Kit Page - [Wireframe](assets/readme-files/presskit.png "Electronic Press Kit Page Wireframe")
 
-## Features
+## Features [⇧](#Kryan-Live)
 
 ### Design Features
 Each page of the website features a consistent responsive navigational system:
@@ -188,37 +217,29 @@ Each page of the website features a consistent responsive navigational system:
      - **Feature** - smartlink embedding platform for music promotion
      - **Reason for not featuring in this release** - Budget not available for services
 
-## Bugs 
+## Bugs [⇧](#Kryan-Live)
 
-### Navbar Bug
-A bug was detected early on with the Navigation bar. In implimenting a responsive navigation system, Bootstrap was used but there was bug that would not allow the navbar to be recoloured to suit the the chosen colour scheme. In researching a cause (and solution) the developer found a question posted on [Stack Overflow](https://stackoverflow.com/questions/46237610/bootstrap-4-navbar-color-wont-change) with a similar problem. It was from here that the developer was able to copy and edit the code given as a solution on Stack in order to impliment a solution to the bug, with celebratory sucess.
+**Navbar Bug** - A bug was detected early on with the Navigation bar. In implimenting a responsive navigation system, Bootstrap was used but there was bug that would not allow the navbar to be recoloured to suit the the chosen colour scheme. In researching a cause (and solution) the developer found a question posted on [Stack Overflow](https://stackoverflow.com/questions/46237610/bootstrap-4-navbar-color-wont-change) with a similar problem. It was from here that the developer was able to copy and edit the code given as a solution on Stack in order to impliment a solution to the bug, with celebratory sucess.
 
-### Home Page Responsiveness Bug
-A bug was detected in creating the HomePage where the mobile-first design approach was responsive but as soon as the breakpoint changed to a larger screen, the page layout would shift, creating inconsistentcies in the design. In order to rectify this, the developer utilised a solution posted for a similar problem on [Stack Overflow](https://stackoverflow.com/questions/5703552/how-can-i-center-text-horizontally-and-vertically-inside-a-div-block). With this solution, the developer was able to create the desired responsivness without having to use excessive and unnecessary lines of code.
+**Home Page Responsiveness Bug** - A bug was detected in creating the HomePage where the mobile-first design approach was responsive but as soon as the breakpoint changed to a larger screen, the page layout would shift, creating inconsistentcies in the design. In order to rectify this, the developer utilised a solution posted for a similar problem on [Stack Overflow](https://stackoverflow.com/questions/5703552/how-can-i-center-text-horizontally-and-vertically-inside-a-div-block). With this solution, the developer was able to create the desired responsivness without having to use excessive and unnecessary lines of code.
 
-### Hero Image Bug - Home Page
-A bug was detected when implementing the hero image to be used for the Home Page. The developer used the shorthand background element to implement the image but soon found there was an issue with the responsiveness of the image using this. When coding the background-size using the shorthand method, the image would disappear. The developer used an answer to a similar problem on [Stack Overflow](https://stackoverflow.com/questions/26236486/background-size-cover-not-working) in order to understand the problem and, in turn, find a solution.
+**Hero Image Bug - Home Page** - A bug was detected when implementing the hero image to be used for the Home Page. The developer used the shorthand background element to implement the image but soon found there was an issue with the responsiveness of the image using this. When coding the background-size using the shorthand method, the image would disappear. The developer used an answer to a similar problem on [Stack Overflow](https://stackoverflow.com/questions/26236486/background-size-cover-not-working) in order to understand the problem and, in turn, find a solution.
 
-### Social Links Bug
-A bug was detected in the Social Links when trying to implement the Bootstrap display property in order to only show the Social links in the toggler menu on smaller devices. In nesting an unordered list within another unordered list, the `padding-inline-start` of the `ul` user agent stylesheet would be set at a value of `40px`. The problem with this was that it was overriding the `d-inline` class that was called. In order to rectify this, the developer had to override the `padding-inline-start` value, using code sourced from [Stack Overflow](https://stackoverflow.com/questions/54000514/unordered-list-in-css-will-not-center) with:
+**Social Links Bug** - A bug was detected in the Social Links when trying to implement the Bootstrap display property in order to only show the Social links in the toggler menu on smaller devices. In nesting an unordered list within another unordered list, the `padding-inline-start` of the `ul` user agent stylesheet would be set at a value of `40px`. The problem with this was that it was overriding the `d-inline` class that was called. In order to rectify this, the developer had to override the `padding-inline-start` value, using code sourced from [Stack Overflow](https://stackoverflow.com/questions/54000514/unordered-list-in-css-will-not-center) with:
 ```
 padding: 0px; 
 margin: 0px auto;
 ```
-### Biographic Info Bug - Bio Page
-A bug was detected on the Bio page whereby when the page was viewed on a smaller screen, the overflow content of the `p` element would be cut off, losing some of the biographic text. In order to solve the problem, the developer found a similar problem on [Stack Overflow](https://stackoverflow.com/questions/52394425/100vh-cuts-off-content-when-window-height-is-small) where they were able to better understand the viewport limitations and find a solution, which was a simple switch from `height` to `min-height`.
+**Biographic Info Bug (Bio Page)** - A bug was detected on the Bio page whereby when the page was viewed on a smaller screen, the overflow content of the `p` element would be cut off, losing some of the biographic text. In order to solve the problem, the developer found a similar problem on [Stack Overflow](https://stackoverflow.com/questions/52394425/100vh-cuts-off-content-when-window-height-is-small) where they were able to better understand the viewport limitations and find a solution, which was a simple switch from `height` to `min-height`.
 
-### Events `<div>` Bug - Live Page
-A bug was detected where the `div` container used to implementing the upcoming events data was anchoring to the top of the page, under the navigation bar. The developer was able to find a similar problem on [Stack Overflow](https://stackoverflow.com/questions/953918/how-to-align-a-div-to-the-middle-horizontally-width-of-the-page) where they copied and edited the code in order to understand the problem and find a solution.
+**Events `<div>` Bug (Live Page)** - A bug was detected where the `div` container used to implementing the upcoming events data was anchoring to the top of the page, under the navigation bar. The developer was able to find a similar problem on [Stack Overflow](https://stackoverflow.com/questions/953918/how-to-align-a-div-to-the-middle-horizontally-width-of-the-page) where they copied and edited the code in order to understand the problem and find a solution.
 
-### Google Maps iFrame Bug - Live Page
-A bug was detected with the iframe element of the Live Page (which was used to implement a Google Maps embed). There was a problem with the responsiveness of the iframe, causing it to extend its width far beyond the page upon resizing. while `overflow: hidden;` would have worked with larger screens, it was proving problematic with smaller screens. The developer found a post from [Digital Inspiration](https://www.labnol.org/internet/embed-responsive-google-maps/28333/) in order to better understand the problem and to successfully implement a solution.
+**Google Maps iFrame Bug (Live Page)** - A bug was detected with the iframe element of the Live Page (which was used to implement a Google Maps embed). There was a problem with the responsiveness of the iframe, causing it to extend its width far beyond the page upon resizing. while `overflow: hidden;` would have worked with larger screens, it was proving problematic with smaller screens. The developer found a post from [Digital Inspiration](https://www.labnol.org/internet/embed-responsive-google-maps/28333/) in order to better understand the problem and to successfully implement a solution.
 
-### IGTV Bug - Press Kit Page
-A bug was detected in the in IGTV embedding code which was affecting the responsivness of the embed. The `min-width: 326px` value was distorting the video when viewing on a mobile device. Using a post with a similiar problem from [WordPress](https://wordpress.org/support/topic/problem-embedding-instagram/) the developer was able to override this with a `!important` value after the set element, allowing it to be responisive across all devices. The developer recognises that this may not be best practice but, in this case, it was necessary in order to maintain responsivness.
+**IGTV Bug (Press Kit Page)** - A bug was detected in the in IGTV embedding code which was affecting the responsivness of the embed. The `min-width: 326px` value was distorting the video when viewing on a mobile device. Using a post with a similiar problem from [WordPress](https://wordpress.org/support/topic/problem-embedding-instagram/) the developer was able to override this with a `!important` value after the set element, allowing it to be responisive across all devices. The developer recognises that this may not be best practice but, in this case, it was necessary in order to maintain responsivness.
 
 
-## Technologies Used
+## Technologies Used [⇧](#Kryan-Live)
 ### Main Languages Used
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
@@ -242,10 +263,11 @@ A bug was detected in the in IGTV embedding code which was affecting the respons
      - Balsamiq was used to create the wireframes during the design phase of the project.
 
 
-## Testing
+## Testing [⇧](#Kryan-Live)
 The [W3C Markup Validator](https://validator.w3.org/) and the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) Services were used in validating each page of the project to ensure there were no syntax errors. 
 
-### Testing User Stories as defined in User Experience ([UX](##UX)) Section
+### Testing User Stories 
+**As defined in User Experience ([UX](##UX)) Section**
 #### New/Potential Fans Goals:
 1. As a new fan, I want to easily navigate through the website to find the relevant content, effortlessly.
      1. Result
@@ -276,7 +298,7 @@ The [W3C Markup Validator](https://validator.w3.org/) and the [W3C CSS Validator
 2. As a media enquirer, I want to easily find materials that could be useful for media coverage pieces.
      1. Result
 
-## Deployment
+## Deployment [⇧](#Kryan-Live)
 This project was developed using [Visual Studio Code Insiders](https://code.visualstudio.com/insiders/), committed to git and pushed to GitHub using the computer terminal.
 
 ### Deploying on GitHub Pages
@@ -322,7 +344,7 @@ How to run this project within a local IDE such as VSCode:
 
 Further reading and troubleshooting on cloning a repository from GitHub [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
 
-## Credits
+## Credits [⇧](#Kryan-Live)
 
 ### Content
 - The text used in the biographic paragraphs were written by the artist, Ryan Kelly.
@@ -332,8 +354,15 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 - All images were sourced from the artist, Ryan Kelly.
 - The text used in the 404 error page was sourced from [CopyAndPasteFonts](https://www.copyandpastefont.com/) and edited by the developer.
 
-### Acknowledgements
+### Code 
+The developer consulted multiple sites in order to better understand they were trying to implement. For code that was copied and edited, the developer made sure to reference this with the code. The following sites were used on a more regular basis:
+- [Stack Overflow](https://stackoverflow.com/)
+- [W3Schools](https://www.w3schools.com/)
+- [Bootstrap](https://getbootstrap.com/)
+- [JSfiddle](https://jsfiddle.net/)
+
+## Acknowledgements [⇧](#Kryan-Live)
 - I would like to thank my friends and family for their valued opinions and critic during the process of design and development.
 - I would like to thank my mentor, Seun, for her invaluable help and guidance throughout the process.
 - Lastly, I would like to extend my deepest gratitude to Ryan for trusting me in designing this site for him.
-
+---
