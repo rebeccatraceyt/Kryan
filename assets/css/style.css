@@ -796,4 +796,39 @@ input[type=text], input[type=email], textarea {
     }
 }
 
+/*------------------------------------------------------- 404 Page Styling */
+
+/* General Styling for error page */
+.error-page {
+    background-color: var(--colour1);
+    padding: 30px;
+}
+
+/* Responsive styling for error image */
+.error-img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Responsive styling for error div */
+.error {
+    background-color: var(--colour2);
+    text-align: center;
+    font-size: 1.3em;
+
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); 
+    -webkit-transform: translate(-50%, -50%); 
+
+    padding: 20px;
+    margin: auto;
+    width: 40%;
+}
+.error a {
+    color: var(--accent);
+}
+
 
