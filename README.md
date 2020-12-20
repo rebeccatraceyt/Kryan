@@ -88,7 +88,7 @@ All imagery provides alternative text to be used in the event that the element c
 ### Design Features
 Each page of the website features a consistent responsive navigational system:
 - The **Header** contains a conventionally placed **logo** in the top left of the page (whereby by clicking this will redirect users back to the home page) and **navigation bar** in the top right of the page.
-- On larger screens, the **Footer** contains the appropriate **social media icons**, linking users to the main social pages of Kryan. For smaller screens, the footer is hidden and the social icons are instead displayed with the navigation links in the header.
+- On larger screens, the **Footer** contains the appropriate **social media icons**, linking users to the main social pages of Kryan. For smaller screens, the footer is hidden and the social icons are instead displayed with the navigation links in the header. This was in order to remove any issues that may arise if the icons are in the way of scrolling on a mobile.
 - On smaller screens, the navigation bar collapses into a **toggler** icon whereby clicking it will reveal the navigation and social links.
 
 
@@ -108,7 +108,7 @@ Each page of the website features a consistent responsive navigational system:
      <ul>
           <li><strong>Hero Image</strong> - Occupying 50% of the page width, on the left side, while viewing on a desktop. On mobile and tablet devices, the image becomes stacked at the top of the page, occupying 100% of the page width. The imagery used was specifically chosen to visually represent the tonality of the artist's persona.
           </li>
-          <li><strong>Banner Container</strong> - Occupying 50% of the width, on the right side, while viewing on a desktop. On mobile and tablet devices, the container becomes stacked, underneath the <strong>Hero Image</strong>. The container provides the biographic information of the artist. It was styled this way in order to draw the users attention to the biography, avoiding information overload in an already text-based area.
+          <li><strong>Banner Container</strong> - Occupying 50% of the width, on the right side, while viewing on a desktop. On mobile and tablet devices, the container becomes stacked, underneath the <strong>Hero Image</strong>. The container provides the biographic information of the artist. It was styled this way in order to draw the users attention to the biography, avoiding information overload in an already text-based area. The information is presented in an accordion menu.
           </li>
      </ul>
   </dd>
@@ -121,17 +121,16 @@ Each page of the website features a consistent responsive navigational system:
           <li>Event page</li>
           <li>Ticketing platform</li>
      </ul>
-     The second column contains an <strong>iFrame</strong> feature of the event's venue location. Providing users with easy access to directions to the venue.
+     The second column contains an <strong>iFrame</strong> feature of the event's venue location. Providing users with easy access to directions to the venue. This feature is not available on mobile devices as, in tryin to fit the two columns, it would render the text unreadable.
 
   </dd>
 
   <dt><a href="epk.html" target="_blank">Electronic Press Kit Page</a></dt>
   <dd> On the desktop, the EPK Page has a half page static background <strong>image carousel</strong> that is fixed and unmoving as the user scrolls through the page. The other half of the pages houses the EPK information in one <strong>container</strong>. The information is separated by a <strong>horizontal ruler</strong> in order to emphasis each piece. On a smaller screen, the page becomes stacked, whereby the images are at the top of the page, but not fixed, followed by the information. 
   </dd>
-  <dd>There are several <strong>call to action</strong> buttons throughout the page:
+  <dd>There is a <strong>call to action</strong> button on the page:
      <ul>
-          <li>Link to the external article where the quote is sourced from</li>
-          <li>A <strong>modal</strong> function providing a point of contact for users</li>
+          <li>Linking to the external article where the quote is sourced from, in this case Indie Buddy</li>
      </ul>
   </dd>
   <dd>There are two <strong>embedded links</strong> that were chosen to showcase the artist's best releases in both audio and video format:
@@ -141,12 +140,18 @@ Each page of the website features a consistent responsive navigational system:
      </ul>
   </dd>
   <dd>
+     There is a point of contact at the bottom of the Press Kit providing:
+     <ul>
+          <li>An <strong>mailto</strong> button for users to contact PR representative </li>
+          <li>A <strong>contact form</strong>, allowing users to leave a message, by completing the required fields</li>
+     </ul>
+      
   </dd>
 </dl>
  
 ### Existing Features
 - **Header Logo** - Appearing on every page for brand recognition. Clicking the logo will return the users to the home page, as expected.
-- **Header Navigation Bar** - Appearing on every page for a consistent and easy and intuitive navigable system.
+- **Header Navigation Bar** - Appearing on every page for a consistently easy and intuitive navigable system.
 - **Social Icons** - Appearing on every page, the icons are appropriate representations of the Social Media platforms, linking users to Kryan's page on each. On larger screens, the icons appear in the footer. On smallers screens the icons appear in the collapsed toggler funtion.
 - **Call To Action buttons** - Appearing on every page, excluding the Bio Page. Maintaining a consistent and uniform design throughout the page. Clicking the buttons will send users to external sites for various purposes:
      - Music platform selection page
@@ -156,10 +161,15 @@ Each page of the website features a consistent responsive navigational system:
      - Mailto action function for contacting PR representative
 - **Spotify Embed** - Snapshot of Kryan's Spotify page, showcasing a select number of tracks users can choose to play.
 - **IGTV Embed** - iframe element for a video uploaded to Instagram, showcasing a stripped down version of a latest release. This embed was copied straight from Instagram. The developer did not want to alter this text in order to maintain the integrity of the embedding. The only change made was to override the `min-width` value to `min-width: 70% !important;` in order to fixed a problem with the responsiveness of the embed.
-- **[Bio Page](bio.html "Bio Page")** - Providing biographic information for the users to get an understanding of who the artist is, and how they have created their music.
-- **[Live Page](live.html "Live Page")** - Providing information on upcoming events. with call to action buttons for:
+- **Google Maps Embed** - iframe embedding of Google maps, showing the location for the event on the Live Page. The map is omitted from small devices in order to ensure the readablity of the page on mobile devices (an issue that the developer struggled with was trying to implement both but still keeping the text at a readable size).
+- **Accordion** - An accordion menu on the Bio Page allows user to look through the previous works of the artist. When one accordion is clicked, the others are automatically minimised for UX purposes.
+- **Carousel** - A carousel showcasing select images is implemented in the Press Kit page. Using press photos selected by the artist, the carousel highlights their previous events and photoshoots .
+- **Contact Form** - A contact form is used in the Press Kit page, in order to provide a point of contact for the user. The form is not validated but there is a `mailto` action above it, providing contact details for the Event Booker of the artist.
+- **[Bio Page](bio.html "Bio Page")** - Providing biographic information for the users to get an understanding of who the artist is, and how they have created their music, presented in an accordion menu.
+- **[Live Page](live.html "Live Page")** - Providing information on upcoming events. On larger screens, an iframe embed of Google Maps is used to provide the location details of the event. There are also call to action buttons for:
      - The venue site, for further information and directions
      - The ticket purchasing platform for pricing and ordering
+
 - **[Electronic Press Kit Page](epk.html "Electronic Press Kit Page")** - Providing a compressed view of the artist with snapshots of relevant information:
      - Media coverage (featured articles)
      - Sample works - audio and video
@@ -192,7 +202,7 @@ padding: 0px;
 margin: 0px auto;
 ```
 ### Biographic Info Bug - Bio Page
-A bug was detected on the Bio page whereby when the page was viewed on a smaller screen, the overflow content of the `p` element would be cut off, losing some of the biographic text. In order to solve the problem, the developer found a similar problem on [Stack Overflow](https://stackoverflow.com/questions/52394425/100vh-cuts-off-content-when-window-height-is-small) where they were able to better understand the viewport limitations and find a solution, which was a simple switch from `height: 100vh;` to `min-height: 100vh;`.
+A bug was detected on the Bio page whereby when the page was viewed on a smaller screen, the overflow content of the `p` element would be cut off, losing some of the biographic text. In order to solve the problem, the developer found a similar problem on [Stack Overflow](https://stackoverflow.com/questions/52394425/100vh-cuts-off-content-when-window-height-is-small) where they were able to better understand the viewport limitations and find a solution, which was a simple switch from `height` to `min-height`.
 
 ### Events `<div>` Bug - Live Page
 A bug was detected where the `div` container used to implementing the upcoming events data was anchoring to the top of the page, under the navigation bar. The developer was able to find a similar problem on [Stack Overflow](https://stackoverflow.com/questions/953918/how-to-align-a-div-to-the-middle-horizontally-width-of-the-page) where they copied and edited the code in order to understand the problem and find a solution.
