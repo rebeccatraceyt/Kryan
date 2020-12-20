@@ -523,6 +523,7 @@ input[type=text], input[type=email], textarea {
         align-items: center;
     }
     .event-location iframe {
+        border: none;
         position: absolute;
         width: 100% !important;
         height: 100% !important;
@@ -692,6 +693,7 @@ input[type=text], input[type=email], textarea {
         align-items: center;
     }
     .event-location iframe {
+        border: none;
         position: absolute;
         width: 100% !important;
         height: 100% !important;
