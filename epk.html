@@ -6,13 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="description" content="Website for Irish pop musician Kryan">
     <meta name="author" content="Rebecca Tracey-Timoney">
-    <link rel="shortcut icon" href="assets/images/icon.png">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> <!-- Bootstrap Import-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous"> <!-- Font Awesome Import-->
+    <link rel="shortcut icon" href="assets/images/icon.png" aria-label="Kryan Thumbnail Image">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" aria-label="Bootstrap Import"/> <!-- Bootstrap Import-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous" aria-label="Font Awesome Import"/> <!-- Font Awesome Import-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" 
-      integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg==" crossorigin="anonymous"/> <!-- Hover.css Import-->
-    <link rel="stylesheet" href="assets/css/style.css"/> <!-- style.css import-->
-    <title>KryanLive/EPK</title> 
+      integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg==" crossorigin="anonymous" aria-label="Hover Import"/> <!-- Hover.css Import-->
+    <link rel="stylesheet" href="assets/css/style.css" aria-label="CSS Import"/> <!-- style.css import-->
+    <title>KryanLive - EPK</title> 
   </head>
   <body>
 
@@ -20,13 +20,13 @@
     
     <!---------- Header Logo ---------->
     <div class="navbar-logo">
-      <a  href="index.html">
+      <a  href="index.html" aria-label="Kryan Logo linking to Homepage">
         <img src="assets/images/logo.png" width="200" height="70" alt="Kryan Logo">
       </a>
     </div>
 
     <!-- Navigation Bar - Sourced from bootstrap.com -->
-    <nav class="navbar navbar-expand-lg scroll-nav">
+    <nav class="navbar navbar-expand-lg scroll-nav" aria-label="Navigation Bar">
       <div class="container-fluid">
 
         <!---------- Toggler Button ---------->
@@ -36,21 +36,21 @@
 
         <!---------- Nav Links ---------->
         <div class="collapse navbar-collapse nav-padding" id="navbarMenu">
-          <ul class="navbar-nav scroll-nav ml-auto"> 
-              <!-- hvr-grow class sourced from Hover.css (https://ianlunn.github.io/Hover/)-->
-            <li class="nav-item hvr-grow"><a class="nav-link" href="index.html">Home</a></li> 
-            <li class="nav-item hvr-grow"><a class="nav-link" href="bio.html">Bio</a></li>
-            <li class="nav-item hvr-grow"><a class="nav-link" href="live.html">Live</a></li>
-            <li class="nav-item hvr-grow"><a class="nav-link active" href="epk.html">Press Kit</a></li>
-            <li class="nav-item text-center">
-              <ul class="socials-nav d-inline d-none d-sm-block d-md-none">
-                <li class="list-inline-item"><a href="https://www.facebook.com/kryanlive/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                <li class="list-inline-item"><a href="https://www.instagram.com/kryanlive/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                <li class="list-inline-item"><a href="https://twitter.com/kryanlive/" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                <li class="list-inline-item"><a href="https://open.spotify.com/artist/6wcRo4TN7UDcoKn591afad?si=fxSJdsAiQYe6CHeAwpKR4Q" target="_blank"><i class="fab fa-spotify"></i></a></li>
-                <li class="list-inline-item"><a href="https://music.apple.com/us/artist/kryan/1423240683" target="_blank"><i class="fab fa-apple"></i></a></li>
-                <li class="list-inline-item"><a href="https://www.deezer.com/en/artist/13491991" target="_blank"><i class="fab fa-deezer"></i></a></li>        
-              </ul>
+          <ul class="navbar-nav ml-auto" aria-label="Navigation Links"> 
+            <!-- hvr-grow class sourced from Hover.css (https://ianlunn.github.io/Hover/)-->
+          <li class="nav-item hvr-grow"><a class="nav-link" href="index.html" aria-label="Homepage">Home</a></li>
+          <li class="nav-item hvr-grow"><a class="nav-link" href="bio.html" aria-label="Bio Page">Bio</a></li>
+          <li class="nav-item hvr-grow"><a class="nav-link" href="live.html" aria-label="Live Page">Live</a></li>
+          <li class="nav-item hvr-grow"><a class="nav-link active" href="epk.html" aria-label="Press Kit">Press Kit</a></li>
+          <li class="nav-item text-center d-inline d-none d-sm-block d-md-none">
+            <ul class="socials-nav" aria-label="Social Icons on Navigation">
+              <li class="list-inline-item"><a href="https://www.facebook.com/kryanlive/" target="_blank" rel="noopener" aria-label="Kryan Facebook"><i class="fab fa-facebook-f"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.instagram.com/kryanlive/" target="_blank" rel="noopener" aria-label="Kryan Instagram"><i class="fab fa-instagram"></i></a></li>
+              <li class="list-inline-item"><a href="https://twitter.com/kryanlive/" target="_blank" rel="noopener" aria-label="Kryan Twitter"><i class="fab fa-twitter"></i></a></li>
+              <li class="list-inline-item"><a href="https://open.spotify.com/artist/6wcRo4TN7UDcoKn591afad?si=fxSJdsAiQYe6CHeAwpKR4Q" target="_blank" rel="noopener" aria-label="Kryan Spotify"><i class="fab fa-spotify"></i></a></li>
+              <li class="list-inline-item"><a href="https://music.apple.com/us/artist/kryan/1423240683" target="_blank" rel="noopener" aria-label="Kryan Apple Music"><i class="fab fa-apple"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.deezer.com/en/artist/13491991" target="_blank" rel="noopener" aria-label="Kryan Deezer"><i class="fab fa-deezer"></i></a></li>        
+            </ul>
             </li>
           </ul>
         </div>
@@ -58,7 +58,7 @@
     </nav>
     
     <!------------------------------------ MAIN SECTION ------------------------------------>
-    <section>
+    <section aria-label="Press Kit main section">
       <div class="container-fluid">
         <div class="row">
             <!----------- Carousel ---------->
@@ -69,7 +69,7 @@
               <div id="epk-images" class="carousel slide" data-ride="carousel">
               
                 <!-- Indicators -->
-                <ul class="carousel-indicators">
+                <ul class="carousel-indicators" aria-label="Carousel Indicators on the bottom of the images">
                   <li data-target="#epk-images" data-slide-to="0" class="active"></li>
                   <li data-target="#epk-images" data-slide-to="1"></li>
                   <li data-target="#epk-images" data-slide-to="2"></li>
@@ -92,10 +92,10 @@
                 </div>
                 
                 <!-- Left and right controls -->
-                <a class="carousel-control-prev" href="#epk-images" data-slide="prev">
+                <a class="carousel-control-prev" href="#epk-images" data-slide="prev" aria-label="Left carousel control">
                   <span class="carousel-control-prev-icon"></span>
                 </a>
-                <a class="carousel-control-next" href="#epk-images" data-slide="next">
+                <a class="carousel-control-next" href="#epk-images" data-slide="next" aria-label="Right carousel control">
                   <span class="carousel-control-next-icon"></span>
                 </a>
               </div>
@@ -107,8 +107,8 @@
               <!-- Quote Section -->
               <div>
                 <p class="text-center"><em>”Kryan is a Dublin based Singer-songwriter who blends intimate and honest lyrics with pop sensibilities.”</em></p>
-                <p class="text-center">-  <a href="https://www.indiebuddie.com/kryan-scars-premiere/" class="text-exception" target="_blank">Indie Buddie</a></p>
-                <hr class="epk-hr">
+                <p class="text-center" >-  <a href="https://www.indiebuddie.com/kryan-scars-premiere/" class="text-exception" target="_blank" rel="noopener" aria-label="External Link to Indie Buddie article">Indie Buddie</a></p>
+                <hr class="epk-hr" aria-label="Horizontal Ruler dividing the sections">
               </div> 
               
               <!-- IGTV Embed Section -->
@@ -118,7 +118,7 @@
                   <!-- Embedding code was not altered in order to ensure it worked properly -->
                  <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/tv/CC6Mimagyfn/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="13" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
                     <div style="padding:16px;"> 
-                      <a href="https://www.instagram.com/tv/CC6Mimagyfn/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> 
+                      <a href="https://www.instagram.com/tv/CC6Mimagyfn/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank" rel="noopener" aria-label="IGTV embeded link"> 
                         <div style=" display: flex; flex-direction: row; align-items: center;"> 
                           <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> 
                           <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> 
@@ -170,7 +170,7 @@
                   </blockquote> 
                   <script async src="//www.instagram.com/embed.js"></script>
                 </div>
-                <hr class="epk-hr">
+                <hr class="epk-hr" aria-label="Horizontal Ruler dividing the sections">
               </div> 
 
               <!-- Bio Section -->
@@ -181,30 +181,30 @@
                   New single “Scars” out now!
                   <!-- Paragraph only broken this way for reading purposes -->
                 </p>
-                <hr class="epk-hr">
+                <hr class="epk-hr" aria-label="Horizontal Ruler dividing the sections">
               </div> 
 
               <!-- Spotify Section -->
               <div class="epk-iframe">
                 <iframe src="https://open.spotify.com/embed/artist/6wcRo4TN7UDcoKn591afad" width="75%" height="210" frameborder="0" allowtransparency="true" allow="encrypted-media" title="Kryan on Spotify"></iframe>
-                <hr class="epk-hr">
+                <hr class="epk-hr" aria-label="Horizontal Ruler dividing the sections">
               </div> 
 
               <!-- Contact Section -->
               <div class="epk-contact">
                 <div>
-                  <h3>Get in touch</h3>
+                  <h3 aria-label="Get in touch">Get in touch</h3>
                   <p>For booking enquiries: <a href="mailto:finalstrokepr@gmail.com" class="text-exception" target="_blank">Conor King</a></p>
-                  <form>
-                      <input type="text" placeholder="Name" required>
-                      <input type="email" placeholder="Email" required>
-                      <textarea placeholder="Leave a message" required></textarea>
+                  <form aria-label="Contact Form">
+                      <input type="text" placeholder="Name" aria-label="Enter Name" required>
+                      <input type="email" placeholder="Email" aria-label="Enter Email" required>
+                      <textarea placeholder="Leave a message" aria-label="Enter Message" required></textarea>
                       <br>
-                      <button type="submit" class="btn">Send Message</button>
+                      <button type="submit" class="btn"  aria-label="Press Send">Send Message</button>
                   </form>
                 </div>
 
-                <hr class="epk-hr">
+                <hr class="epk-hr" aria-label="Horizontal Ruler dividing the sections">
               </div> 
               
             </div>
@@ -213,19 +213,19 @@
     </section>
 
     <!------------------------------------ FOOTER ------------------------------------>
-    <footer class="container-fluid fixed-bottom">
+    <footer class="container-fluid fixed-bottom" aria-label="Footer containing Social Icons">
       <div class="row">
         <div class="col left-footer d-none d-lg-block d-xl-block">
           <!-- Empty div in order to divide the footer -->
         </div>
-        <div class="col socials-large d-none d-md-block d-lg-block">
-          <ul class="list-inline">
-            <li class="list-inline-item"><a href="https://www.facebook.com/kryanlive/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-            <li class="list-inline-item"><a href="https://www.instagram.com/kryanlive/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-            <li class="list-inline-item"><a href="https://twitter.com/kryanlive/" target="_blank"><i class="fab fa-twitter"></i></a></li>
-            <li class="list-inline-item"><a href="https://open.spotify.com/artist/6wcRo4TN7UDcoKn591afad?si=fxSJdsAiQYe6CHeAwpKR4Q" target="_blank"><i class="fab fa-spotify"></i></a></li>
-            <li class="list-inline-item"><a href="https://music.apple.com/us/artist/kryan/1423240683" target="_blank"><i class="fab fa-apple"></i></a></li>
-            <li class="list-inline-item"><a href="https://www.deezer.com/en/artist/13491991" target="_blank"><i class="fab fa-deezer"></i></a></li>        
+        <div class="col socials-large d-none d-md-block d-lg-block d-xl-block">
+          <ul class="list-inline" aria-label="Social Icons on Footer">
+            <li class="list-inline-item"><a href="https://www.facebook.com/kryanlive/" target="_blank" rel="noopener" aria-label="Kryan Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                <li class="list-inline-item"><a href="https://www.instagram.com/kryanlive/" target="_blank" rel="noopener" aria-label="Kryan Instagram"><i class="fab fa-instagram"></i></a></li>
+                <li class="list-inline-item"><a href="https://twitter.com/kryanlive/" target="_blank" rel="noopener" aria-label="Kryan Twitter"><i class="fab fa-twitter"></i></a></li>
+                <li class="list-inline-item"><a href="https://open.spotify.com/artist/6wcRo4TN7UDcoKn591afad?si=fxSJdsAiQYe6CHeAwpKR4Q" target="_blank" rel="noopener" aria-label="Kryan Spotify"><i class="fab fa-spotify"></i></a></li>
+                <li class="list-inline-item"><a href="https://music.apple.com/us/artist/kryan/1423240683" target="_blank" rel="noopener" aria-label="Kryan Apple Music"><i class="fab fa-apple"></i></a></li>
+                <li class="list-inline-item"><a href="https://www.deezer.com/en/artist/13491991" target="_blank" rel="noopener" aria-label="Kryan Deezer"><i class="fab fa-deezer"></i></a></li> 
           </ul>
         </div>  
       </div>

@@ -6,15 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="description" content="Website for Irish pop musician Kryan">
     <meta name="author" content="Rebecca Tracey-Timoney">
-    <link rel="shortcut icon" href="assets/images/icon.png">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
-    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> <!-- Bootstrap Import-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" 
-    integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous"> <!-- Font Awesome Import-->
+    <link rel="shortcut icon" href="assets/images/icon.png" aria-label="Kryan Thumbnail Image">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" aria-label="Bootstrap Import"/> <!-- Bootstrap Import-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous" aria-label="Font Awesome Import"/> <!-- Font Awesome Import-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" 
-      integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg==" crossorigin="anonymous"/> <!-- Hover.css Import-->
-    <link rel="stylesheet" href="assets/css/style.css"/> <!-- style.css import-->
-    <title>KryanLive/Bio</title> 
+      integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg==" crossorigin="anonymous" aria-label="Hover Import"/> <!-- Hover.css Import-->
+    <link rel="stylesheet" href="assets/css/style.css" aria-label="CSS Import"/> <!-- style.css import-->
+    <title>KryanLive - Bio</title> 
   </head>
   <body>
 
@@ -22,13 +20,13 @@
     
     <!---------- Header Logo ---------->
     <div class="navbar-logo">
-      <a  href="index.html">
+      <a  href="index.html" aria-label="Kryan Logo linking to Homepage">
         <img src="assets/images/logo.png" width="200" height="70" alt="Kryan Logo">
       </a>
     </div>
 
     <!-- Navigation Bar - Sourced from bootstrap.com -->
-    <nav class="navbar navbar-expand-lg scroll-nav">
+    <nav class="navbar navbar-expand-lg scroll-nav" aria-label="Navigation Bar">
       <div class="container-fluid">
 
         <!---------- Toggler Button ---------->
@@ -38,21 +36,21 @@
 
         <!---------- Nav Links ---------->
         <div class="collapse navbar-collapse nav-padding" id="navbarMenu">
-          <ul class="nav navbar-nav scroll-nav ml-auto"> 
+          <ul class="nav navbar-nav scroll-nav ml-auto" aria-label="Navigation Links"> 
               <!-- hvr-grow class sourced from Hover.css (https://ianlunn.github.io/Hover/)-->
-            <li class="nav-item hvr-grow"><a class="nav-link" href="index.html">Home</a></li> 
-            <li class="nav-item hvr-grow"><a class="nav-link active" href="bio.html">Bio</a></li>
-            <li class="nav-item hvr-grow"><a class="nav-link" href="live.html">Live</a></li>
-            <li class="nav-item hvr-grow"><a class="nav-link" href="epk.html">Press Kit</a></li>
-            <li class="nav-item text-center">
-              <ul class="socials-nav d-inline d-none d-sm-block d-md-none">
-                <li class="list-inline-item"><a href="https://www.facebook.com/kryanlive/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                <li class="list-inline-item"><a href="https://www.instagram.com/kryanlive/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                <li class="list-inline-item"><a href="https://twitter.com/kryanlive/" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                <li class="list-inline-item"><a href="https://open.spotify.com/artist/6wcRo4TN7UDcoKn591afad?si=fxSJdsAiQYe6CHeAwpKR4Q" target="_blank"><i class="fab fa-spotify"></i></a></li>
-                <li class="list-inline-item"><a href="https://music.apple.com/us/artist/kryan/1423240683" target="_blank"><i class="fab fa-apple"></i></a></li>
-                <li class="list-inline-item"><a href="https://www.deezer.com/en/artist/13491991" target="_blank"><i class="fab fa-deezer"></i></a></li>        
-              </ul>
+              <li class="nav-item hvr-grow"><a class="nav-link" href="index.html" aria-label="Homepage">Home</a></li>
+              <li class="nav-item hvr-grow"><a class="nav-link active" href="bio.html" aria-label="Bio Page">Bio</a></li>
+              <li class="nav-item hvr-grow"><a class="nav-link" href="live.html" aria-label="Live Page">Live</a></li>
+              <li class="nav-item hvr-grow"><a class="nav-link" href="epk.html" aria-label="Press Kit">Press Kit</a></li>
+              <li class="nav-item text-center d-inline d-none d-sm-block d-md-none">
+                <ul class="socials-nav" aria-label="Social Icons on Navigation">
+                  <li class="list-inline-item"><a href="https://www.facebook.com/kryanlive/" target="_blank" rel="noopener" aria-label="Kryan Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                  <li class="list-inline-item"><a href="https://www.instagram.com/kryanlive/" target="_blank" rel="noopener" aria-label="Kryan Instagram"><i class="fab fa-instagram"></i></a></li>
+                  <li class="list-inline-item"><a href="https://twitter.com/kryanlive/" target="_blank" rel="noopener" aria-label="Kryan Twitter"><i class="fab fa-twitter"></i></a></li>
+                  <li class="list-inline-item"><a href="https://open.spotify.com/artist/6wcRo4TN7UDcoKn591afad?si=fxSJdsAiQYe6CHeAwpKR4Q" target="_blank" rel="noopener" aria-label="Kryan Spotify"><i class="fab fa-spotify"></i></a></li>
+                  <li class="list-inline-item"><a href="https://music.apple.com/us/artist/kryan/1423240683" target="_blank" rel="noopener" aria-label="Kryan Apple Music"><i class="fab fa-apple"></i></a></li>
+                  <li class="list-inline-item"><a href="https://www.deezer.com/en/artist/13491991" target="_blank" rel="noopener" aria-label="Kryan Deezer"><i class="fab fa-deezer"></i></a></li>        
+                </ul>
             </li>
           </ul>
         </div>
@@ -60,7 +58,7 @@
     </nav>
 
     <!------------------------------------ MAIN SECTION ------------------------------------>
-    <section>
+    <section aria-label="Bio Page main section">
       <div class="container-fluid">
         <div class="row">
             <!----------- Hero Image ---------->
@@ -72,7 +70,7 @@
             <div class="col-12 col-lg-6 bio-info">
 
                 <div class="bio-title">
-                  <h2>Meet <span class="text-exception">Kryan</span></h2>
+                  <h2 aria-label="Meet Kryan">Meet <span class="text-exception">Kryan</span></h2>
                 </div>
                 <div class="bio-text">
                   <p>
@@ -91,8 +89,8 @@
                     <div class="panel-group" id="accordion">
                       <div class="panel panel-default">
                         <div class="panel-heading">
-                          <h5 class="panel-title">
-                            <a data-toggle="collapse" href="#collapse1">Jordo and 'the Legs'</a>
+                          <h5 class="panel-title" aria-label="Jordo and the Legs">
+                            <a data-toggle="collapse" href="#collapse1" aria-label="accordion menu for Jordo and the legs">Jordo and 'the Legs'</a>
                           </h5>
                         </div>
                         <div id="collapse1" data-parent="#accordion" class="panel-collapse collapse in">
@@ -109,8 +107,8 @@
 
                       <div class="panel panel-default">
                         <div class="panel-heading">
-                          <h5 class="panel-title">
-                            <a data-toggle="collapse" href="#collapse2">The Scratch</a>
+                          <h5 class="panel-title" aria-label="The Scratch">
+                            <a data-toggle="collapse" href="#collapse2" aria-label="accordion menu for the Scratch">The Scratch</a>
                           </h5>
                         </div>
                         <div id="collapse2" data-parent="#accordion" class="panel-collapse collapse in">
@@ -127,8 +125,8 @@
 
                       <div class="panel panel-default">
                         <div class="panel-heading">
-                          <h5 class="panel-title">
-                            <a data-toggle="collapse" href="#collapse3">The Hit Machine</a>
+                          <h5 class="panel-title" aria-label="The Hit Machine">
+                            <a data-toggle="collapse" href="#collapse3" aria-label="accordion menu for the Hit Machine">The Hit Machine</a>
                           </h5>
                         </div>
                         <div id="collapse3" data-parent="#accordion" class="panel-collapse collapse in">
@@ -154,19 +152,19 @@
     </section>
 
     <!------------------------------------ FOOTER ------------------------------------>
-    <footer class="container-fluid fixed-bottom">
+    <footer class="container-fluid fixed-bottom" aria-label="Footer containing Social Icons">
       <div class="row">
         <div class="col left-footer d-none d-lg-block d-xl-block">
           <!-- Empty div in order to divide the footer -->
         </div>
-        <div class="col socials-large d-none d-md-block d-lg-block">
-          <ul class="list-inline">
-            <li class="list-inline-item"><a href="https://www.facebook.com/kryanlive/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-            <li class="list-inline-item"><a href="https://www.instagram.com/kryanlive/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-            <li class="list-inline-item"><a href="https://twitter.com/kryanlive/" target="_blank"><i class="fab fa-twitter"></i></a></li>
-            <li class="list-inline-item"><a href="https://open.spotify.com/artist/6wcRo4TN7UDcoKn591afad?si=fxSJdsAiQYe6CHeAwpKR4Q" target="_blank"><i class="fab fa-spotify"></i></a></li>
-            <li class="list-inline-item"><a href="https://music.apple.com/us/artist/kryan/1423240683" target="_blank"><i class="fab fa-apple"></i></a></li>
-            <li class="list-inline-item"><a href="https://www.deezer.com/en/artist/13491991" target="_blank"><i class="fab fa-deezer"></i></a></li>        
+        <div class="col socials-large d-none d-md-block d-lg-block d-xl-block">
+          <ul class="list-inline" aria-label="Social Icons on Footer">
+            <li class="list-inline-item"><a href="https://www.facebook.com/kryanlive/" target="_blank" rel="noopener" aria-label="Kryan Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                <li class="list-inline-item"><a href="https://www.instagram.com/kryanlive/" target="_blank" rel="noopener" aria-label="Kryan Instagram"><i class="fab fa-instagram"></i></a></li>
+                <li class="list-inline-item"><a href="https://twitter.com/kryanlive/" target="_blank" rel="noopener" aria-label="Kryan Twitter"><i class="fab fa-twitter"></i></a></li>
+                <li class="list-inline-item"><a href="https://open.spotify.com/artist/6wcRo4TN7UDcoKn591afad?si=fxSJdsAiQYe6CHeAwpKR4Q" target="_blank" rel="noopener" aria-label="Kryan Spotify"><i class="fab fa-spotify"></i></a></li>
+                <li class="list-inline-item"><a href="https://music.apple.com/us/artist/kryan/1423240683" target="_blank" rel="noopener" aria-label="Kryan Apple Music"><i class="fab fa-apple"></i></a></li>
+                <li class="list-inline-item"><a href="https://www.deezer.com/en/artist/13491991" target="_blank" rel="noopener" aria-label="Kryan Deezer"><i class="fab fa-deezer"></i></a></li> 
           </ul>
         </div>  
       </div>
