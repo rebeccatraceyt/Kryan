@@ -90,11 +90,11 @@ body {
 }
 
 /* Changes navbar for Live page for UX purposes */
-.live-nav { 
+#live-nav { 
     width: 100vw;
     background-color: var(--colour1);
 }
-.live-nav .navbar-nav {
+#live-nav .navbar-nav {
     background-color: var(--colour1);
 }
 
@@ -133,7 +133,7 @@ body {
 /*------------------------------------------------------- Homepage Styling */
 
 /* General styling for hero image */
-.home-hero {
+#home-hero {
     /* Hero Image compatible with mobile devices */
     background: url(../images/hero-m.png) no-repeat center top;
     -webkit-background-size: cover;
@@ -147,7 +147,7 @@ body {
 }
 
 /* General styling for home page text */
-.home-text {
+#home-text {
     background-color: var(--colour1);
     color: var(--colour2);
     width: 100vw;
@@ -160,22 +160,22 @@ body {
     align-items: center;
     align-content: center;
 }
-.home-text a {
+#home-text a {
     color: var(--accent);
 }
-.home-text h1 {
+#home-text h1 {
     font-family: var(--specialfont);
-    font-size: 250%;
+    font-size: 4em;
 }
-.home-text h2 {
-    font-size: 125%;
+#home-text h2 {
+    font-size: 3em;
     font-weight: 400;
 }
 
 /*------------------------------------------------------- BioPage Styling */
 
 /* General styling for hero image */
-.bio-hero {
+#bio-hero {
     /* Hero Image compatible with mobile devices */
     background: url(../images/hero2-m.png) no-repeat center top;
     -webkit-background-size: cover;
@@ -189,7 +189,7 @@ body {
 }
 
 /* General styling for Bio text */
-.bio-info {
+#bio-info {
     background-color: var(--colour1);
     color: var(--colour2);
     font-size: 1.2em;
@@ -202,12 +202,12 @@ body {
     justify-content: center;
     align-content: center;
 }
-.bio-title {
+#bio-title {
     font-family: var(--titlefont);
 }
 
 /* Styling for accordion text */
-.bio-accordion a {
+#bio-accordion a {
     color: var(--accent);
     font-family: var(--bodyfont);
     font-weight: 400;
@@ -216,7 +216,7 @@ body {
 /*------------------------------------------------------- Live Page Styling */
 
 /* Background styling */
-.live-bg {
+#live-bg {
     background: url(../images/hero3.png) no-repeat center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -231,7 +231,7 @@ body {
 }
 
 /* General styling for event div */
-.event-info {
+#event-info {
     background-color: var(--bg-div-light);
     border: 5px solid var(--colour1);
 
@@ -251,14 +251,14 @@ body {
 
     padding: 10px;
 }
-.event-info h1 {
+#event-info h1 {
     color: var(--accent);
     font-size: 1.5em;
     padding-bottom: 10px;
 }
 
 /* Event details styling */
-.event-details {
+#event-details {
     background-color: var(--bg-div-darker);
     border: 1px solid var(--colour1);
     
@@ -273,44 +273,44 @@ body {
     justify-content: center;
     align-items: center;
 }
-.events-columns {
+.event-columns {
     padding: 20px 20px 10px 20px;
 }
 
 /* Styling for Event text - nested in Event details */
-.event-text {
+#event-text {
     background-color: var(--bg-div-light);
     padding: 20px;
 }
-.event-text h2 {
+#event-text h2 {
     color: var(--accent);
     font-size: 1em;
 }
-.event-text h4 {
+#event-text h4 {
     color: var(--colour1);
     font-size: 1em;
 }
-.event-text h4 a {
+#event-text h4 a {
     color: var(--accent);
 }
-.event-text a:hover {
+#event-text a:hover {
     text-decoration: none;
 }
 
 /* Styling for ticket button */
-.ticket-btn {
+#ticket-btn {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 5px;
 }
-.ticket-btn a {
+#ticket-btn a {
     background-color: var(--accent);
     color: var(--colour2);
     font-size: 1.2em;
     padding: 2px 7px;
 }
-.ticket-btn a:hover {
+#ticket-btn a:hover {
     color: var(--accent);
     background-color: var(--colour2);
 }
@@ -318,7 +318,7 @@ body {
 /*------------------------------------------------------- EPK Styling */
 
 /* General styling for right side of page */
-.epk-text {
+#epk-text {
     background-color: var(--colour1);
     color: var(--colour2);
     font-size: 1.2em;
@@ -330,7 +330,7 @@ body {
     justify-content: center;
     align-content: center;
 }
-.epk-text a:hover {
+#epk-text a:hover {
     color: var(--accent);
     text-decoration: none;
 }
@@ -344,7 +344,7 @@ hr.epk-hr {
 }
 
 /* Styling for carousel images */
-.c-style {
+#c-style {
     width: 100vw;
     height: 40vh;
 
@@ -395,7 +395,7 @@ hr.epk-hr {
 }
 
 /* Spotify embed styling */
-.epk-iframe {
+#epk-iframe {
     text-align:center;
     margin: auto;
     /* Source from Stack Overflow in order to center the Spotify iFrame embed in the middle of the page
@@ -403,26 +403,26 @@ hr.epk-hr {
 }
 
 /* Contact form styling */
-.epk-contact {
+#epk-contact {
     padding: 10px 20px 10px 20px;
 }
-.epk-contact div{
+#epk-contact div{
     text-align: center;
 }
-.epk-contact h3 {
+#epk-contact h3 {
     padding-bottom: 10px;
 }
-.epk-contact p {
+#epk-contact p {
     text-align: left;
     padding-inline-start: 5%;
 }
-.epk-contact button {
+#epk-contact button {
     /* "Get in touch" Button styling */
     background-color: var(--accent);
     color: var(--colour2);
     font-size: 1.2em;
 }
-.epk-contact button:hover {
+#epk-contact button:hover {
     background-color: var(--colour2);
     color: var(--accent);
     border: 1px solid var(--colour1);
@@ -456,24 +456,24 @@ input[type=text], input[type=email], textarea {
     /*--------------------------------- Homepage Styling */
 
     /* For text on screens larger than mobile device */
-    .home-text h1 {
-        font-size: 600%;
+    #home-text h1 {
+        font-size: 4em;
     }
-    .home-text h2 {
-        font-size: 350%;
+    #home-text h2 {
+        font-size: 3em;
     }
 
     /*--------------------------------- BioPage Styling */
 
     /* For image on screens larger than mobile device */
-    .bio-hero {
+    #bio-hero {
 
         height: 60vh;
         width: 100vw;
     }
 
     /* For text on screens larger than mobile device */
-    .bio-info{
+    #bio-info{
         background-color: var(--colour1);
         width: 100vw;
         padding: 50px 50px;
@@ -483,7 +483,7 @@ input[type=text], input[type=email], textarea {
     /*--------------------------------- Live Page Styling */
 
     /* General styling for event div on screens larger than mobile devices */
-    .event-info {
+    #event-info {
         top: 50%;
 
         min-width: 90%;
@@ -491,25 +491,25 @@ input[type=text], input[type=email], textarea {
         min-height: auto;
         max-height: 70%;
     }
-    .event-info h1 {
+    #event-info h1 {
         font-size: 1.9em;
     }
 
     /* Styling for Event text on screens larger than mobile devices */
-    .event-text h2 {
+    #event-text h2 {
         font-size: 1.4em;
     }
-    .event-text h4 {
+    #event-text h4 {
         font-size: 1.4em;
     }
 
     /* Styling for ticket button on screens larger than mobile devices */
-    .ticket-btn a {
+    #ticket-btn a {
         font-size: 1.6em;
     }
 
     /* Event location styling (hidden smaller screens for UX purposes) */
-    .event-location {
+    #event-location {
         margin: auto;
         padding: 0px 10px 0px 10px;
         min-width: 40%;
@@ -522,7 +522,7 @@ input[type=text], input[type=email], textarea {
         justify-content: center;
         align-items: center;
     }
-    .event-location iframe {
+    #event-location iframe {
         border: none;
         position: absolute;
         width: 100% !important;
@@ -532,7 +532,7 @@ input[type=text], input[type=email], textarea {
    
     /*--------------------------------- EPK Styling */
     
-    .epk-contact p {
+    #epk-contact p {
         text-align: left;
         padding-inline-start: 10%;
     }
@@ -587,7 +587,7 @@ input[type=text], input[type=email], textarea {
     /*--------------------------------- Homepage Styling */
 
     /* For image on bigger screen */
-    .home-hero {
+    #home-hero {
         /* Homepage Image compatible with larger screens */
         background: url(../images/hero-d.png) no-repeat center top;
         -webkit-background-size: cover;
@@ -599,22 +599,22 @@ input[type=text], input[type=email], textarea {
         width: 50vw;
     }
     /* For text on bigger screen */
-    .home-text{
+    #home-text{
         padding: 0px 20px;
         height: 100vh;
         width: 50vw;
     }
-    .home-text h1 {
+    #home-text h1 {
         font-size: 500%;
     }
-    .home-text h2 {
+    #home-text h2 {
         font-size: 250%;
     }
 
     /*--------------------------------- BioPage Styling */
 
     /* For image on bigger screen */
-    .bio-hero {
+    #bio-hero {
         /* Homepage Image compatible with larger screens */
         background: url(../images/hero2-d.png) no-repeat fixed cover top;
         -webkit-background-size: cover;
@@ -627,7 +627,7 @@ input[type=text], input[type=email], textarea {
     }
 
     /* For text on bigger screen */
-    .bio-info{
+    #bio-info{
         height: 100vh;
         width: 50vw;
         padding: 25vh 5vw;
@@ -636,10 +636,10 @@ input[type=text], input[type=email], textarea {
         align-content: center;
         overflow: auto;
     }
-    .bio-text .bio-title {
+    #bio-text #bio-title {
         padding: 200px 100px 5px 100px;
     }
-    .bio-accordion {
+    #bio-accordion {
         overflow-y: scroll;
         overflow: hidden;
         /* Solved issue with scrollbar on collapsable accordian menu */
@@ -648,7 +648,7 @@ input[type=text], input[type=email], textarea {
     /*--------------------------------- Live Page Styling */
 
     /* General styling for event div on larger screens */
-    .event-info {
+    #event-info {
         top: 55vh;
 
         min-width: 60%;
@@ -656,21 +656,21 @@ input[type=text], input[type=email], textarea {
         min-height: auto;
         max-height: 80%;
     }
-    .event-info h1 {
+    #event-info h1 {
         font-size: 2.6em;
         padding-bottom: 1px;
     }
 
     /* Styling for Event text - nested in Event details on larger screens */
-    .event-text h2 {
+    #event-text h2 {
         font-size: 1.5em;
     }
-    .event-text h4 {
+    #event-text h4 {
         font-size: 1.3em;
     }
 
     /* Styling for ticket button on larger screens */
-    .ticket-btn a {
+    #ticket-btn a {
         background-color: var(--accent);
         color: var(--colour2);
         font-size: 1.6em;
@@ -678,7 +678,7 @@ input[type=text], input[type=email], textarea {
     }
 
      /* Event location styling (hidden smaller screens for UX purposes) */
-     .event-location {
+     #event-location {
         margin: auto;
         padding: 0px 10px 0px 10px;
         min-width: 40%;
@@ -692,7 +692,7 @@ input[type=text], input[type=email], textarea {
         justify-content: center;
         align-items: center;
     }
-    .event-location iframe {
+    #event-location iframe {
         border: none;
         position: absolute;
         width: 100% !important;
@@ -703,7 +703,7 @@ input[type=text], input[type=email], textarea {
     /*--------------------------------- EPK Styling */
 
     /* For text on bigger screen */
-    .epk-text {
+    #epk-text {
         background-color: var(--colour1);
 
         height: 100vh;
@@ -716,7 +716,7 @@ input[type=text], input[type=email], textarea {
     }
 
     /* Styling for carousel images on larger screens */
-    .c-style {
+    #c-style {
         width: 50vw;
         height: 100vh;
 
@@ -756,7 +756,7 @@ input[type=text], input[type=email], textarea {
     }
 
     /* Contact form re-sizing for larger devices */
-    .epk-contact p {
+    #epk-contact p {
         text-align: left;
         padding-inline-start: 12%;
     }
@@ -791,7 +791,7 @@ input[type=text], input[type=email], textarea {
     .left-footer {
         width: 50vw;
     }
-    .live-footer {
+    #live-footer {
         text-align: center;
     }
 }
@@ -799,19 +799,19 @@ input[type=text], input[type=email], textarea {
 /*------------------------------------------------------- 404 Page Styling */
 
 /* General Styling for error page */
-.error-page {
+#error-page {
     background-color: var(--colour1);
     padding: 30px;
 }
 
 /* Responsive styling for error image */
-.error-img {
+#error-img {
     max-width: 100%;
     height: auto;
 }
 
 /* Responsive styling for error div */
-.error {
+#error {
     background-color: var(--colour2);
     text-align: center;
     font-size: 1.3em;
@@ -827,7 +827,7 @@ input[type=text], input[type=email], textarea {
     margin: auto;
     width: 40%;
 }
-.error a {
+#error a {
     color: var(--accent);
 }
 

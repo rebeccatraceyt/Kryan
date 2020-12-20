@@ -18,14 +18,14 @@
     <!------------------------------------ HEADER ------------------------------------>
     
      <!---------- Header Logo ---------->
-    <div class="navbar-logo live-logo">
+    <div class="navbar-logo">
       <a  href="index.html" aria-label="Kryan Logo linking to Homepage">
         <img src="assets/images/logo.png" width="200" height="70" alt="Kryan Logo">
       </a>
     </div>
 
     <!-- Navigation Bar - Sourced from bootstrap.com -->
-    <nav class="navbar live-nav navbar-expand-lg" aria-label="Navigation Bar">
+    <nav class="navbar navbar-expand-lg" id="live-nav" aria-label="Navigation Bar">
       <div class="container-fluid">
 
         <!---------- Toggler Button ---------->
@@ -58,9 +58,9 @@
 
 
     <!------------------------------------ MAIN SECTION ------------------------------------>
-    <section class="live-bg" aria-label="Live Page main section">
+    <section id="live-bg" aria-label="Live Page main section">
       <div class="container">
-        <div class="event-info">
+        <div id="event-info">
           <!------------- Title ------------->
           <div class="row">
             <div class="col-12 text-center">
@@ -70,13 +70,13 @@
           <!---------- Event Info ---------->
           <div class="row">
             <!-- Event Details -->
-            <div class="col-12 col-md-6 events-columns">
-              <div class="event-details">
-                <div class="event-text">
+            <div class="col-12 col-md-6 event-columns">
+              <div id="event-details">
+                <div id="event-text">
                   <h2 aria-label="Dublin">Dublin</h2>
-                  <h4 id="gs-link" aria-label="Event date">Friday 21 May 2021</h4>
-                  <h4 >@ <a href="https://www.facebook.com/events/633323897438970/" target="_blank" rel="noopener" aria-label="External link to Event Page">The Grand Social</a></h4>
-                  <div class="ticket-btn">
+                  <h4 aria-label="Event date">Friday 21 May 2021</h4>
+                  <h4> @ <a href="https://www.facebook.com/events/633323897438970/" target="_blank" rel="noopener" aria-label="External link to Event Page">The Grand Social</a></h4>
+                  <div id="ticket-btn">
                     <a href="https://www.ticketweb.ie/event/kryan-live-at-the-grand-the-grand-social-tickets/10785895" class="btn" target="_blank" rel="noopener" aria-label="External Link to ticket purchasing page">Tickets</a>
                   </div>
                 </div>
@@ -84,8 +84,8 @@
             </div>
 
             <!-- Event Location -->
-            <div class="col-12 col-md-6 events-columns"> 
-              <div class="event-location d-none d-md-block d-lg-block">
+            <div class="col-12 col-md-6 event-columns"> 
+              <div id="event-location" class="d-none d-md-block d-lg-block">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d595.4501445341141!2d-6.2635598508043!3d53.346825923767916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e8315543c83%3A0xd32fb2d0b09e1a6a!2sThe%20Grand%20Social!5e0!3m2!1sen!2sie!4v1608318738312!5m2!1sen!2sie" width="600" height="600" tabindex="0" title="Google Maps embed"></iframe>
               </div>
             </div>
@@ -97,7 +97,7 @@
     <!------------------------------------ FOOTER ------------------------------------>
     <footer class="container-fluid fixed-bottom" aria-label="Footer containing Social Icons">
       <div class="row">
-        <div class="col socials-large live-footer d-none d-md-block d-lg-block">
+        <div id="live-footer" class="col socials-large d-none d-md-block d-lg-block">
           <ul class="list-inline" aria-label="Social Icons on Footer">
             <li class="list-inline-item"><a href="https://www.facebook.com/kryanlive/" target="_blank" rel="noopener" aria-label="Kryan Facebook"><i class="fab fa-facebook-f"></i></a></li>
                 <li class="list-inline-item"><a href="https://www.instagram.com/kryanlive/" target="_blank" rel="noopener" aria-label="Kryan Instagram"><i class="fab fa-instagram"></i></a></li>
