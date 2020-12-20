@@ -76,12 +76,12 @@ The imagery is catching and visually represents the theme of the website.
 
 All imagery provides alternative text to be used in the event that the element cannot be rendered. The template used to provide alt text for background images can be found [here](http://www.davidmacd.com/blog/alternate-text-for-css-background-images.html).
 
-### Wireframes and Mockups
+### Wireframes
 
-   - Home Page - [View Wireframe](# "Home Page Wireframe") | [View Mockup](# "Home Page Mockup")
-   - Bio Page - [View Wireframe](# "Bio Page Wireframe") | [View Mockup](# "Bio Page Mockup")
-   - Live Page - [View Wireframe](# "Live Page Wireframe") | [View Mockup](# "Live Page Mockup")
-   - Electronic Press Kit Page - [View Wireframe](# "Electronic Press Kit Page Wireframe") | [View Mockup](# "Electronic Press Kit Page Mockup")
+   - Home Page - [Wireframe](assets/readme-files/home.png "Home Page Wireframe")
+   - Bio Page - [Wireframe](assets/readme-files/bio.png "Bio Page Wireframe") 
+   - Live Page - [Wireframe](assets/readme-files/live.png "Live Page Wireframe")
+   - Electronic Press Kit Page - [Wireframe](assets/readme-files/presskit.png "Electronic Press Kit Page Wireframe")
 
 ## Features
 
