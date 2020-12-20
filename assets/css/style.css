@@ -135,7 +135,7 @@ body {
 /* General styling for hero image */
 .home-hero {
     /* Hero Image compatible with mobile devices */
-    background: url(assets/images/hero-m.png) no-repeat center top;
+    background: url(../images/hero-m.png) no-repeat center top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -177,7 +177,7 @@ body {
 /* General styling for hero image */
 .bio-hero {
     /* Hero Image compatible with mobile devices */
-    background: url(assets/images/hero2-m.png) no-repeat center top;
+    background: url(../images/hero2-m.png) no-repeat center top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -217,7 +217,7 @@ body {
 
 /* Background styling */
 .live-bg {
-    background: url(assets/images/hero3.png) no-repeat center fixed; 
+    background: url(../images/hero3.png) no-repeat center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -353,7 +353,7 @@ hr.epk-hr {
 }
 /* Calling in each image to carousel to ensure responsiveness */
 .c-image1 {
-    background: url(assets/images/c1-m.png) no-repeat center top;
+    background: url(../images/c1-m.png) no-repeat center top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -363,7 +363,7 @@ hr.epk-hr {
     min-height: 40vh;
 }
 .c-image2 {
-    background: url(assets/images/c2-m.png) no-repeat center top;
+    background: url(../images/c2-m.png) no-repeat center top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -373,7 +373,7 @@ hr.epk-hr {
     min-height: 40vh;
 }
 .c-image3 {
-    background: url(assets/images/c3-m.png) no-repeat center top;
+    background: url(../images/c3-m.png) no-repeat center top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -589,7 +589,7 @@ input[type=text], input[type=email], textarea {
     /* For image on bigger screen */
     .home-hero {
         /* Homepage Image compatible with larger screens */
-        background: url(assets/images/hero-d.png) no-repeat center top;
+        background: url(../images/hero-d.png) no-repeat center top;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -616,7 +616,7 @@ input[type=text], input[type=email], textarea {
     /* For image on bigger screen */
     .bio-hero {
         /* Homepage Image compatible with larger screens */
-        background: url(assets/images/hero2-d.png) no-repeat fixed cover top;
+        background: url(../images/hero2-d.png) no-repeat fixed cover top;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -725,7 +725,7 @@ input[type=text], input[type=email], textarea {
 
     /* Calling in each image to carousel to ensure responsiveness */
     .c-image1 {
-        background: url(assets/images/c1-d.png) no-repeat center top;
+        background: url(../images/c1-d.png) no-repeat center top;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -735,7 +735,7 @@ input[type=text], input[type=email], textarea {
         width: 50vw;
     }
     .c-image2 {
-        background: url(assets/images/c2-d.png) no-repeat center top;
+        background: url(../images/c2-d.png) no-repeat center top;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -745,7 +745,7 @@ input[type=text], input[type=email], textarea {
         width: 50vw;
     }
     .c-image3 {
-        background: url(assets/images/c3-d.png) no-repeat center top;
+        background: url(../images/c3-d.png) no-repeat center top;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
