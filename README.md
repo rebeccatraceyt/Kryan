@@ -28,7 +28,8 @@
 9. [Acknowledgements](##Acknowledgements[⇧])
 
 
-## Introduction[⇧](#Kryan-Live)
+## Introduction
+[Back to top](#Kryan-Live)
 This comprehensive website was designed for the artist known as Kryan. The focus of the site is to create an online presence allowing members of the media, as well as new and current fans, to find out relevant information and to get to know Kryan. 
 
 ![KryanLive Mockup Images](assets/readme-files/mockup.png)
