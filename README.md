@@ -1,34 +1,35 @@
 # Kryan Live
 ## Table of contents
-1. [Introduction](##Introduction-[⇧])
-2. [UX](##UX-[⇧])
+1. [Introduction](##Introduction)
+2. [UX](##UX)
     1. [Ideal User Demographic](###Ideal-User-Demographic)
     2. [User Stories](###User-Stories)
     3. [Design](###Design)
     4. [Wireframes](###Wireframes)
-3. [Features](##Features-[⇧])
+3. [Features](##Features)
     1. [Design Features](###Design-Features)
     2. [Existing Features](###Existing-Features)
     3. [Features to Implement in the future](###Features-to-Implement-in-the-future)
-4. [Bugs](##Bugs-[⇧])
-5. [Technologies Used](##Technologies-Used-[⇧])
+4. [Bugs](##Bugs)
+5. [Technologies Used](##Technologies-Used)
      1. [Main Languages Used](###Main-Languages-Used)
      2. [Additional Languages Used](###Additional-Languages-Used)
      3. [Frameworks, Libraries & Programs Used](###Frameworks,-Libraries-&-Programs-Used)
-6. [Testing](##Testing-[⇧])
+6. [Testing](##Testing)
      1. [Testing User Stories](###Testing-User-Stories)
-7. [Deployment](##Deployment-[⇧])
+7. [Deployment](##Deployment)
      1. [Deploying on GitHub Pages](###Deploying-on-GitHub-Pages)
      2. [Forking the Repository](###Forking-the-Repository)
      3. [Creating a Clone](###Creating-a-Clone)
-8. [Credits](##Credits-[⇧])
+8. [Credits](##Credits)
      1. [Content](###Content)
      2. [Media](###Media)
      3. [Code](###Code)
-9. [Acknowledgements](##Acknowledgements-[⇧])
+9. [Acknowledgements](##Acknowledgements)
+***
 
+## Introduction
 
-## Introduction [⇧](#Kryan-Live)
 This comprehensive website was designed for the artist known as Kryan. The focus of the site is to create an online presence allowing members of the media, as well as new and current fans, to find out relevant information and to get to know Kryan. 
 
 ![KryanLive Mockup Images](assets/readme-files/mockup.png)
@@ -52,7 +53,9 @@ Kryan is a Dublin based singer/songwriter multi-instrumentalist, focusing mainly
      - Upcoming live events
      - Contact information (PR and social enquires)
 
-## UX [⇧](#Kryan-Live)
+[Back to top ⇧](#Kryan-Live)<br>
+
+## UX 
 
 ### Ideal User Demographic
 #### The ideal user of this website is:
@@ -116,7 +119,9 @@ All imagery provides alternative text to be used in the event that the element c
    - Live Page - [Wireframe](assets/readme-files/live.png "Live Page Wireframe")
    - Electronic Press Kit Page - [Wireframe](assets/readme-files/presskit.png "Electronic Press Kit Page Wireframe")
 
-## Features [⇧](#Kryan-Live)
+[Back to top ⇧](#Kryan-Live)<br>
+
+## Features
 
 ### Design Features
 Each page of the website features a consistent responsive navigational system:
@@ -217,7 +222,9 @@ Each page of the website features a consistent responsive navigational system:
      - **Feature** - smartlink embedding platform for music promotion
      - **Reason for not featuring in this release** - Budget not available for services
 
-## Bugs [⇧](#Kryan-Live)
+[Back to top ⇧](#Kryan-Live)<br>
+
+## Bugs
 
 **Navbar Bug** - A bug was detected early on with the Navigation bar. In implimenting a responsive navigation system, Bootstrap was used but there was bug that would not allow the navbar to be recoloured to suit the the chosen colour scheme. In researching a cause (and solution) the developer found a question posted on [Stack Overflow](https://stackoverflow.com/questions/46237610/bootstrap-4-navbar-color-wont-change) with a similar problem. It was from here that the developer was able to copy and edit the code given as a solution on Stack in order to impliment a solution to the bug, with celebratory sucess.
 
@@ -238,8 +245,9 @@ margin: 0px auto;
 
 **IGTV Bug (Press Kit Page)** - A bug was detected in the in IGTV embedding code which was affecting the responsivness of the embed. The `min-width: 326px` value was distorting the video when viewing on a mobile device. Using a post with a similiar problem from [WordPress](https://wordpress.org/support/topic/problem-embedding-instagram/) the developer was able to override this with a `!important` value after the set element, allowing it to be responisive across all devices. The developer recognises that this may not be best practice but, in this case, it was necessary in order to maintain responsivness.
 
+[Back to top ⇧](#Kryan-Live)<br>
 
-## Technologies Used [⇧](#Kryan-Live)
+## Technologies Used
 ### Main Languages Used
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
@@ -262,8 +270,9 @@ margin: 0px auto;
 - [Balsamiq](https://balsamiq.com/)
      - Balsamiq was used to create the wireframes during the design phase of the project.
 
+[Back to top ⇧](#Kryan-Live)<br>
 
-## Testing [⇧](#Kryan-Live)
+## Testing
 The [W3C Markup Validator](https://validator.w3.org/) and the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) Services were used in validating each page of the project to ensure there were no syntax errors. 
 
 ### Testing User Stories 
@@ -298,7 +307,9 @@ The [W3C Markup Validator](https://validator.w3.org/) and the [W3C CSS Validator
 2. As a media enquirer, I want to easily find materials that could be useful for media coverage pieces.
      1. Result
 
-## Deployment [⇧](#Kryan-Live)
+[Back to top ⇧](#Kryan-Live)<br>
+
+## Deployment
 This project was developed using [Visual Studio Code Insiders](https://code.visualstudio.com/insiders/), committed to git and pushed to GitHub using the computer terminal.
 
 ### Deploying on GitHub Pages
@@ -344,7 +355,9 @@ How to run this project within a local IDE such as VSCode:
 
 Further reading and troubleshooting on cloning a repository from GitHub [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
 
-## Credits [⇧](#Kryan-Live)
+[Back to top ⇧](#Kryan-Live)<br>
+
+## Credits 
 
 ### Content
 - The text used in the biographic paragraphs were written by the artist, Ryan Kelly.
@@ -361,8 +374,13 @@ The developer consulted multiple sites in order to better understand they were t
 - [Bootstrap](https://getbootstrap.com/)
 - [JSfiddle](https://jsfiddle.net/)
 
-## Acknowledgements [⇧](#Kryan-Live)
+[Back to top ⇧](#Kryan-Live)<br>
+
+## Acknowledgements
 - I would like to thank my friends and family for their valued opinions and critic during the process of design and development.
 - I would like to thank my mentor, Seun, for her invaluable help and guidance throughout the process.
 - Lastly, I would like to extend my deepest gratitude to Ryan for trusting me in designing this site for him.
+
+[Back to top ⇧](#Kryan-Live)<br>
+
 ---
