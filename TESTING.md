@@ -12,17 +12,6 @@ The [W3C Markup Validator](https://validator.w3.org/) and the [W3C CSS Validator
 
 ### Client stories testing:
 
-Most common path through the website: 
-- Home > Gallery > Pricing > How to Order > Contact 
-- Each of these pages points clearly to the next one with a call to action button. In some places the customer may have a different question in their mind, so a second button is also provided. 
-
-The About page is not necessarily part of the flow of the site for users, but it has been included 
-to offer information about the artist for those who are curious about her. The information here is kept short as to not overload the user. 
-
-Some pages offer two possible paths in their call to action buttons: 
-- From About > Gallery OR How to Order
-- From Gallery > Pricing OR How to Order
-
 ### Testing client stories from UX section of README.md
 
 **As defined in User Experience Section**
