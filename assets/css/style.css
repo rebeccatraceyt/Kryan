@@ -15,14 +15,13 @@
     --accent: rgb(123, 0, 0);
 
     /* Colour variables for navbars */
-    --nav-dark: rgba(40, 40, 40, 0.901);
-    --nav-light: rgba(40, 40, 40, 0);
-    --nav-scroll: rgba(40, 40, 40, 0.699);
+    --nav-dark: rgba(0, 0, 0, 0.705);
+    --nav-light: rgba(40, 40, 40, 0.26);
+    --nav-scroll: rgba(0, 0, 0, 0.952);
 
     /* Colour variables for divs */
     --bg-div-light: rgba(241, 241, 241, 0.952);
-    --bg-div-dark: rgba(0, 0, 0, 0.493);
-    --bg-div-darker: rgba(0, 0, 0, 0.664);
+    --bg-div-dark: rgba(0, 0, 0, 0.664);
 
     /* Colour variables for horizontal rulers */
     --hr-colour: rgba(246, 246, 246, 0.377);
@@ -45,7 +44,7 @@ body {
 
 /* Styling for navigation bar */
 .navbar{
-    background-color: var(--colour1);
+    background-color: var(--nav-dark);
     width: 100vw;
     margin-bottom: 0;
     border: 0;
@@ -96,6 +95,11 @@ body {
     width: 100vw; 
 }
 
+/* Changes navbar for Press Kit page for UX purposes */
+#epk-nav {
+    background-color: var(--nav-light);
+}
+
 /* Styling for navbar toggler */
 .custom-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(173, 20, 20)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
@@ -114,7 +118,7 @@ body {
 
 /* Defines actions to be taken by navbar on scroll - For mobile devices */
 .scroll-nav.scrolled {
-    background-color: var(--colour1) !important;
+    background-color: var(--nav-scroll) !important;
     transition: background-color 200ms linear;
 }
 
@@ -257,7 +261,7 @@ body {
 
 /* Event details styling */
 #event-details {
-    background-color: var(--bg-div-darker);
+    background-color: var(--bg-div-dark);
     border: 1px solid var(--colour1);
     
     padding: 20px;
@@ -610,7 +614,7 @@ input[type=text], input[type=email], textarea {
         width: 50vw;
     }
     .navbar-nav {
-        background-color: var(--nav-light);
+        background-color: var(--colour1);
         border-radius: 0px;
     }
     .nav-padding {
@@ -619,6 +623,10 @@ input[type=text], input[type=email], textarea {
     /* Changes navbar for Live page for UX purposes */
     .live-nav { 
         width: 100vw;
+        background-color: var(--colour1);
+    }
+    /* Changes navbar for Press Kit page for UX purposes */
+    #epk-nav {
         background-color: var(--colour1);
     }
 
@@ -757,7 +765,6 @@ input[type=text], input[type=email], textarea {
     #c-style {
         width: 50vw;
         height: 100vh;
-        left: 0;
     }
 
     /* Calling in each image to carousel to ensure responsiveness */
