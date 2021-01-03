@@ -10,7 +10,7 @@
 
 The [W3C Markup Validator](https://validator.w3.org/) and the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) Services were used in validating each page of the project to ensure there were no syntax errors.
 
-### Client stories testing:
+### Client stories testing
 
 ### Testing client stories from UX section of README.md
 
