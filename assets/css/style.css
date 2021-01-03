@@ -93,6 +93,7 @@ body {
 /* Changes navbar for Live page for UX purposes */
 #live-nav { 
     width: 100vw; 
+    background-color: var(--colour1);
 }
 
 /* Changes navbar for Press Kit page for UX purposes */
@@ -623,7 +624,6 @@ input[type=text], input[type=email], textarea {
     /* Changes navbar for Live page for UX purposes */
     .live-nav { 
         width: 100vw;
-        background-color: var(--colour1);
     }
     /* Changes navbar for Press Kit page for UX purposes */
     #epk-nav {
