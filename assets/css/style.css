@@ -45,9 +45,11 @@ body {
 
 /* Styling for navigation bar */
 .navbar{
+    background-color: var(--colour1);
+    width: 100vw;
     margin-bottom: 0;
     border: 0;
-    width: 100vw;
+    
     right: 0;
     position: fixed;
     z-index: 100;
@@ -67,7 +69,7 @@ body {
 
 /* Styling for nav links in navigation bar */
 .navbar-nav{
-    background-color: var(--nav-dark);
+    background-color: var(--colour1);
     padding: 10px;
     border-radius: 15px;
     z-index: 100;
@@ -91,11 +93,7 @@ body {
 
 /* Changes navbar for Live page for UX purposes */
 #live-nav { 
-    width: 100vw;
-    background-color: var(--colour1);
-}
-#live-nav .navbar-nav {
-    background-color: var(--colour1);
+    width: 100vw; 
 }
 
 /* Styling for navbar toggler */
