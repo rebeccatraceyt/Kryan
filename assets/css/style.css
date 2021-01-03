@@ -133,7 +133,7 @@ body {
 /* General styling for hero image */
 #home-hero {
     /* Hero Image compatible with mobile devices */
-    background: url(../images/hero-m.png) no-repeat center top;
+    background: url(../images/hero1-m.png) no-repeat center top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -341,7 +341,7 @@ hr.epk-hr {
     margin: 25px auto;
 }
 
-/* Styling for carousel images */
+/* Styling for carousel images section */
 #c-style {
     width: 100vw;
     height: 40vh;
@@ -372,6 +372,46 @@ hr.epk-hr {
 }
 .c-image3 {
     background: url(../images/c3-m.png) no-repeat center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    width: 100vw;
+    min-height: 40vh;
+}
+.c-image4 {
+    background: url(../images/c4-m.png) no-repeat center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    width: 100vw;
+    min-height: 40vh;
+}
+.c-image5 {
+    background: url(../images/c5-m.png) no-repeat center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    width: 100vw;
+    min-height: 40vh;
+}
+.c-image6 {
+    background: url(../images/c6-m.png) no-repeat center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    width: 100vw;
+    min-height: 40vh;
+}
+.c-image7 {
+    background: url(../images/c7-m.png) no-repeat center top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -587,7 +627,7 @@ input[type=text], input[type=email], textarea {
     /* For image on bigger screen */
     #home-hero {
         /* Homepage Image compatible with larger screens */
-        background: url(../images/hero-d.png) no-repeat center top;
+        background: url(../images/hero1-d.png) no-repeat fixed cover top;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -614,7 +654,7 @@ input[type=text], input[type=email], textarea {
     /* For image on bigger screen */
     #bio-hero {
         /* Homepage Image compatible with larger screens */
-        background: url(../images/hero2-d.png) no-repeat fixed cover top;
+        background: url(../images/hero2-d.png) no-repeat center top;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -713,12 +753,11 @@ input[type=text], input[type=email], textarea {
         overflow: auto;
     }
 
-    /* Styling for carousel images on larger screens */
+    /* Styling for carousel images section on larger screens */
     #c-style {
         width: 50vw;
         height: 100vh;
-
-        padding: 0;
+        left: 0;
     }
 
     /* Calling in each image to carousel to ensure responsiveness */
@@ -744,6 +783,46 @@ input[type=text], input[type=email], textarea {
     }
     .c-image3 {
         background: url(../images/c3-d.png) no-repeat center top;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        
+        height: 100vh;
+        width: 50vw;
+    }
+    .c-image4 {
+        background: url(../images/c4-d.png) no-repeat center top;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        
+        height: 100vh;
+        width: 50vw;
+    }
+    .c-image5 {
+        background: url(../images/c5-d.png) no-repeat center top;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        
+        height: 100vh;
+        width: 50vw;
+    }
+    .c-image6 {
+        background: url(../images/c6-d.png) no-repeat center top;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        
+        height: 100vh;
+        width: 50vw;
+    }
+    .c-image7 {
+        background: url(../images/c7-d.png) no-repeat center top;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
