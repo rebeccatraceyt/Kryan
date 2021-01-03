@@ -16,7 +16,7 @@
      2. [Additional Languages Used](#Additional-Languages-Used)
      3. [Frameworks, Libraries & Programs Used](#Frameworks,-Libraries-&-Programs-Used)
 6. [Testing](#Testing)
-     1. [Testing User Stories](#Testing-User-Stories)
+     1. [Testing.md](TESTING.md)
 7. [Deployment](#Deployment)
      1. [Deploying on GitHub Pages](#Deploying-on-GitHub-Pages)
      2. [Forking the Repository](#Forking-the-Repository)
@@ -274,41 +274,7 @@ margin: 0px auto;
 
 ## Testing
 
-The [W3C Markup Validator](https://validator.w3.org/) and the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) Services were used in validating each page of the project to ensure there were no syntax errors. 
-
-### Testing User Stories 
-**As defined in User Experience ([UX](##UX)) Section**
-#### New/Potential Fans Goals:
-1. As a new fan, I want to easily navigate through the website to find the relevant content, effortlessly.
-     1. Result
-2. As a new fan, I want to learn more about the artist's background in order to better understand their music and the meaning behind it.
-     1. Result
-3. As a new fan, I want to easily navigate to the artist's social links in order to keep up with the latest news and releases.
-     1. Result
-4. As a new fan, I want to easily find links to the hosted music platform of my choice, in order to listen to Kryan.
-     1. Result
-5. As a new fan, I want to be able to watch an embedded video to be able to get a snapshot of Kryan performing.
-     1. Result
-
-#### Current Fans Goals:
-1. As a current fan, I want to navigate to information about upcoming live events in order to securely order tickets.
-     1. Result
-2. As a current fan, I want to find out about new and upcoming releases to be able to pre-save or listen to the music.
-     1. Result
-3. As a current fan, I want to easily navigate to the artist's music page on my desired music platform, e.g. Spotify.
-     1. Result
-
-#### Potential Bookers Goals:
-1. As a potential booker, I want to easily navigate to the artist's Electronic Press Kit to source relevant information.
-     1. Result
-
-#### Media Enquirer Goals:
-1. A a media enquirer, I want to easily navigate to the artist's Electronic Press Kit to source relevant information.
-     1. Result
-2. As a media enquirer, I want to easily find materials that could be useful for media coverage pieces.
-     1. Result
-
-[Back to top ⇧](#Kryan-Live)
+Testing information can be found in separate testing [file](TESTING.md)
 
 ## Deployment
 
