@@ -112,7 +112,7 @@ The selected imagery is modern and cohesively aesthetic, reflecting the artist's
 
 The imagery is catching and visually represents the theme of the website.
 
-All imagery provides alternative text to be used in the event that the element cannot be rendered. The template used to provide alt text for background images can be found  <a href="http://www.davidmacd.com/blog/alternate-text-for-css-background-images.html" target="_blank" alt="Link to alt text reference on davidmacd.com">here</a>.
+All imagery provides alternative text to be used in the event that the element cannot be rendered. The template used to provide alt text for background images can be found  <a href="http://www.davidmacd.com/blog/alternate-text-for-css-background-images.html" target="_blank" alt="Link to alt text reference on www.davidmacd.com">here</a>.
 
 ### Wireframes
 
@@ -246,7 +246,7 @@ margin: 0px auto;
 
 **Google Maps iFrame Bug (Live Page)** - A bug was detected with the iframe element of the Live Page (which was used to implement a Google Maps embed). There was a problem with the responsiveness of the iframe, causing it to extend its width far beyond the page upon resizing. while `overflow: hidden;` would have worked with larger screens, it was proving problematic with smaller screens. The developer found a post from <a href="https://www.labnol.org/internet/embed-responsive-google-maps/28333/" target="_blank" alt="Link to Digital Inspiration solution (external)">Digital Inspiration</a> in order to better understand the problem and to successfully implement a solution.
 
-**IGTV Bug (Press Kit Page)** - A bug was detected in the in IGTV embedding code which was affecting the responsivness of the embed. The `min-width: 326px` value was distorting the video when viewing on a mobile device. Using a post with a similiar problem from  <a href="https://wordpress.org/support/topic/problem-embedding-instagram/" target="_blank" alt="Link to Digital Inspiration solution (external)">WordPress</a> the developer was able to override this with a `!important` value after the set element, allowing it to be responisive across all devices. The developer recognises that this may not be best practice but, in this case, it was necessary in order to maintain responsivness.
+**IGTV Bug (Press Kit Page)** - A bug was detected in the in IGTV embedding code which was affecting the responsiveness of the embed. The `min-width: 326px` value was distorting the video when viewing on a mobile device. Using a post with a similar problem from  <a href="https://wordpress.org/support/topic/problem-embedding-instagram/" target="_blank" alt="Link to Digital Inspiration solution (external)">WordPress</a> the developer was able to override this with a `!important` value after the set element, allowing it to be responsive across all devices. The developer recognizes that this may not be best practice but, in this case, it was necessary in order to maintain responsiveness.
 
 [Back to top ⇧](#Kryan-Live)
 
@@ -267,7 +267,7 @@ margin: 0px auto;
 - <a href="https://fontawesome.com/" target="_blank" alt="Link to FontAwesome (external)">Font Awesome</a>
      - Font Awesome was used on all pages throughout the website to import icons (e.g. social media icons) for UX purposes.
 - <a href="https://git-scm.com/" target="_blank" alt="Link to Git homepage (external)">Git</a>
-     - Git was used for version control by utilising the GitPod terminal to commit to Git and push to GitHub.
+     - Git was used for version control by utilizing the GitPod terminal to commit to Git and push to GitHub.
 - <a href="https://github.com/" target="_blank" alt="Link to GitHub (external)">GitHub</a>
      - GitHub was used to store the project after pushing
 - <a href="https://balsamiq.com/" target="_blank" alt="Link to Balsamiq homepage(external)">Balsamiq</a>
@@ -305,14 +305,14 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 
 ### Creating a Clone
 How to run this project locally:
-1. Install the <a href="https://www.gitpod.io/docs/browser-extension/" target="_blank" alt="Link to Gitpod Browser extension download (external)">Gitpod Browser</a> Extension for Chrome.
+1. Install the <a href="https://www.gitpod.io/docs/browser-extension/" target="_blank" alt="Link to Gitpod Browser extension download (external)">GitPod Browser</a> Extension for Chrome.
 2. After installation, restart the browser.
 3. Log into <a href="https://github.com/login" target="_blank" alt="Link to GitHub login page">GitHub</a> or <a href="https://github.com/join" target="_blank" alt="Link to GitHub create account page">create an account</a>.
 4. Locate the <a href="https://github.com/rebeccatraceyt/KryanLive" target="_blank" alt="Link to GitHub Repo">GitHub Repository</a>.
-5. Click the green "Gitpod" button in the top right corner of the respository
-This will trigger a new gitpod workspace to be created from the code in github where you can work locally.
+5. Click the green "GitPod" button in the top right corner of the repository.
+This will trigger a new gitPod workspace to be created from the code in github where you can work locally.
 
-How to run this project within a local IDE such as VSCode:
+How to run this project within a local IDE, such as VSCode:
 
 1. Log into <a href="https://github.com/login" target="_blank" alt="Link to GitHub login page (external)">GitHub</a> or <a href="https://github.com/join" target="_blank" alt="Link to GitHub create account page">create an account</a>.
 2. Locate the <a href="https://github.com/rebeccatraceyt/KryanLive" target="_blank" alt="Link to GitHub Repo">GitHub Repository</a>.

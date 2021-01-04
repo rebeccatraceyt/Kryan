@@ -21,7 +21,7 @@
 
     /* Colour variables for divs */
     --bg-div-light: rgba(241, 241, 241, 0.952);
-    --bg-div-dark: rgba(0, 0, 0, 0.664);
+    --bg-div-dark: rgb(20, 20, 20);
 
     /* Colour variables for horizontal rulers */
     --hr-colour: rgba(246, 246, 246, 0.377);
@@ -68,7 +68,7 @@ body {
 
 /* Styling for nav links in navigation bar */
 .navbar-nav{
-    background-color: var(--colour1);
+    background-color: var(--nav-dark);
     padding: 10px;
     border-radius: 15px;
     z-index: 100;
@@ -87,13 +87,12 @@ body {
 }
 .nav-padding {
     padding-top: 30px;
-    /* Needed for toogler navbar on mobile devices */
+    /* Needed for toggler navbar on mobile devices */
 }
 
 /* Changes navbar for Live page for UX purposes */
 #live-nav { 
     width: 100vw; 
-    background-color: var(--colour1);
 }
 
 /* Changes navbar for Press Kit page for UX purposes */
@@ -104,7 +103,7 @@ body {
 /* Styling for navbar toggler */
 .custom-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(173, 20, 20)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-    /* Sourced from Stack Overflow to recolour the toggle button on mobile devices (RGB value had to be entered instead of root varable).
+    /* Sourced from Stack Overflow to re-colour the toggle button on mobile devices (RGB value had to be entered instead of root varable).
     https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color*/
 } 
 .custom-toggler{
@@ -226,16 +225,14 @@ body {
     -o-background-size: cover;
     background-size: cover;
 
-    opacity: 0.70;
-
     width: 100vw;
     height: 100vh;
-    
 }
 
 /* General styling for event div */
 #event-info {
-    background-color: var(--bg-div-light);
+    background-color: var(--bg-div-dark);
+    opacity: 9;
     border: 5px solid var(--colour1);
 
     /* Bug that was found on 09/12 with solution sourced from Stack Overflow. Detailed report in the 'Bugs' section of README file*/  
@@ -487,14 +484,6 @@ input[type=text], input[type=email], textarea {
 
 /* Breakpoint to maintain structural integrity on a Tablet device */
 @media (min-width: 700px) and (max-width: 991px) {
-    
-    /*--------------------------------- Header */
-
-    /* Styling for navigation bar for screens larger than mobile device */
-    .navbar-nav {
-        font-size: 1em;
-        width: 30vw;
-    }
 
     /*--------------------------------- Homepage Styling */
 
@@ -510,7 +499,6 @@ input[type=text], input[type=email], textarea {
 
     /* For image on screens larger than mobile device */
     #bio-hero {
-
         height: 60vh;
         width: 100vw;
     }
@@ -570,7 +558,6 @@ input[type=text], input[type=email], textarea {
         position: absolute;
         width: 100% !important;
         height: 100% !important;
-
     }
    
     /*--------------------------------- EPK Styling */
@@ -688,7 +675,7 @@ input[type=text], input[type=email], textarea {
     #bio-accordion {
         overflow-y: scroll;
         overflow: hidden;
-        /* Solved issue with scrollbar on collapsable accordian menu */
+        /* Solved issue with scrollbar on collapsible accordion menu */
     }
 
     /*--------------------------------- Live Page Styling */
