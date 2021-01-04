@@ -168,10 +168,10 @@ body {
 }
 #home-text h1 {
     font-family: var(--specialfont);
-    font-size: 4em;
+    font-size: 2em;
 }
 #home-text h2 {
-    font-size: 3em;
+    font-size: 2em;
     font-weight: 400;
 }
 
