@@ -245,7 +245,7 @@ body {
     font-size: 1.8em;
     color: var(--accent);
     text-align: center;
-    margin: 13px;
+    margin: 15px 0px 5px 0px;
 }
 #live-table {
     display: flex;
