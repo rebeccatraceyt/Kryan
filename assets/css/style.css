@@ -90,12 +90,7 @@ body {
     /* Needed for toggler navbar on mobile devices */
 }
 
-/* Changes navbar for Live page for UX purposes */
-#live-nav { 
-    width: 100vw; 
-}
-
-/* Changes navbar for Press Kit page for UX purposes */
+/* Changes navbar for Press Kit page in order to sit on top of images without obstructing them, for UX purposes */
 #epk-nav {
     background-color: var(--nav-light);
 }
@@ -217,102 +212,101 @@ body {
 
 /*------------------------------------------------------- Live Page Styling */
 
-/* Background styling */
+/* General styling for hero image */    
 #live-bg {
-    background: url(../images/hero3.png) no-repeat center fixed; 
+    /* Hero Image compatible with mobile devices */
+    background: url(../images/hero3.png) no-repeat center top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    
+    width: 100vw;
+    min-height: 60vh;
+}
+
+/* General styling for Live text */
+#live-details {
+    background-color: var(--colour1);
 
     width: 100vw;
-    height: 100vh;
+    min-height: 40vh;
 }
-
-/* General styling for event div */
-#event-info {
-    background-color: var(--bg-div-dark);
-    opacity: 9;
-    border: 5px solid var(--colour1);
-
-    /* Bug that was found on 09/12 with solution sourced from Stack Overflow. Detailed report in the 'Bugs' section of README file*/  
-    position: fixed;
-    left: 50%;
-    top: 60%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%); 
-    -webkit-transform: translate(-50%, -50%); 
-
-    min-width: 80%;
-    max-width: 90%;
-    min-height: auto;
-    max-height: 80%;
-
-
-    padding: 10px;
-}
-#event-info h1 {
-    color: var(--accent);
-    font-size: 1.5em;
-    padding-bottom: 10px;
-}
-
-/* Event details styling */
-#event-details {
-    background-color: var(--bg-div-dark);
-    border: 1px solid var(--colour1);
-    
-    padding: 20px;
-    margin: 0px auto;
-
-    min-width: 50%;
-    height: 100%;
-
-    /* In order to center text on mobile devices */
+#live-info {
+    padding: 5%;
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    align-content: center;
 }
-.event-columns {
-    padding: 20px 20px 10px 20px;
+#live-title h1 {
+    font-family: var(--titlefont);
+    font-size: 1.8em;
+    color: var(--accent);
+    text-align: center;
+    margin: 13px;
+}
+#live-table {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
 }
 
-/* Styling for Event text - nested in Event details */
-#event-text {
-    background-color: var(--bg-div-light);
-    padding: 20px;
+/* Styling for Upcoming Dates table */
+#live-table table {
+    color: var(--colour2);
+    line-height: 1;
+    letter-spacing: 1px;
+
+    border-collapse: collapse; 
+} 
+#live-table tr th {
+    padding: 0;
+    vertical-align: bottom;
 }
-#event-text h2 {
+#live-table h2 {
+    font-size: small; 
+    text-transform: uppercase;   
+}
+#live-table span {
+    font-size: 1.4em;
+}  
+#live-table h3 {
+    font-size: 1.2em;
+    text-transform: inherit;
+}
+#live-table p {
+    font-size: small;
+    word-spacing: 5px;
+    text-align: center;
+}
+#live-table a {
     color: var(--accent);
-    font-size: 1em;
 }
-#event-text h4 {
-    color: var(--colour1);
-    font-size: 1em;
-}
-#event-text h4 a {
-    color: var(--accent);
-}
-#event-text a:hover {
+#live-table a:hover {
     text-decoration: none;
 }
 
 /* Styling for ticket button */
-#ticket-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5px;
-}
-#ticket-btn a {
+#live-ticket {
+    border-radius: 5px;
+    padding: 2px 7px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;    
+}   
+#live-ticket a {
     background-color: var(--accent);
     color: var(--colour2);
-    font-size: 1.2em;
-    padding: 2px 7px;
+    font-size: 1.2em;  
 }
-#ticket-btn a:hover {
-    color: var(--accent);
+#live-ticket a:hover {
     background-color: var(--colour2);
+    color: var(--accent);
+    border: 1px solid var(--colour1);
 }
 
 /*------------------------------------------------------- EPK Styling */
@@ -508,11 +502,11 @@ input[type=text], input[type=email], textarea {
         background-color: var(--colour1);
         width: 100vw;
         padding: 50px 50px;
-        align-items: baseline;    
+        align-items: baseline;
+        padding-bottom: 80px;   
     }
 
     /*--------------------------------- Live Page Styling */
-
     /* General styling for event div on screens larger than mobile devices */
     #event-info {
         top: 50%;
@@ -534,16 +528,17 @@ input[type=text], input[type=email], textarea {
         font-size: 1.4em;
     }
 
-    /* Styling for ticket button on screens larger than mobile devices */
+    /* Styling for ticket button on screens larger than mobile devices 
     #ticket-btn a {
         font-size: 1.6em;
     }
 
     /* Event location styling (hidden smaller screens for UX purposes) */
-    #event-location {
+    #live-location {
         margin: auto;
         padding: 0px 10px 0px 10px;
-        min-width: 40%;
+        width: 50%;
+        height: auto;
         min-height: 100%;
 
         position: relative;
@@ -553,12 +548,13 @@ input[type=text], input[type=email], textarea {
         justify-content: center;
         align-items: center;
     }
-    #event-location iframe {
+    #live-location iframe {
         border: none;
-        position: absolute;
         width: 100% !important;
         height: 100% !important;
     }
+
+    
    
     /*--------------------------------- EPK Styling */
     
@@ -607,10 +603,6 @@ input[type=text], input[type=email], textarea {
     }
     .nav-padding {
         padding-top: 0;
-    }
-    /* Changes navbar for Live page for UX purposes */
-    .live-nav { 
-        width: 100vw;
     }
     /* Changes navbar for Press Kit page for UX purposes */
     #epk-nav {
@@ -680,59 +672,6 @@ input[type=text], input[type=email], textarea {
 
     /*--------------------------------- Live Page Styling */
 
-    /* General styling for event div on larger screens */
-    #event-info {
-        top: 55vh;
-
-        min-width: 60%;
-        max-width: 60%;
-        min-height: auto;
-        max-height: 80%;
-    }
-    #event-info h1 {
-        font-size: 2.6em;
-        padding-bottom: 1px;
-    }
-
-    /* Styling for Event text - nested in Event details on larger screens */
-    #event-text h2 {
-        font-size: 1.5em;
-    }
-    #event-text h4 {
-        font-size: 1.3em;
-    }
-
-    /* Styling for ticket button on larger screens */
-    #ticket-btn a {
-        background-color: var(--accent);
-        color: var(--colour2);
-        font-size: 1.6em;
-        padding: 2px 7px;
-    }
-
-     /* Event location styling (hidden smaller screens for UX purposes) */
-     #event-location {
-        margin: auto;
-        padding: 0px 10px 0px 10px;
-        min-width: 40%;
-        min-height: 100%;
-
-        /* Bug that was found on 19/12 with solution sourced from Stack Overflow. Detailed report in the 'Bugs' section of README file*/  
-        position: relative;
-        overflow: hidden;
-        
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    #event-location iframe {
-        border: none;
-        position: absolute;
-        width: 100% !important;
-        height: 100% !important;
-
-    }
-    
     /*--------------------------------- EPK Styling */
 
     /* For text on bigger screen */
@@ -861,9 +800,6 @@ input[type=text], input[type=email], textarea {
     /* Divides footer into two columns to push socials to right of page*/
     .left-footer {
         width: 50vw;
-    }
-    #live-footer {
-        text-align: center;
     }
 }
 
