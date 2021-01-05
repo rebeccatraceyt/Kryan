@@ -233,7 +233,8 @@ body {
     min-height: 40vh;
 }
 #live-info {
-    padding: 5%;
+    max-width: 80%;
+    padding: 50px;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -259,6 +260,7 @@ body {
     color: var(--colour2);
     line-height: 1;
     letter-spacing: 1px;
+    text-align: center;
 
     border-collapse: collapse; 
 } 
@@ -507,37 +509,25 @@ input[type=text], input[type=email], textarea {
     }
 
     /*--------------------------------- Live Page Styling */
-    /* General styling for event div on screens larger than mobile devices */
-    #event-info {
-        top: 50%;
-
-        min-width: 90%;
-        max-width: 90%;
-        min-height: auto;
-        max-height: 70%;
+    
+    /* General styling for live page on screens larger than mobile devices */
+    #live-table h2 {
+        font-size: 1.2em; 
     }
-    #event-info h1 {
-        font-size: 1.9em;
-    }
-
-    /* Styling for Event text on screens larger than mobile devices */
-    #event-text h2 {
-        font-size: 1.4em;
-    }
-    #event-text h4 {
-        font-size: 1.4em;
-    }
-
-    /* Styling for ticket button on screens larger than mobile devices 
-    #ticket-btn a {
+    #live-table span {
+        font-size: 1.3em;
+    }  
+    #live-table h3 {
         font-size: 1.6em;
+    }
+    #live-table p {
+        font-size: 1em;
     }
 
     /* Event location styling (hidden smaller screens for UX purposes) */
     #live-location {
         margin: auto;
         padding: 0px 10px 0px 10px;
-        width: 50%;
         height: auto;
         min-height: 100%;
 
@@ -558,6 +548,7 @@ input[type=text], input[type=email], textarea {
    
     /*--------------------------------- EPK Styling */
     
+    /* Styling for contact form on tablet screens */
     #epk-contact p {
         text-align: left;
         padding-inline-start: 10%;
