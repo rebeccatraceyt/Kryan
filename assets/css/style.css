@@ -284,7 +284,6 @@ body {
     /* Event venue */
     font-size: 1.2em;
     font-family: var(--specialfont);
-    text-transform: inherit;
 }
 #live-table p {
     /* Event time/price */
@@ -697,12 +696,12 @@ input[type=text], input[type=email], textarea {
     }
     #live-table h2 {
         /* Event date */
-        font-size: larger;
+        font-size: large;
         letter-spacing: 2px;
     }
     #live-table span {
         /* Event location */
-        font-size: 1.8em;
+        font-size: 1.6em;
     }
     #live-table h3 {
         /* Event venue */
