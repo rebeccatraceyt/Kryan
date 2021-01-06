@@ -469,11 +469,6 @@ hr.epk-hr {
     color: var(--accent);
     border: 1px solid var(--colour1);
 }
-.modal-content {
-    background-color: var(--colour2);
-    color: var(--accent);
-}
-
 
 /* Copied and edited from W3Schools example to style contact form */
 input[type=text], input[type=email], textarea {
