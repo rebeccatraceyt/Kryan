@@ -469,6 +469,11 @@ hr.epk-hr {
     color: var(--accent);
     border: 1px solid var(--colour1);
 }
+.modal-content {
+    background-color: var(--colour2);
+    color: var(--accent);
+}
+
 
 /* Copied and edited from W3Schools example to style contact form */
 input[type=text], input[type=email], textarea {
@@ -556,8 +561,6 @@ input[type=text], input[type=email], textarea {
         width: 100% !important;
         height: 100% !important;
     }
-
-    
    
     /*--------------------------------- EPK Styling */
     
@@ -565,6 +568,9 @@ input[type=text], input[type=email], textarea {
     #epk-contact p {
         text-align: left;
         padding-inline-start: 10%;
+    }
+    #contact-br {
+        display: none;
     }
 
     /* Contact form input re-sizing for larger devices */
@@ -831,6 +837,9 @@ input[type=text], input[type=email], textarea {
     #epk-contact p {
         text-align: left;
         padding-inline-start: 12%;
+    }
+    #contact-br {
+        display: none;
     }
 
     /* Contact form input re-sizing for larger devices */

@@ -215,7 +215,7 @@
                         <div id="epk-contact">
                             <div>
                                 <h3 aria-label="Get in touch">Get in touch</h3>
-                                <p>For booking enquiries: <br>
+                                <p>For booking enquiries: <br id="contact-br"> 
                                     <a href="mailto:finalstrokepr@gmail.com" class="text-exception" target="_blank">Conor King</a>
                                 </p>
                                 <form aria-label="Contact Form">
@@ -223,8 +223,22 @@
                                     <input type="email" placeholder="Email" aria-label="Enter Email" required>
                                     <textarea placeholder="Leave a message" aria-label="Enter Message" required></textarea>
                                     <br>
-                                    <button type="submit" class="btn"  aria-label="Press Send">Send Message</button>
+                                    <button type="submit" class="btn modal-click" id="submit send-btn" data-toggle="modal" data-target="#epkModal" aria-label="Press Send">Send Message</button>
                                 </form>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="epkModal" tabindex="-1" role="dialog" aria-labelledby="epkModal" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-body">
+                                                <p>Cheers! I will be in touch with you soon :)</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn modal-click" data-dismiss="modal">Thanks!</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> 
                             </div>
 
                             <hr class="epk-hr" aria-label="Horizontal Ruler dividing the sections">
@@ -268,5 +282,15 @@
                 });
             });
         </script>
+
+        <!-- Prevents default action of submit button
+            Sourced from https://www.w3schools.com/jsref/event_preventdefault.asp#:~:text=The%20preventDefault()%20method%20cancels,link%20from%20following%20the%20URL -->
+        <script>
+            document.getElementById("send-btn").addEventListener("click", function(event){
+                event.preventDefault()
+            });
+        </script>
+        
+
     </body>
 </html>
