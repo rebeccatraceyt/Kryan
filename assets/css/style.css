@@ -157,12 +157,16 @@ body {
     align-items: center;
     align-content: center;
 }
-#home-text a {
-    color: var(--accent);
-}
 #home-text h1 {
     font-family: var(--specialfont);
     font-size: 2em;
+}
+#home-text a {
+    color: var(--accent);
+    text-decoration: none;
+}
+#home-text a:hover {
+    color: var(--colour2);
 }
 #home-text h2 {
     font-size: 2em;
@@ -208,6 +212,10 @@ body {
     color: var(--accent);
     font-family: var(--bodyfont);
     font-weight: 400;
+    text-decoration: none;
+}
+#bio-accordion a:hover {
+    color: var(--colour2);
 }
 
 /*------------------------------------------------------- Live Page Styling */
