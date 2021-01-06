@@ -210,6 +210,7 @@ Each page of the website features a consistent responsive navigational system:
 - **Accordion** - An accordion menu on the Bio Page allows user to look through the previous works of the artist. When one accordion is clicked, the others are automatically minimized for UX purposes.
 - **Carousel** - A carousel showcasing select images is implemented in the Press Kit page. Using press photos selected by the artist, the carousel highlights their previous events and photo shoots.
 - **Contact Form** - A contact form is used in the Press Kit page, in order to provide a point of contact for the user. The form is not validated but there is a `mailto` action above it, providing contact details for the Event Booker of the artist.
+- **404 page** - A 404 page providing a clear call to action button to redirect the user to the home page.
 - **[Bio Page](bio.html "Kryan Bio Page")** - Providing biographic information for the users to get an understanding of who the artist is, and how they have created their music, presented in an accordion menu.
 - **[Live Page](live.html "Kryan Live Page")** - Providing information on upcoming events. On larger screens, an iframe embed of Google Maps is used to provide the location details of the event. There are also call to action buttons for:
      - The venue site, for further information and directions

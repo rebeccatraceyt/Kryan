@@ -31,7 +31,6 @@ The [W3C Markup Validator](https://validator.w3.org/) and the [W3C CSS Validator
      2. On mobile devices, the socials are located within the header menu (illustrated with the toggler button).
      3. In each instance, each link is represented by an appropriate icon for easy identification of the social platform.
 
-
 4. As a new fan, I want to easily find links to the hosted music platform of my choice, in order to listen to Kryan.
      1. Result
 5. As a new fan, I want to be able to watch an embedded video to be able to get a snapshot of Kryan performing.
