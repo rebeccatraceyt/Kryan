@@ -303,6 +303,7 @@ body {
 }
 #live-table a:hover {
     text-decoration: none;
+    color: var(--colour2);
 }
 
 /* Styling for ticket button */
@@ -341,7 +342,7 @@ body {
     align-content: center;
 }
 #epk-text a:hover {
-    color: var(--accent);
+    color: var(--colour2);
     text-decoration: none;
 }
 
