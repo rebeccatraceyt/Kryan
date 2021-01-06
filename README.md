@@ -1,4 +1,9 @@
 # Kryan Live
+
+![KryanLive Mockup Images](assets/readme-files/mockup.png)
+
+<a href="https://rebeccatraceyt.github.io/KryanLive/" target="_blank">View the live project here</a>
+
 ## Table of contents
 1. [Introduction](#Introduction)
 2. [UX](#UX)
@@ -32,10 +37,6 @@
 
 This comprehensive website was designed for the artist known as Kryan. The focus of the site is to create an online presence allowing members of the media, as well as new and current fans, to find out relevant information and to get to know Kryan. 
 
-![KryanLive Mockup Images](assets/readme-files/mockup.png)
-
-<a href="https://rebeccatraceyt.github.io/KryanLive/" target="_blank">View the live project here</a>
-
 Kryan is a Dublin based singer/songwriter multi-instrumentalist, focusing mainly on pop music. With multiple single releases, Kryan has garnered attention across many media outlets since 2018. The purpose of the site was to highlight these achievements and to provide an avenue for communication with media outlets and fans alike.
 
 **Client goals for the website:**
@@ -67,7 +68,7 @@ Kryan is a Dublin based singer/songwriter multi-instrumentalist, focusing mainly
 ### User Stories
 #### New/Potential Fans Goals:
 1. As a new fan, I want to easily navigate through the website to find the relevant content, effortlessly.
-2. As a new fan, I want to learn more about the artist's background in order to better understand their music and the meaning behind it.
+2. As a new fan, I want to learn more about the artist's background in order to better understand Kryan and their music.
 3. As a new fan, I want to easily navigate to the artist's social links in order to keep up with the latest news and releases.
 4. As a new fan, I want to easily find links to the hosted music platform of my choice, in order to listen to Kryan.
 5. As a new fan, I want to be able to watch an embedded video to be able to get a snapshot of Kryan performing.
@@ -96,30 +97,30 @@ Kryan is a Dublin based singer/songwriter multi-instrumentalist, focusing mainly
 
 ### Design
 #### Development Planes
-In order to create a comprehensive and informative website, the developer worked closely with the artist to distinguish the required functionality of the site and how it would answer the user stories, as described above. The developed created a <a href="assets/readme-files/workbook.pdf" target="_blank" alt="Development planes workbook">workbook</a>, based on the 5 Development Planes, with Ryan in order to layout these specifications.
+In order to create a comprehensive and informative website, the developer worked closely with the artist to distinguish the required functionality of the site and how it would answer the user stories, as described above. The developed created a [workbook](assets/readme-files/workbook.pdf "Development planes workbook"), based on the 5 Development Planes, with Ryan in order to layout these specifications.
 #### Colour Scheme
 The main colours used throughout the website are a mixture of Black and White, with Red accents.
 
 The chosen colour scheme is a reflection of the artist's look and feel.
 
 #### Typography
-The pairing of the fonts <a href="https://fonts.google.com/specimen/Roboto" target="_blank" alt="Link to Roboto Google Font">Roboto</a> and <a href="https://fonts.google.com/specimen/Lato" target="_blank" alt="Link to Lato Google Font">Lato</a> is used throughout the website with Sans Serif as the fallback font in case of import failure. 
+The pairing of the fonts [Roboto](https://fonts.google.com/specimen/Roboto "Link to Roboto Google Font") and [Lato](https://fonts.google.com/specimen/Lato "Link to Lato Google Font") is used throughout the website with Sans Serif as the fallback font in case of import failure. 
 
-For features that needed to be highlighted, such as the featured single on the Homepage, the font <a href="https://fonts.google.com/specimen/Montserrat" target="_blank" alt="Link to Montserrat Google Font">Montserrat</a> was used, with Sans Serif as the fallback. This was in order to create a consistency with the digital artwork of the single's release.
+For features that needed to be highlighted, such as the featured single on the Homepage, the font [Montserrat](https://fonts.google.com/specimen/Montserrat "Link to Montserrat Google Font") was used, with Sans Serif as the fallback. This was in order to create a consistency with the digital artwork of the single's release.
 
 #### Imagery
 The selected imagery is modern and cohesively aesthetic, reflecting the artist's look and feel. 
 
 The imagery is catching and visually represents the theme of the website.
 
-All imagery provides alternative text to be used in the event that the element cannot be rendered. The template used to provide alt text for background images can be found  <a href="http://www.davidmacd.com/blog/alternate-text-for-css-background-images.html" target="_blank" alt="Link to alt text reference on www.davidmacd.com">here</a>.
+All imagery provides alternative text to be used in the event that the element cannot be rendered. The template used to provide alt text for background images can be found  [here](http://www.davidmacd.com/blog/alternate-text-for-css-background-images.html "Link to alt text reference on www.davidmacd.com").
 
 ### Wireframes
 
-   - Home Page - <a href="assets/readme-files/home.png" target="_blank" alt="Home Page Wireframe">Wireframe</a>
-   - Bio Page - <a href="assets/readme-files/bio.png" target="_blank" alt="Bio Page Wireframe">Wireframe</a>
-   - Live Page - <a href="assets/readme-files/live.png" target="_blank" alt="Live Page Wireframe">Wireframe</a>
-   - Electronic Press Kit Page - <a href="assets/readme-files/presskit.png" target="_blank" alt="Press Kit Page Wireframe">Wireframe</a>
+   - [Home Page Wireframe](assets/readme-files/home.png "Home Page Wireframe")
+   - [Bio Page Wireframe](assets/readme-files/bio.png "Bio Page Wireframe")
+   - [Live Page Wireframe](assets/readme-files/live.png "Live Page Wireframe")
+   - [Electronic Press Kit Page Wireframe](assets/readme-files/presskit.png "Press Kit Page Wireframe")
 
 [Back to top ⇧](#Kryan-Live)
 
@@ -128,7 +129,7 @@ All imagery provides alternative text to be used in the event that the element c
 ### Design Features
 Each page of the website features a consistent responsive navigational system:
 - The **Header** contains a conventionally placed **logo** in the top left of the page (whereby by clicking this will redirect users back to the home page) and **navigation bar** in the top right of the page.
-- On larger screens, the **Footer** contains the appropriate **social media icons**, linking users to the main social pages of Kryan. For smaller screens, the footer is hidden and the social icons are instead displayed with the navigation links in the header. This was in order to remove any issues that may arise if the icons are in the way of scrolling on a mobile.
+- On larger screens, the **Footer** contains the appropriate **social media icons**, linking users to the main social pages of Kryan. For smaller screens, the footer is hidden and the social icons are instead displayed with the navigation links in the header. This was in order to remove any issues that may arise if the icons are in the way of scrolling on a mobile, providing more real-estate for important information.
 - On smaller screens, the navigation bar collapses into a **toggler** icon whereby clicking it will reveal the navigation and social links.
 
 
@@ -154,14 +155,18 @@ Each page of the website features a consistent responsive navigational system:
   </dd>
 
   <dt><a href="live.html" target="_blank" alt="Kryan Live Page">Live Page</a></dt>
-  <dd>The Live page uses a full page <strong>background image</strong>, providing a uniformed and consistent look for aesthetic purposes. The image is a secondary feature of this page, but still accurately representing the look and feel of the website. 
-  </dd>
-  <dd> A <strong>container</strong> is centered, overlaying the background image. The purpose of this container is to uniformly provide the necessary information to the user, upcoming events in this case. The container is divided into two, with two columns on a desktop and stacked columns on smaller screens. One column represents the upcoming dates information. Within this colum there are two <strong>call to action</strong> buttons, linking to external websites:
-     <ul>
-          <li>Event page</li>
-          <li>Ticketing platform</li>
+  <dd>The Live page structurally similar to the other pages with two clearly divided columns, providing a uniformed and consistent look for aesthetic purposes:
+     <ul> 
+          <li><strong>Hero Image</strong> - Occupying 50% of the page width, on the left side, while viewing on a desktop. On mobile and tablet devices, the image becomes stacked at the top of the page, occupying 100% of the page width. The image is a secondary feature of this page, but still accurately representing the look and feel of the website.
+          </li>
+          <li><strong>Banner Container</strong> - Occupying 50% of the width, on the right side, while viewing on a desktop. On mobile and tablet devices, the container becomes stacked, underneath the <strong>Hero Image</strong>. The column contains a <strong>iframe</strong> feature of the event's location, providing users with easy access to directions to the venue. This feature is not available on mobile devices as, in trying to fit the two columns stacked, it would render the text unreadable. There are two <strong>call to action</strong> buttons on the page:
+          <ul>
+               <li>The venue name acts a button that leads users to the event page on Facebook.
+               </li>
+               <li> Clicking the tickets button (with hover animation) will lead the user to the ticket purchasing site for the event.
+               </li>
+          </ul>
      </ul>
-     The second column contains an <strong>iFrame</strong> feature of the event's venue location. Providing users with easy access to directions to the venue. This feature is not available on mobile devices as, in trying to fit the two columns, it would render the text unreadable.
 
   </dd>
 
@@ -205,12 +210,12 @@ Each page of the website features a consistent responsive navigational system:
 - **Accordion** - An accordion menu on the Bio Page allows user to look through the previous works of the artist. When one accordion is clicked, the others are automatically minimized for UX purposes.
 - **Carousel** - A carousel showcasing select images is implemented in the Press Kit page. Using press photos selected by the artist, the carousel highlights their previous events and photo shoots.
 - **Contact Form** - A contact form is used in the Press Kit page, in order to provide a point of contact for the user. The form is not validated but there is a `mailto` action above it, providing contact details for the Event Booker of the artist.
-- **<a href="bio.html" target="_blank" alt="Kryan Bio Page">Bio Page</a>** - Providing biographic information for the users to get an understanding of who the artist is, and how they have created their music, presented in an accordion menu.
-- **<a href="live.html" target="_blank" alt="Kryan Live Page">Live Page</a>** - Providing information on upcoming events. On larger screens, an iframe embed of Google Maps is used to provide the location details of the event. There are also call to action buttons for:
+- **[Bio Page](bio.html "Kryan Bio Page")** - Providing biographic information for the users to get an understanding of who the artist is, and how they have created their music, presented in an accordion menu.
+- **[Live Page](live.html "Kryan Live Page")** - Providing information on upcoming events. On larger screens, an iframe embed of Google Maps is used to provide the location details of the event. There are also call to action buttons for:
      - The venue site, for further information and directions
      - The ticket purchasing platform for pricing and ordering
 
-- **<a href="epk.html" target="_blank" alt="Kryan Press Kit Page">Electronic Press Kit Page</a>** - Providing a compressed view of the artist with snapshots of relevant information:
+- **[Electronic Press Kit Page](epk.html "Kryan Press Kit Page")** - Providing a compressed view of the artist with snapshots of relevant information:
      - Media coverage (featured articles)
      - Sample works - audio and video
      - Contact channels for PR representative
@@ -220,7 +225,7 @@ Each page of the website features a consistent responsive navigational system:
      - **Feature** - set up an shop where the artist can sell their merchandise directly to fans online.
      - **Reason for not featuring in this release** - JavaScript needed to implement.
  
- - **<a href="https://www.linkfire.com/" target="_blank" alt="Link to LinkFire page (external)">LinkFire</a> embedding**
+ - **[LinkFire](https://www.linkfire.com/ "Link to LinkFire page") embedding**
      - **Feature** - smart-link embedding platform for music promotion
      - **Reason for not featuring in this release** - Budget not available for services
 
@@ -229,65 +234,63 @@ Each page of the website features a consistent responsive navigational system:
 ## Bugs 
 The developer ran into a number of issues during the development of the websites, with the noteworthy ones listed below, along with solutions or ideas to implement in the future.
 
-**Navbar Bug** - A bug was detected early on with the Navigation bar. In implementing a responsive navigation system, Bootstrap was used but there was bug that would not allow the navbar to be recolored to suit the the chosen colour scheme. In researching a cause (and solution) the developer found a question posted on <a href="https://stackoverflow.com/questions/46237610/bootstrap-4-navbar-color-wont-change" target="_blank" alt="Link to Stack Overflow solution (external)">Stack Overflow</a> with a similar problem. It was from here that the developer was able to copy and edit the code given as a solution on Stack in order to implement a solution to the bug, with celebratory success.
+**Navbar Bug** - A bug was detected early on with the Navigation bar. In implementing a responsive navigation system, Bootstrap was used but there was bug that would not allow the navbar to be recolored to suit the the chosen colour scheme. In researching a cause (and solution) the developer found a question posted on [Stack Overflow](https://stackoverflow.com/questions/46237610/bootstrap-4-navbar-color-wont-change "Link to Stack Overflow solution") with a similar problem. It was from here that the developer was able to copy and edit the code given as a solution on Stack in order to implement a solution to the bug, with celebratory success.
 
-**Home Page Responsiveness Bug** - A bug was detected in creating the HomePage where the mobile-first design approach was responsive but as soon as the breakpoint changed to a larger screen, the page layout would shift, creating inconsistencies in the design. In order to rectify this, the developer utilized a solution posted for a similar problem on <a href="https://stackoverflow.com/questions/5703552/how-can-i-center-text-horizontally-and-vertically-inside-a-div-block" target="_blank" alt="Link to Stack Overflow solution (external)">Stack Overflow</a>. With this solution, the developer was able to create the desired responsiveness without having to use excessive and unnecessary lines of code.
+**Home Page Responsiveness Bug** - A bug was detected in creating the HomePage where the mobile-first design approach was responsive but as soon as the breakpoint changed to a larger screen, the page layout would shift, creating inconsistencies in the design. In order to rectify this, the developer utilized a solution posted for a similar problem on [Stack Overflow](https://stackoverflow.com/questions/5703552/how-can-i-center-text-horizontally-and-vertically-inside-a-div-block "Link to Stack Overflow solution"). With this solution, the developer was able to create the desired responsiveness without having to use excessive and unnecessary lines of code.
 
-**Hero Image Bug - Home Page** - A bug was detected when implementing the hero image to be used for the Home Page. The developer used the shorthand background element to implement the image but soon found there was an issue with the responsiveness of the image using this. When coding the background-size using the shorthand method, the image would disappear. The developer used an answer to a similar problem on <a href="https://stackoverflow.com/questions/26236486/background-size-cover-not-working" target="_blank" alt="Link to Stack Overflow solution (external)">Stack Overflow</a> in order to understand the problem and, in turn, find a solution.
+**Hero Image Bug - Home Page** - A bug was detected when implementing the hero image to be used for the Home Page. The developer used the shorthand background element to implement the image but soon found there was an issue with the responsiveness of the image using this. When coding the background-size using the shorthand method, the image would disappear. The developer used an answer to a similar problem on [Stack Overflow](https://stackoverflow.com/questions/26236486/background-size-cover-not-working "Link to Stack Overflow solution") in order to understand the problem and, in turn, find a solution.
 
-**Social Links Bug** - A bug was detected in the Social Links when trying to implement the Bootstrap display property in order to only show the Social links in the toggler menu on smaller devices. In nesting an unordered list within another unordered list, the `padding-inline-start` of the `ul` user agent stylesheet would be set at a value of `40px`. The problem with this was that it was overriding the `d-inline` class that was called. In order to rectify this, the developer had to override the `padding-inline-start` value, using code sourced from <a href="https://stackoverflow.com/questions/54000514/unordered-list-in-css-will-not-center" target="_blank" alt="Link to Stack Overflow solution (external)">Stack Overflow</a> with:
+**Social Links Bug** - A bug was detected in the Social Links when trying to implement the Bootstrap display property in order to only show the Social links in the toggler menu on smaller devices. In nesting an unordered list within another unordered list, the `padding-inline-start` of the `ul` user agent stylesheet would be set at a value of `40px`. The problem with this was that it was overriding the `d-inline` class that was called. In order to rectify this, the developer had to override the `padding-inline-start` value, using code sourced from [Stack Overflow](https://stackoverflow.com/questions/54000514/unordered-list-in-css-will-not-center "Link to Stack Overflow solution") with:
 ```
 padding: 0px; 
 margin: 0px auto;
 ```
-**Biographic Info Bug (Bio Page)** - A bug was detected on the Bio page whereby when the page was viewed on a smaller screen, the overflow content of the `p` element would be cut off, losing some of the biographic text. In order to solve the problem, the developer found a similar problem on <a href="https://stackoverflow.com/questions/52394425/100vh-cuts-off-content-when-window-height-is-small" target="_blank" alt="Link to Stack Overflow solution (external)">Stack Overflow</a> where they were able to better understand the viewport limitations and find a solution, which was a simple switch from `height` to `min-height`.
+**Biographic Info Bug (Bio Page)** - A bug was detected on the Bio page whereby when the page was viewed on a smaller screen, the overflow content of the `p` element would be cut off, losing some of the biographic text. In order to solve the problem, the developer found a similar problem on [Stack Overflow](https://stackoverflow.com/questions/52394425/100vh-cuts-off-content-when-window-height-is-small "Link to Stack Overflow solution") where they were able to better understand the viewport limitations and find a solution, which was a simple switch from `height` to `min-height`.
 
-**Events `<div>` Bug (Live Page)** - A bug was detected where the `div` container used to implementing the upcoming events data was anchoring to the top of the page, under the navigation bar. The developer was able to find a similar problem on <a href="https://stackoverflow.com/questions/953918/how-to-align-a-div-to-the-middle-horizontally-width-of-the-page" target="_blank" alt="Link to Stack Overflow solution (external)">Stack Overflow</a> where they copied and edited the code in order to understand the problem and find a solution.
+**Google Maps iFrame Bug (Live Page)** - A bug was detected with the iframe element of the Live Page (which was used to implement a Google Maps embed). There was a problem with the responsiveness of the iframe, causing it to extend its width far beyond the page upon resizing. while `overflow: hidden;` would have worked with larger screens, it was proving problematic with smaller screens. The developer found a post from [Digital Inspiration](https://www.labnol.org/internet/embed-responsive-google-maps/28333/ "Link to Digital Inspiration solution") in order to better understand the problem and to successfully implement a solution.
 
-**Google Maps iFrame Bug (Live Page)** - A bug was detected with the iframe element of the Live Page (which was used to implement a Google Maps embed). There was a problem with the responsiveness of the iframe, causing it to extend its width far beyond the page upon resizing. while `overflow: hidden;` would have worked with larger screens, it was proving problematic with smaller screens. The developer found a post from <a href="https://www.labnol.org/internet/embed-responsive-google-maps/28333/" target="_blank" alt="Link to Digital Inspiration solution (external)">Digital Inspiration</a> in order to better understand the problem and to successfully implement a solution.
-
-**IGTV Bug (Press Kit Page)** - A bug was detected in the in IGTV embedding code which was affecting the responsiveness of the embed. The `min-width: 326px` value was distorting the video when viewing on a mobile device. Using a post with a similar problem from  <a href="https://wordpress.org/support/topic/problem-embedding-instagram/" target="_blank" alt="Link to Digital Inspiration solution (external)">WordPress</a> the developer was able to override this with a `!important` value after the set element, allowing it to be responsive across all devices. The developer recognizes that this may not be best practice but, in this case, it was necessary in order to maintain responsiveness.
+**IGTV Bug (Press Kit Page)** - A bug was detected in the in IGTV embedding code which was affecting the responsiveness of the embed. The `min-width: 326px` value was distorting the video when viewing on a mobile device. Using a post with a similar problem from [WordPress](https://wordpress.org/support/topic/problem-embedding-instagram/ "Link to Digital Inspiration solution") the developer was able to override this with a `!important` value after the set element, allowing it to be responsive across all devices. The developer recognizes that this may not be best practice but, in this case, it was necessary in order to maintain responsiveness.
 
 [Back to top ⇧](#Kryan-Live)
 
 ## Technologies Used
 ### Main Languages Used
-- <a href="https://en.wikipedia.org/wiki/HTML5" target="_blank" alt="Link to HTML Wiki (external)">HTML5</a>
-- <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank" alt="Link to CSS Wiki (external)">CSS3</a>
+- [HTML5](https://en.wikipedia.org/wiki/HTML5 "Link to HTML Wiki")
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets "Link to CSS Wiki")
 
 ### Additional Languages Used
-- <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank" alt="Link to JavaScript Wiki (external)">JavaScript</a>
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript "Link to JavaScript Wiki")
      - Used to implement a function that allowed the Navbar to change colour when user scrolls through page on mobile device, for UX purposes.
 
 ### Frameworks, Libraries & Programs Used
-- <a href="https://getbootstrap.com/docs/4.4/getting-started/introduction/" target="_blank" alt="Link to Bootstrap page (external)">Bootstrap</a>
+- [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/ "Link to Bootstrap page")
      - Bootstrap was used to implement the responsiveness of the site, using bootstrap classes.
-- <a href="https://fonts.google.com/" target="_blank" alt="Link to Google Fonts (external)">Google Fonts</a>
+- [Google Fonts](https://fonts.google.com/ "Link to Google Fonts")
     - Google fonts was used to import the fonts "Roboto", "Lato" and "Montserrat" into the style.css file. These fonts were used throughout the project.
-- <a href="https://fontawesome.com/" target="_blank" alt="Link to FontAwesome (external)">Font Awesome</a>
+- [Font Awesome](https://fontawesome.com/ "Link to FontAwesome")
      - Font Awesome was used on all pages throughout the website to import icons (e.g. social media icons) for UX purposes.
-- <a href="https://git-scm.com/" target="_blank" alt="Link to Git homepage (external)">Git</a>
+- [Git](https://git-scm.com/ "Link to Git homepage")
      - Git was used for version control by utilizing the GitPod terminal to commit to Git and push to GitHub.
-- <a href="https://github.com/" target="_blank" alt="Link to GitHub (external)">GitHub</a>
+- [GitHub](https://github.com/ "Link to GitHub")
      - GitHub was used to store the project after pushing
-- <a href="https://balsamiq.com/" target="_blank" alt="Link to Balsamiq homepage(external)">Balsamiq</a>
+- [Balsamiq](https://balsamiq.com/ "Link to Balsamiq homepage")
      - Balsamiq was used to create the wireframes during the design phase of the project.
 
 [Back to top ⇧](#Kryan-Live)
 
 ## Testing
 
-Testing information can be found in separate testing <a href="TESTING.md" target="_blank" alt="Link to TESTING.md file">file</a>
+Testing information can be found in a separate testing [file](TESTING.md "Link to testing file")
 
 ## Deployment
 
-This project was developed using <a href="https://code.visualstudio.com/insiders/" target="_blank" alt="Link to Visual Studio Code site (external)">Visual Studio Code Insiders</a>, committed to git and pushed to GitHub using the computer terminal.
+This project was developed using [Visual Studio Code Insiders](https://code.visualstudio.com/insiders/ "Link to Visual Studio Code site"), committed to git and pushed to GitHub using the computer terminal.
 
 ### Deploying on GitHub Pages
 To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
 
-1. Log into <a href="https://github.com/login" target="_blank" alt="Link to GitHub login page">GitHub</a> or <a href="https://github.com/join" target="_blank" alt="Link to GitHub create account page">create an account</a>.
-2. Locate the <a href="https://github.com/rebeccatraceyt/KryanLive" target="_blank" alt="Link to GitHub Repo">GitHub Repository</a>.
+1. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
+2. Locate the [GitHub Repository](https://github.com/rebeccatraceyt/KryanLive "Link to GitHub Repo").
 3. At the top of the repository, select Settings from the menu items.
 4. Scroll down the Settings page to the "GitHub Pages" section.
 5. Under "Source" click the drop-down menu labelled "None" and select "Master Branch".
@@ -298,24 +301,24 @@ To deploy this page to GitHub Pages from its GitHub repository, the following st
 ### Forking the Repository
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
-1. Log into <a href="https://github.com/login" target="_blank" alt="Link to GitHub login page">GitHub</a> or <a href="https://github.com/join" target="_blank" alt="Link to GitHub create account page">create an account</a>.
-2. Locate the <a href="https://github.com/rebeccatraceyt/KryanLive" target="_blank" alt="Link to GitHub Repo">GitHub Repository</a>.
+1. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
+2. Locate the [GitHub Repository](https://github.com/rebeccatraceyt/KryanLive "Link to GitHub Repo").
 3. At the top of the repository, on the right side of the page, select "Fork"
 4. You should now have a copy of the original repository in your GitHub account.
 
 ### Creating a Clone
 How to run this project locally:
-1. Install the <a href="https://www.gitpod.io/docs/browser-extension/" target="_blank" alt="Link to Gitpod Browser extension download (external)">GitPod Browser</a> Extension for Chrome.
+1. Install the [GitPod Browser](https://www.gitpod.io/docs/browser-extension/ "Link to Gitpod Browser extension download") Extension for Chrome.
 2. After installation, restart the browser.
-3. Log into <a href="https://github.com/login" target="_blank" alt="Link to GitHub login page">GitHub</a> or <a href="https://github.com/join" target="_blank" alt="Link to GitHub create account page">create an account</a>.
-4. Locate the <a href="https://github.com/rebeccatraceyt/KryanLive" target="_blank" alt="Link to GitHub Repo">GitHub Repository</a>.
+3. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
+2. Locate the [GitHub Repository](https://github.com/rebeccatraceyt/KryanLive "Link to GitHub Repo").
 5. Click the green "GitPod" button in the top right corner of the repository.
 This will trigger a new gitPod workspace to be created from the code in github where you can work locally.
 
 How to run this project within a local IDE, such as VSCode:
 
-1. Log into <a href="https://github.com/login" target="_blank" alt="Link to GitHub login page (external)">GitHub</a> or <a href="https://github.com/join" target="_blank" alt="Link to GitHub create account page">create an account</a>.
-2. Locate the <a href="https://github.com/rebeccatraceyt/KryanLive" target="_blank" alt="Link to GitHub Repo">GitHub Repository</a>.
+1. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
+2. Locate the [GitHub Repository](https://github.com/rebeccatraceyt/KryanLive "Link to GitHub Repo").
 3. Under the repository name, click "Clone or download".
 4. In the Clone with HTTPs section, copy the clone URL for the repository.
 5. In your local IDE open the terminal.
@@ -326,7 +329,7 @@ git clone https://github.com/USERNAME/REPOSITORY
 ```
 8. Press Enter. Your local clone will be created.
 
-Further reading and troubleshooting on cloning a repository from GitHub <a href="https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository" target="_blank" alt="Link to GitHub troubleshooting (external)">here</a>.
+Further reading and troubleshooting on cloning a repository from GitHub [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository "Link to GitHub troubleshooting")
 
 [Back to top ⇧](#Kryan-Live)
 
@@ -334,18 +337,18 @@ Further reading and troubleshooting on cloning a repository from GitHub <a href=
 
 ### Content
 - The text used in the biographic paragraphs were written by the artist, Ryan Kelly.
-- The quote used in the Press Kit page is sourced from <a href="https://www.indiebuddie.com/kryan-scars-premiere/" target="_blank" alt="Link to Indie Buddie (external)">Indie Buddie</a>.
+- The quote used in the Press Kit page is sourced from [Indie Buddie](https://www.indiebuddie.com/kryan-scars-premiere/ "Link to Indie Buddie").
 
 ### Media
 - All images were sourced from the artist, Ryan Kelly.
-- The text used in the 404 error page was sourced from <a href="https://www.copyandpastefont.com/" target="_blank" alt="Link to Font editor (external)">CopyAndPasteFonts</a> and edited by the developer.
+- The text used in the 404 error page was sourced from [CopyAndPasteFonts](https://www.copyandpastefont.com/ "Link to Font editor") and edited by the developer.
 
 ### Code 
 The developer consulted multiple sites in order to better understand they were trying to implement. For code that was copied and edited, the developer made sure to reference this with the code. The following sites were used on a more regular basis:
-- <a href="https://stackoverflow.com/" target="_blank" alt="Link to Stack Overflow page (external)">Stack Overflow</a>
-- <a href="https://www.w3schools.com/" target="_blank" alt="Link to W3Schools page (external)">W3Schools</a>
-- <a href="https://getbootstrap.com/" target="_blank" alt="Link to BootStrap page (external)">Bootstrap</a>
-- <a href="https://jsfiddle.net/" target="_blank" alt="Link to JSfiddle page (external)">JSfiddle</a>
+- [Stack Overflow](https://stackoverflow.com/ "Link to Stack Overflow page")
+- [W3Schools](https://www.w3schools.com/ "Link to W3Schools page")
+- [Bootstrap](https://getbootstrap.com/ "Link to BootStrap page")
+- [JSfiddle](https://jsfiddle.net/ "Link to JSfiddle page")
 
 [Back to top ⇧](#Kryan-Live)
 
