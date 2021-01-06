@@ -213,7 +213,7 @@ body {
 /*------------------------------------------------------- Live Page Styling */
 
 /* General styling for hero image */    
-#live-bg {
+#live-hero {
     /* Hero Image compatible with mobile devices */
     background: url(../images/hero3.png) no-repeat center top;
     -webkit-background-size: cover;
@@ -226,39 +226,42 @@ body {
 }
 
 /* General styling for Live text */
+#live-bg {
+    background-color: var(--colour1);
+}
 #live-details {
     background-color: var(--colour1);
+    margin: auto;
 
     width: 100vw;
     min-height: 40vh;
-}
-#live-info {
-    max-width: 80%;
-    padding: 50px;
-    margin: auto;
-    display: flex;
+
     justify-content: center;
     align-items: center;
     align-content: center;
 }
-#live-title h1 {
+#live-title {
     font-family: var(--titlefont);
-    font-size: 1.8em;
+    font-size: 1em;
     color: var(--accent);
     text-align: center;
     margin: 15px 0px 5px 0px;
+}
+#live-info {
+    max-width: 80%;
+    margin: auto;
+    padding: 5%; 
 }
 #live-table {
     display: flex;
     justify-content: center;
     align-content: center;
-    margin: auto;
 }
 
 /* Styling for Upcoming Dates table */
 #live-table table {
     color: var(--colour2);
-    line-height: 1;
+    line-height: 0.1;
     letter-spacing: 1px;
     text-align: center;
 
@@ -266,23 +269,27 @@ body {
 } 
 #live-table tr th {
     padding: 0;
-    vertical-align: bottom;
+    vertical-align: middle;
 }
 #live-table h2 {
+    /* Event date */
     font-size: small; 
     text-transform: uppercase;   
 }
 #live-table span {
+    /* Event location */
     font-size: 1.4em;
 }  
 #live-table h3 {
+    /* Event venue */
     font-size: 1.2em;
+    font-family: var(--specialfont);
     text-transform: inherit;
 }
 #live-table p {
+    /* Event time/price */
     font-size: small;
     word-spacing: 5px;
-    text-align: center;
 }
 #live-table a {
     color: var(--accent);
@@ -509,18 +516,25 @@ input[type=text], input[type=email], textarea {
     }
 
     /*--------------------------------- Live Page Styling */
-    
+
     /* General styling for live page on screens larger than mobile devices */
+    #live-info {
+        padding: auto;
+    }
     #live-table h2 {
-        font-size: 1.2em; 
+        /* Event date */
+        font-size: 1em; 
     }
     #live-table span {
+        /* Event location */
         font-size: 1.3em;
     }  
     #live-table h3 {
-        font-size: 1.6em;
+        /* Event venue */
+        font-size: 1.3em;
     }
     #live-table p {
+        /* Event time/price */
         font-size: 1em;
     }
 
@@ -631,7 +645,7 @@ input[type=text], input[type=email], textarea {
 
     /* For image on bigger screen */
     #bio-hero {
-        /* Homepage Image compatible with larger screens */
+        /* Bio Image compatible with larger screens */
         background: url(../images/hero2-d.png) no-repeat center top;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -662,6 +676,64 @@ input[type=text], input[type=email], textarea {
     }
 
     /*--------------------------------- Live Page Styling */
+
+    /* For image on bigger screen */
+    #live-hero {
+        height: 100vh;
+        width: 50vw;
+    }
+
+    /* For text on bigger screen */
+    #live-title {
+        font-size: 2em;
+    }
+    #live-table {
+        padding-bottom: 30px;
+        display: initial;
+    }
+    #live-table table {
+        line-height: 2;
+        width: 100%;
+    }
+    #live-table h2 {
+        /* Event date */
+        font-size: larger;
+        letter-spacing: 2px;
+    }
+    #live-table span {
+        /* Event location */
+        font-size: 1.8em;
+    }
+    #live-table h3 {
+        /* Event venue */
+        font-size: 2em;
+    }
+    #live-table p {
+        /* Event time/price */
+        font-size: medium;
+    }
+    #live-ticket a {
+        font-size: 1.5em;
+    }
+
+    /* Event location styling (hidden smaller screens for UX purposes) */
+    #live-location {
+        width: 100%;
+        height: auto;
+        min-height: 100%;
+
+        position: relative;
+        overflow: hidden;
+        
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+    }
+    #live-location iframe {
+        border: none;
+        width: 100% !important;
+        height: 100% !important;
+    }
 
     /*--------------------------------- EPK Styling */
 
