@@ -12,10 +12,10 @@
     3. [Design](#Design)
     4. [Wireframes](#Wireframes)
 3. [Features](#Features)
-    1. [Design Features](#Design-Features)
+    1. [Design Features](#Design-Features) 
     2. [Existing Features](#Existing-Features)
     3. [Features to Implement in the future](#Features-to-Implement-in-the-future)
-4. [Bugs](#Bugs)
+4. [Issues and Bugs](#Issues-and-Bugs)
 5. [Technologies Used](#Technologies-Used)
      1. [Main Languages Used](#Main-Languages-Used)
      2. [Additional Languages Used](#Additional-Languages-Used)
@@ -38,6 +38,12 @@
 This comprehensive website was designed for the artist known as Kryan. The focus of the site is to create an online presence allowing members of the media, as well as new and current fans, to find out relevant information and to get to know Kryan. 
 
 Kryan is a Dublin based singer/songwriter multi-instrumentalist, focusing mainly on pop music. With multiple single releases, Kryan has garnered attention across many media outlets since 2018. The purpose of the site was to highlight these achievements and to provide an avenue for communication with media outlets and fans alike.
+
+This is the first of four Milestone Projects that the developer must complete during their Full Stack Web Development Program at The Code Institute. 
+
+The main requirements were to make a responsive and static website with a minimum of three pages using **HTML5** and **CSS3**.
+
+
 
 **Client goals for the website:**
 - Develop an online presence for Kryan
@@ -123,6 +129,7 @@ Wireframe mockups were created using the software [Figma](https://www.figma.com/
    - [Bio Page Wireframe](assets/readme-files/bio.pdf "Bio Page Wireframe")
    - [Live Page Wireframe](assets/readme-files/live.pdf "Live Page Wireframe")
    - [Electronic Press Kit Page Wireframe](assets/readme-files/epk.pdf "Press Kit Page Wireframe")
+   - [Figma Workspace](https://www.figma.com/file/pRD2Oi1aSuYxhFacqOmUfT/Kryan-Live?node-id=0%3A1)
 
 [Back to top ⇧](#Kryan-Live)
 
@@ -234,25 +241,27 @@ Each page of the website features a consistent responsive navigational system:
 
 [Back to top ⇧](#Kryan-Live)
 
-## Bugs 
+## Issues and Bugs 
 The developer ran into a number of issues during the development of the websites, with the noteworthy ones listed below, along with solutions or ideas to implement in the future.
 
 **Navbar Bug** - A bug was detected early on with the Navigation bar. In implementing a responsive navigation system, Bootstrap was used but there was bug that would not allow the navbar to be recolored to suit the the chosen colour scheme. In researching a cause (and solution) the developer found a question posted on [Stack Overflow](https://stackoverflow.com/questions/46237610/bootstrap-4-navbar-color-wont-change "Link to Stack Overflow solution") with a similar problem. It was from here that the developer was able to copy and edit the code given as a solution on Stack in order to implement a solution to the bug, with celebratory success.
 
 **Home Page Responsiveness Bug** - A bug was detected in creating the HomePage where the mobile-first design approach was responsive but as soon as the breakpoint changed to a larger screen, the page layout would shift, creating inconsistencies in the design. In order to rectify this, the developer utilized a solution posted for a similar problem on [Stack Overflow](https://stackoverflow.com/questions/5703552/how-can-i-center-text-horizontally-and-vertically-inside-a-div-block "Link to Stack Overflow solution"). With this solution, the developer was able to create the desired responsiveness without having to use excessive and unnecessary lines of code.
 
-**Hero Image Bug - Home Page** - A bug was detected when implementing the hero image to be used for the Home Page. The developer used the shorthand background element to implement the image but soon found there was an issue with the responsiveness of the image using this. When coding the background-size using the shorthand method, the image would disappear. The developer used an answer to a similar problem on [Stack Overflow](https://stackoverflow.com/questions/26236486/background-size-cover-not-working "Link to Stack Overflow solution") in order to understand the problem and, in turn, find a solution.
+**Hero Image Issue - Home Page** - A bug was detected when implementing the hero image to be used for the Home Page. The developer used the shorthand background element to implement the image but soon found there was an issue with the responsiveness of the image using this. When coding the background-size using the shorthand method, the image would disappear. The developer used an answer to a similar problem on [Stack Overflow](https://stackoverflow.com/questions/26236486/background-size-cover-not-working "Link to Stack Overflow solution") in order to understand the problem and, in turn, find a solution.
 
-**Social Links Bug** - A bug was detected in the Social Links when trying to implement the Bootstrap display property in order to only show the Social links in the toggler menu on smaller devices. In nesting an unordered list within another unordered list, the `padding-inline-start` of the `ul` user agent stylesheet would be set at a value of `40px`. The problem with this was that it was overriding the `d-inline` class that was called. In order to rectify this, the developer had to override the `padding-inline-start` value, using code sourced from [Stack Overflow](https://stackoverflow.com/questions/54000514/unordered-list-in-css-will-not-center "Link to Stack Overflow solution") with:
+**Social Links Issue** - A bug was detected in the Social Links when trying to implement the Bootstrap display property in order to only show the Social links in the toggler menu on smaller devices. In nesting an unordered list within another unordered list, the `padding-inline-start` of the `ul` user agent stylesheet would be set at a value of `40px`. The problem with this was that it was overriding the `d-inline` class that was called. In order to rectify this, the developer had to override the `padding-inline-start` value, using code sourced from [Stack Overflow](https://stackoverflow.com/questions/54000514/unordered-list-in-css-will-not-center "Link to Stack Overflow solution") with:
 ```
 padding: 0px; 
 margin: 0px auto;
 ```
 **Biographic Info Bug (Bio Page)** - A bug was detected on the Bio page whereby when the page was viewed on a smaller screen, the overflow content of the `p` element would be cut off, losing some of the biographic text. In order to solve the problem, the developer found a similar problem on [Stack Overflow](https://stackoverflow.com/questions/52394425/100vh-cuts-off-content-when-window-height-is-small "Link to Stack Overflow solution") where they were able to better understand the viewport limitations and find a solution, which was a simple switch from `height` to `min-height`.
 
-**Google Maps iFrame Bug (Live Page)** - A bug was detected with the iframe element of the Live Page (which was used to implement a Google Maps embed). There was a problem with the responsiveness of the iframe, causing it to extend its width far beyond the page upon resizing. while `overflow: hidden;` would have worked with larger screens, it was proving problematic with smaller screens. The developer found a post from [Digital Inspiration](https://www.labnol.org/internet/embed-responsive-google-maps/28333/ "Link to Digital Inspiration solution") in order to better understand the problem and to successfully implement a solution.
+**Google Maps iFrame Issue (Live Page)** - A bug was detected with the iframe element of the Live Page (which was used to implement a Google Maps embed). There was a problem with the responsiveness of the iframe, causing it to extend its width far beyond the page upon resizing. while `overflow: hidden;` would have worked with larger screens, it was proving problematic with smaller screens. The developer found a post from [Digital Inspiration](https://www.labnol.org/internet/embed-responsive-google-maps/28333/ "Link to Digital Inspiration solution") in order to better understand the problem and to successfully implement a solution.
 
 **IGTV Bug (Press Kit Page)** - A bug was detected in the in IGTV embedding code which was affecting the responsiveness of the embed. The `min-width: 326px` value was distorting the video when viewing on a mobile device. Using a post with a similar problem from [WordPress](https://wordpress.org/support/topic/problem-embedding-instagram/ "Link to Digital Inspiration solution") the developer was able to override this with a `!important` value after the set element, allowing it to be responsive across all devices. The developer recognizes that this may not be best practice but, in this case, it was necessary in order to maintain responsiveness.
+
+**IGTV Issue (Press Kit Page)** - In copying the embedding code for the IGTV video, the developer noticed that there were inline styling elements within the code itself. Knowing that this is bad practice, the developer tried to implement the styling rules into their own external style sheet but this proved difficult. Some of the styling copied over easily but they soon ran into issues whereby the embedding stopped working completely. The decision was made to ultimately leave the code as is (not to edit it) in order to maintain the integrity of the embedding.
 
 [Back to top ⇧](#Kryan-Live)
 
