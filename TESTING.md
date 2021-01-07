@@ -9,16 +9,7 @@
 ***
 ## Table of contents
 1. [Testing User Stories](#Testing-User-Stories)
-    - [New/Potential Fans](#New/Potential-Fans-Goals:)
-    - [Current Fans](#Current-Fans-Goals:)
-    - [Potential Bookers](#Potential-Bookers-Goals:)
-    - [Media Enquirer](#Media-Enquirer-Goals:)
 2. [Manual Testing](#Manual-Testing)
-    - [Common Elements Testing](#Common-Elements-Testing)
-    - [Home Page Testing](#Home-Page)
-    - [Bio Page Testing](#Bio-Page)
-    - [Live Page Testing](#Live-Page)
-    - [Press Kit Page Testing](#Press-Kit-Page)
 3. [Automated Testing](#Automated-Testing) 
      - [Code Validation](#Code-Validation)
      - [Browser Validation](#Browser-Validation)
