@@ -128,7 +128,7 @@ Wireframe mockups were created using the software [Figma](https://www.figma.com/
    - [Home Page Wireframe](assets/readme-files/home.pdf "Home Page Wireframe")
    - [Bio Page Wireframe](assets/readme-files/bio.pdf "Bio Page Wireframe")
    - [Live Page Wireframe](assets/readme-files/live.pdf "Live Page Wireframe")
-   - [Electronic Press Kit Page Wireframe](assets/readme-files/epk.pdf "Press Kit Page Wireframe")
+   - [Press Kit Page Wireframe](assets/readme-files/epk.pdf "Press Kit Page Wireframe")
    - [Figma Workspace](https://www.figma.com/file/pRD2Oi1aSuYxhFacqOmUfT/Kryan-Live?node-id=0%3A1)
 
 [Back to top ⇧](#Kryan-Live)
