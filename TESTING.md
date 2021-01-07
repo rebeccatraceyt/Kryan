@@ -203,7 +203,7 @@ Manual testing was conducted on the following elements of the [Electronic Press 
 
 ## Automated Testing
 
-### HTML
+### Code Validation
 The [W3C Markup Validator](https://validator.w3.org/) service was used to validate the `HTML` code used.
 
 **Results:**
@@ -227,12 +227,23 @@ The [W3C Markup Validator](https://validator.w3.org/) service was used to valida
 The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) service was used to validate the `CSS` coded used.
 
 **Results:**
-## Further testing: 
+![Style sheet validation results](assets/testing-files/automated/style.png)
 
-- The Website was tested on Google Chrome and Safari browsers.
-- The website was viewed on a variety of devices such as Desktop, Laptop, iPhoneX, Samsung Galaxy and iPad.
-- A large amount of testing was done to ensure that all pages were linking correctly.
-- Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues. It was through this testing that the following changes were made:
-     1. Change to the Navbar background color on mobiles in order for the toggler menu icon to more distinguishable to the background image.
-     2. Change to Navbar font-size on mobile for clearer reading.
-     3. Complete overhaul of Live page in order to display the information in a more user-friendly way.
+### Browser Validation
+- Chrome - [test image](assets/testing-files/automated/chrome.png)
+- Safari - [test image](assets/testing-files/automated/safari.png)
+- Edge - [test image](assets/testing-files/automated/edge.png)
+- Opera - [test image](assets/testing-files/automated/opera.png)
+- Firefox - [test image](assets/testing-files/automated/firefox.png)
+
+### Lighthouse Auditing
+- Click [here](assets/testing-files/automated/lighthouse.pdf) for full report
+- No recommendations in this report have been implemented in the first release but will be looked into for future releases.
+
+## User testing: 
+Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues. Their helpful advice throughout the process led to many UX changes in order to create a better experience. 
+
+It was through this testing that the following changes were made:
+- Change to the Navbar background color on mobiles in order for the toggler menu icon to more distinguishable to the background image.
+- Change to Navbar font-size on mobile for clearer reading.
+- Complete overhaul of Live page in order to display the information in a more user-friendly way.
