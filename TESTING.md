@@ -81,11 +81,16 @@ Manual testing was conducted on the following elements that appear on every page
 - Hovering over Social links will trigger `hover` effect and clicking on them will open a new tab
 
      ![Facebook Social link](assets/testing-files/gen-gif/facebook.gif)
-![Instagram Social link](assets/testing-files/gen-gif/instagram.gif)
-![Twitter Social link](assets/testing-files/gen-gif/twitter.gif)
-![Spotify Social link](assets/testing-files/gen-gif/spotify.gif)
-![Apple Music Social link](assets/testing-files/gen-gif/apple-music.gif)
-![Deezer Social link](assets/testing-files/gen-gif/deezer.gif)
+
+     ![Instagram Social link](assets/testing-files/gen-gif/instagram.gif)
+
+     ![Twitter Social link](assets/testing-files/gen-gif/twitter.gif)
+
+     ![Spotify Social link](assets/testing-files/gen-gif/spotify.gif)
+
+     ![Apple Music Social link](assets/testing-files/gen-gif/apple-music.gif)
+
+     ![Deezer Social link](assets/testing-files/gen-gif/deezer.gif)
 
 ### Home Page
 Manual testing was conducted on the following elements of the [Home Page](index.html):
@@ -120,7 +125,9 @@ Manual testing was conducted on the following elements of the [Bio Page](bio.htm
 - Clicking the links in each accordion menu link will open a new tab
  
      ![Accordion link opens in new tab](assets/testing-files/bio-gif/bio-accordion1.gif)
+
      ![Accordion link opens in new tab](assets/testing-files/bio-gif/bio-accordion2.gif)
+
      ![Accordion link opens in new tab](assets/testing-files/bio-gif/bio-accordion3.gif)
 
 - On a mobile device, the hero image stacks on top of the other column for UX purposes
@@ -142,7 +149,7 @@ Manual testing was conducted on the following elements of the [Live Page](live.h
 
      ![Live page venue link](assets/testing-files/live-gif/live-venue.gif)
 
-- Hovering over the ticket button will trigger a `hoverz effect and clicking will open ticketing site in a new tab   
+- Hovering over the ticket button will trigger a `hover` effect and clicking will open ticketing site in a new tab   
 
      ![Live page button link](assets/testing-files/live-gif/live-tickets.gif)
 
@@ -183,7 +190,7 @@ Manual testing was conducted on the following elements of the [Electronic Press 
 
 - When filling out the contact form, the user must complete all fields
 
-     ![Contact form required fields](assets/testing-files/epk-gif/epk-form .gif)
+     ![Contact form required fields](assets/testing-files/epk-gif/epk-form.gif)
 
 - On a mobile device, the hero image stacks on top of the other column for UX purposes
 
