@@ -212,6 +212,7 @@ body {
     color: var(--accent);
     font-family: var(--bodyfont);
     font-weight: 400;
+    line-height: 30px;
     text-decoration: none;
 }
 #bio-accordion a:hover {
