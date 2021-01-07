@@ -6,11 +6,7 @@
 
 [View website in GitHub Pages](https://github.com/rebeccatraceyt/KryanLive)
 
-## Testing
-
-The [W3C Markup Validator](https://validator.w3.org/) and the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) services were used in validating each page of the project to ensure there were no syntax errors.
-
-### Testing User Stories from UX section of [README.md](/README.md)
+## Testing User Stories from UX section of [README.md](/README.md)
 
 #### New/Potential Fans Goals:
 1. As a new fan, I want to easily navigate through the website to find the relevant content, effortlessly.
@@ -73,15 +69,134 @@ The [W3C Markup Validator](https://validator.w3.org/) and the [W3C CSS Validator
      - Each page has highlighted features that is potential material for media enquirers.
      - The most commonly searched features are emphasized in order to draw the users directly to that information.
 
-### Manual (logical) testing of all elements and functionality on every page.
+## Manual (logical) testing of all elements and functionality on every page.
 
-#### Home Page:
+### Common Elements Testing
+Manual testing was conducted on the following elements that appear on every page:
 
-#### Bio Page:
+- Hovering over the Navbar will trigger `hover` effect, confirming the link the users are on
 
-#### Live Page:
+     ![Navbar hover effect](assets/testing-files/gen-gif/navbar.gif)
 
-#### Press Kit Page:
+- Hovering over Social links will trigger `hover` effect and clicking on them will open a new tab
+
+     ![Facebook Social link](assets/testing-files/gen-gif/facebook.gif)
+![Instagram Social link](assets/testing-files/gen-gif/instagram.gif)
+![Twitter Social link](assets/testing-files/gen-gif/twitter.gif)
+![Spotify Social link](assets/testing-files/gen-gif/spotify.gif)
+![Apple Music Social link](assets/testing-files/gen-gif/apple-music.gif)
+![Deezer Social link](assets/testing-files/gen-gif/deezer.gif)
+
+### Home Page
+Manual testing was conducted on the following elements of the [Home Page](index.html):
+
+- Clicking logo on left of screen will refresh the landing page
+
+     ![Homepage Refresh](assets/testing-files/home-gif/hp-logo.gif)
+
+- Hovering over 'Out Now' link will create a `hover` effect
+
+     !['Out Now' hover effect](assets/testing-files/home-gif/hp-outnow.gif)
+
+- On a mobile device, the hero image stacks on top of the other column for UX purposes
+
+     ![Home page - mobile version](assets/testing-files/home-gif/hp-mobile.gif)
+
+- The responsiveness of the Home page
+
+     ![Home page responsiveness](assets/testing-files/home-gif/hp-res.gif)
+
+### Bio Page
+Manual testing was conducted on the following elements of the [Bio Page](bio.html):
+
+- Clicking the logo on the top left of the page will return the user to the Home Page
+
+     ![Bio page to Home page](assets/testing-files/bio-gif/bio-logo.gif)
+
+- Hovering over each of the accordion menu links will trigger the `hover` effect
+      
+     ![Hover effect on bio links](assets/testing-files/bio-gif/bio-links.gif)
+
+- Clicking the links in each accordion menu link will open a new tab
+ 
+     ![Accordion link opens in new tab](assets/testing-files/bio-gif/bio-accordion1.gif)
+     ![Accordion link opens in new tab](assets/testing-files/bio-gif/bio-accordion2.gif)
+     ![Accordion link opens in new tab](assets/testing-files/bio-gif/bio-accordion3.gif)
+
+- On a mobile device, the hero image stacks on top of the other column for UX purposes
+
+     ![Bio page - mobile version](assets/testing-files/bio-gif/bio-mobile.gif)
+
+- The responsiveness of the Bio page
+
+     ![Bio page responsiveness](assets/testing-files/bio-gif/bio-res.gif)
+
+### Live Page
+Manual testing was conducted on the following elements of the [Live Page](live.html):
+
+- Clicking the logo on the top left of the page will return the user to the Home page
+
+     ![Live page to Home page](assets/testing-files/live-gif/live-logo.gif)
+
+- Hovering over the venue name will trigger a `hover` effect and clicking it will open the event page in a new tab
+
+     ![Live page venue link](assets/testing-files/live-gif/live-venue.gif)
+
+- Hovering over the ticket button will trigger a `hoverz effect and clicking will open ticketing site in a new tab   
+
+     ![Live page button link](assets/testing-files/live-gif/live-tickets.gif)
+
+- Clicking on the map `iframe` embed will open the map in a new tab
+
+     ![Live page map link](assets/testing-files/live-gif/live-map.gif)
+
+- On a mobile device, the hero image stacks on top of the other column for UX purposes
+
+     ![Live page - mobile version](assets/testing-files/live-gif/live-mobile.gif)
+
+- The responsiveness of the Live page
+
+     ![Live page responsiveness](assets/testing-files/live-gif/live-res.gif)
+
+### Press Kit Page
+Manual testing was conducted on the following elements of the [Electronic Press Kit Page](epk.html):
+
+- Clicking the logo on the top left of the page will return the user to the Home page
+
+     ![Press Kit page to Home page](assets/testing-files/epk-gif/epk-logo.gif)
+
+- Clicking the `next tab` icon on the carousel will allow the user to flick through the images
+
+     ![Carousel image selection](assets/testing-files/epk-gif/epk-pics.gif)
+
+- Hovering over the article link will trigger a `hover` effect and clicking will open article in a new tab
+
+     ![Indie Buddie link](assets/testing-files/epk-gif/epk-link1.gif)
+
+- Clicking on the IGTV `iframe` embed will open the video in a new tab
+
+     ![IGTV video link](assets/testing-files/epk-gif/epk-link2.gif)
+
+- Clicking on the Spotify `iframe` will allow the users to control the music playing in the embed
+
+     ![Spotify embed](assets/testing-files/epk-gif/epk-link3.gif)
+
+- When filling out the contact form, the user must complete all fields
+
+     ![Contact form required fields](assets/testing-files/epk-gif/epk-form .gif)
+
+- On a mobile device, the hero image stacks on top of the other column for UX purposes
+
+     ![Press Kit page - mobile version](assets/testing-files/epk-gif/epk-mobile.gif)
+
+- The responsiveness of the Electronic Press Kit page
+
+     ![Press Kit page responsiveness](assets/testing-files/epk-gif/epk-res.gif)
+
+
+## Automated Testing
+
+The [W3C Markup Validator](https://validator.w3.org/) and the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) services were used in validating each page of the project to ensure there were no syntax errors.
 
 ## Further testing: 
 
