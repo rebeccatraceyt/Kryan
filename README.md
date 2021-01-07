@@ -276,6 +276,8 @@ margin: 0px auto;
      - GitHub was used to store the project after pushing
 - [Balsamiq](https://balsamiq.com/ "Link to Balsamiq homepage")
      - Balsamiq was used to create the wireframes during the design phase of the project.
+- [Am I Responsive?](http://ami.responsivedesign.is/# "Link to Am I Responsive Homepage")
+     - Am I Responsive was used in order to see responsive design throughout the process and to generate mockup imagery to be used.
 
 [Back to top ⇧](#Kryan-Live)
 
