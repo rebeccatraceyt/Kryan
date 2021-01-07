@@ -9,8 +9,8 @@
 2. [UX](#UX)
     1. [Ideal User Demographic](#Ideal-User-Demographic)
     2. [User Stories](#User-Stories)
-    3. [Design](#Design)
-    4. [Wireframes](#Wireframes)
+    3. [Development Planes](#Development-Planes)
+    4. [Design](#Design)
 3. [Features](#Features)
     1. [Design Features](#Design-Features) 
     2. [Existing Features](#Existing-Features)
@@ -42,23 +42,6 @@ Kryan is a Dublin based singer/songwriter multi-instrumentalist, focusing mainly
 This is the first of four Milestone Projects that the developer must complete during their Full Stack Web Development Program at The Code Institute. 
 
 The main requirements were to make a responsive and static website with a minimum of three pages using **HTML5** and **CSS3**.
-
-
-
-**Client goals for the website:**
-- Develop an online presence for Kryan
-- Provide an easily navigable website for users to find relevant information:
-     - New releases
-     - Biographical information
-- Provide a channel of communication for media enquires (Electronic Press Kit with contact information)
-- Provide a channel of communication for new and current fans (Social Links - easily accessible throughout the site)
-
-**User goals for the website:**
-- Retrieve desired information:
-     - Biographical information
-     - New releases
-     - Upcoming live events
-     - Contact information (PR and social enquires)
 
 [Back to top ⇧](#Kryan-Live)
 
@@ -101,9 +84,96 @@ The main requirements were to make a responsive and static website with a minimu
      - New music links
      - Social links
 
+
+### Development Planes
+
+In order to create a comprehensive and informative website, the developer worked closely with the artist to distinguish the required functionality of the site and how it would answer the user stories, as described above.
+
+#### Strategy
+Broken into three categories, the website will focus on the following target audiences:
+- **Roles:**
+     - Current fans of Kryan
+     - New fans
+     - Media Outlets
+     - Bookers for events
+     - Irish Pop music lovers
+
+- **Demographic:**
+     - 18 - 35 year olds
+     - Secondary / Third level students
+     - Fans of Irish Pop (not necessarily Irish)
+
+- **Psychographics:**
+     - Personality & Attitudes:
+          - Youthful
+          - Outgoing
+     - Values:
+          - More modern lifestyle
+          - Leaning towards Irish values of friendship/music
+     - Lifestyles:
+          - Music Lovers
+          - Interested in the "Home-grown talent"
+
+The website needs to enable the **user** to:
+- Retrieve desired information:
+     - Biographical information
+     - New releases
+     - Upcoming live events
+     - Contact information (PR and social enquires)
+     - Find them on their preferred social platform
+
+The website needs to enable the **artist** to:
+- Develop an online presence 
+- Provide an easily navigable website for users to find relevant information:
+     - New releases
+     - Biographical information
+- Provide a channel of communication for media enquires (Electronic Press Kit with contact information)
+- Provide a channel of communication for new and current fans (Social Links - easily accessible throughout the site)
+
+With these goals in mind, a strategy table was created to determine the trade-off between importance and viability with the following results:
+
+![Strategy Table](assets/readme-files/strategy-table.png)
+
+#### Scope
+A scope was defined in order to clearly identify what needed to be done in order to align features with the strategy previously defined. This was broken into two categories:
+- **Content Requirements**
+     - The user will be looking for:
+          - Biographic information
+          - Media Articles
+          - Upcoming gigs
+          - Contact details
+          - Social Links
+          - Plugs for new music and video releases
+- **Functionality Requirements**
+     - The user will be able to:
+          - Easily navigate through the site in order to find the information they want
+          - Be able to find links to external sites in order to:
+               - Purchase gig tickets
+               - Find gig directions
+               - Pre-save or save new music releases
+          - Contact the artist directly through their chosen channel of communication
+
+#### Structure
+The information architecture was organized in a **hierarchial tree structure** in order to ensure that users could navigate through the site with ease and efficiency, with the following results: 
+
+![Site Map](assets/readme-files/sitemap.png)
+
+#### Skeleton 
+Wireframe mockups were created in a [Figma Workspace](https://www.figma.com/file/pRD2Oi1aSuYxhFacqOmUfT/Kryan-Live?node-id=0%3A1) with providing a positive user experience in mind:
+
+Home Page:
+![Home Page Wireframe](assets/readme-files/home.png "Home Page Wireframe")
+
+Bio Page:
+![Bio Page Wireframe](assets/readme-files/bio.png "Bio Page Wireframe")
+
+Live Page:
+![Live Page Wireframe](assets/readme-files/live.png "Live Page Wireframe")
+
+Press Kit Page:
+![Press Kit Page Wireframe](assets/readme-files/epk.png "Press Kit Page Wireframe")
+
 ### Design
-#### Development Planes
-In order to create a comprehensive and informative website, the developer worked closely with the artist to distinguish the required functionality of the site and how it would answer the user stories, as described above. With the help of the artist, a [workbook](assets/readme-files/workbook.pdf "Development planes workbook"), was created, based on the 5 Development Planes it lays out the specifications necessary in implementing the website.
 
 #### Colour Scheme
 The main colours used throughout the website are a mixture of Black and White, with Red accents.
@@ -121,15 +191,6 @@ The selected imagery is modern and cohesively aesthetic, reflecting the artist's
 The imagery is catching and visually represents the theme of the website.
 
 All imagery provides alternative text to be used in the event that the element cannot be rendered. The template used to provide alt text for background images can be found  [here](http://www.davidmacd.com/blog/alternate-text-for-css-background-images.html "Link to alt text reference on www.davidmacd.com").
-
-### Wireframes
-Wireframe mockups were created using the software [Figma](https://www.figma.com/)
-
-   - [Home Page Wireframe](assets/readme-files/home.pdf "Home Page Wireframe")
-   - [Bio Page Wireframe](assets/readme-files/bio.pdf "Bio Page Wireframe")
-   - [Live Page Wireframe](assets/readme-files/live.pdf "Live Page Wireframe")
-   - [Press Kit Page Wireframe](assets/readme-files/epk.pdf "Press Kit Page Wireframe")
-   - [Figma Workspace](https://www.figma.com/file/pRD2Oi1aSuYxhFacqOmUfT/Kryan-Live?node-id=0%3A1)
 
 [Back to top ⇧](#Kryan-Live)
 
@@ -285,8 +346,8 @@ margin: 0px auto;
      - Git was used for version control by utilizing the GitPod terminal to commit to Git and push to GitHub.
 - [GitHub](https://github.com/ "Link to GitHub")
      - GitHub was used to store the project after pushing
-- [Balsamiq](https://balsamiq.com/ "Link to Balsamiq homepage")
-     - Balsamiq was used to create the wireframes during the design phase of the project.
+- [Figma](https://www.figma.com/ "Link to Figma homepage")
+     - Figma was used to create the wireframes during the design phase of the project.
 - [Am I Responsive?](http://ami.responsivedesign.is/# "Link to Am I Responsive Homepage")
      - Am I Responsive was used in order to see responsive design throughout the process and to generate mockup imagery to be used.
 
