@@ -41,7 +41,7 @@ Kryan is a Dublin based singer/songwriter multi-instrumentalist, focusing mainly
 
 This is the first of four Milestone Projects that the developer must complete during their Full Stack Web Development Program at The Code Institute. 
 
-The main requirements were to make a responsive and static website with a minimum of three pages using **HTML5** and **CSS3**.
+The main requirements were to make a responsive and static website with a minimum of three pages using primarily **HTML5** and **CSS3**.
 
 [Back to top ⇧](#Kryan-Live)
 
