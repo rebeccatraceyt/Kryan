@@ -469,7 +469,7 @@ hr.epk-hr {
 }
 #epk-contact p {
     text-align: left;
-    padding-inline-start: 5%;
+    padding-left: 5%;
 }
 #epk-contact button {
     /* "Get in touch" Button styling */
@@ -530,9 +530,6 @@ input[type=text], input[type=email], textarea {
     /*--------------------------------- Live Page Styling */
 
     /* General styling for live page on screens larger than mobile devices */
-    #live-info {
-        padding: auto;
-    }
     #live-table h2 {
         /* Event date */
         font-size: 1em; 
@@ -575,7 +572,7 @@ input[type=text], input[type=email], textarea {
     /* Styling for contact form on tablet screens */
     #epk-contact p {
         text-align: left;
-        padding-inline-start: 10%;
+        padding-left: 10%;
     }
     #contact-br {
         display: none;
@@ -632,11 +629,12 @@ input[type=text], input[type=email], textarea {
     /* For image on bigger screen */
     #home-hero {
         /* Homepage Image compatible with larger screens */
-        background: url(../images/hero1-d.png) no-repeat fixed cover top;
+        background: url(../images/hero1-d.png) no-repeat top;
+        background-size: cover;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
-        background-size: cover;
+        
 
         height: 100vh;
         width: 50vw;
@@ -844,7 +842,7 @@ input[type=text], input[type=email], textarea {
     /* Contact form re-sizing for larger devices */
     #epk-contact p {
         text-align: left;
-        padding-inline-start: 12%;
+        padding-left: 12%;
     }
     #contact-br {
         display: none;

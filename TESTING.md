@@ -208,10 +208,25 @@ The [W3C Markup Validator](https://validator.w3.org/) service was used to valida
 
 **Results:**
 
+- Home Page
 
+     ![Home Page HTML Validation Results](assets/testing-files/automated/home.png)
 
- and the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) services were used in validating each page of the project to ensure there were no syntax errors.
+- Bio Page
 
+     ![Bio Page HTML Validation Results](assets/testing-files/automated/bio.png)
+
+- Live Page
+
+     ![Live Page HTML Validation Results](assets/testing-files/automated/live.png)
+
+- Electronic Press Kit Page
+
+     ![EPK Page HTML Validation Results](assets/testing-files/automated/epk.png)
+
+The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) service was used to validate the `CSS` coded used.
+
+**Results:**
 ## Further testing: 
 
 - The Website was tested on Google Chrome and Safari browsers.
