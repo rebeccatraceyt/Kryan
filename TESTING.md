@@ -124,19 +124,19 @@ Manual testing was conducted on the following elements of the [Home Page](index.
 
 - Clicking logo on left of screen will refresh the landing page
 
-     ![Homepage Refresh](assets/testing-files/home-gif/hp-logo.gif)
+     ![Homepage Refresh](assets/testing-files/home-gif/home-logo.gif)
 
 - Hovering over 'Out Now' link will create a `hover` effect
 
-     !['Out Now' hover effect](assets/testing-files/home-gif/hp-outnow.gif)
+     !['Out Now' hover effect](assets/testing-files/home-gif/home-link.gif)
 
 - On a mobile device, the hero image stacks on top of the other column for UX purposes
 
-     ![Home page - mobile version](assets/testing-files/home-gif/hp-mobile.gif)
+     ![Home page - mobile version](assets/testing-files/home-gif/home-mobile.png)
 
 - The responsiveness of the Home page
 
-     ![Home page responsiveness](assets/testing-files/home-gif/hp-res.gif)
+     ![Home page responsiveness](assets/testing-files/home-gif/home-res.gif)
 
 ### Bio Page
 Manual testing was conducted on the following elements of the [Bio Page](bio.html):
@@ -145,11 +145,7 @@ Manual testing was conducted on the following elements of the [Bio Page](bio.htm
 
      ![Bio page to Home page](assets/testing-files/bio-gif/bio-logo.gif)
 
-- Hovering over each of the accordion menu links will trigger the `hover` effect
-      
-     ![Hover effect on bio links](assets/testing-files/bio-gif/bio-links.gif)
-
-- Clicking the links in each accordion menu link will open a new tab
+- Hovering over each accordion menu will trigger the `hover` effect and clicking the link within will open it in a new tab
 
      Jordo and 'the Legs':
  
@@ -184,7 +180,7 @@ Manual testing was conducted on the following elements of the [Live Page](live.h
 
 - Hovering over the ticket button will trigger a `hover` effect and clicking will open ticketing site in a new tab   
 
-     ![Live page button link](assets/testing-files/live-gif/live-tickets.gif)
+     ![Live page button link](assets/testing-files/live-gif/live-ticket.gif)
 
 - Clicking on the map `iframe` embed will open the map in a new tab
 
@@ -192,7 +188,7 @@ Manual testing was conducted on the following elements of the [Live Page](live.h
 
 - On a mobile device, the hero image stacks on top of the other column for UX purposes
 
-     ![Live page - mobile version](assets/testing-files/live-gif/live-mobile.gif)
+     ![Live page - mobile version](assets/testing-files/live-gif/live-mobile.png)
 
 - The responsiveness of the Live page
 
@@ -220,6 +216,10 @@ Manual testing was conducted on the following elements of the [Electronic Press 
 - Clicking on the Spotify `iframe` will allow the users to control the music playing in the embed
 
      ![Spotify embed](assets/testing-files/epk-gif/epk-link3.gif)
+
+- Hovering over the Booking Agent's name will trigger a `hover` effect. On click will lead users to a `mailto` platform
+
+     ![Mailto Hover effect](assets/testing-files/epk-gif/epk-mail.gif)
 
 - When filling out the contact form, the user must complete all fields
 

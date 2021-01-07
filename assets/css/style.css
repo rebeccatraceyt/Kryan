@@ -305,7 +305,7 @@ body {
     /* Styling for event pricing (for UX purposes) */
     font-size: inherit;
     background-color: var(--accent);
-    border: 3px solid var(--accent);
+    border: 1px solid var(--accent);
     border-radius: 3px;
 }
 #live-table a {
