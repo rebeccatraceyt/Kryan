@@ -6,7 +6,29 @@
 
 [View website in GitHub Pages](https://github.com/rebeccatraceyt/KryanLive)
 
-## Testing User Stories from UX section of [README.md](/README.md)
+***
+## Table of contents
+1. [Testing User Stories](#Testing-User-Stories)
+    - [New/Potential Fans](#New/Potential-Fans-Goals:)
+    - [Current Fans](#Current-Fans-Goals:)
+    - [Potential Bookers](#Potential-Bookers-Goals:)
+    - [Media Enquirer](#Media-Enquirer-Goals:)
+2. [Manual Testing](#Manual-Testing)
+    - [Common Elements Testing](#Common-Elements-Testing)
+    - [Home Page Testing](#Home-Page)
+    - [Bio Page Testing](#Bio-Page)
+    - [Live Page Testing](#Live-Page)
+    - [Press Kit Page Testing](#Press-Kit-Page)
+3. [Automated Testing](#Automated-Testing) 
+     - [Code Validation](#Code-Validation)
+     - [Browser Validation](#Browser-Validation)
+     - [Lighthouse Auditing](#Lighthouse-Auditing)
+4. [User Testing](#User-Testing)
+
+
+***
+
+## Testing User Stories
 
 #### New/Potential Fans Goals:
 1. As a new fan, I want to easily navigate through the website to find the relevant content, effortlessly.
@@ -69,7 +91,7 @@
      - Each page has highlighted features that is potential material for media enquirers.
      - The most commonly searched features are emphasized in order to draw the users directly to that information.
 
-## Manual (logical) testing of all elements and functionality on every page.
+## Manual Testing
 
 ### Common Elements Testing
 Manual testing was conducted on the following elements that appear on every page:
@@ -240,7 +262,7 @@ The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) service was used t
 - Click [here](assets/testing-files/automated/lighthouse.pdf) for full report
 - No recommendations in this report have been implemented in the first release but will be looked into for future releases.
 
-## User testing: 
+## User testing 
 Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues. Their helpful advice throughout the process led to many UX changes in order to create a better experience. 
 
 It was through this testing that the following changes were made:
