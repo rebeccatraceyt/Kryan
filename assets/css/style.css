@@ -452,6 +452,10 @@ hr.epk-hr {
     /* Source from Stack Overflow in order to center the Spotify iFrame embed in the middle of the page
         https://stackoverflow.com/questions/59411725/how-would-i-center-this-iframe-on-a-webpage */
 }
+#epk-iframe iframe {
+    border: none;
+    width: 75%;
+}
 
 /* Contact form styling */
 #epk-contact {
