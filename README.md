@@ -324,6 +324,8 @@ margin: 0px auto;
 
 **IGTV Issue (Press Kit Page)** - In copying the embedding code for the IGTV video, the developer noticed that there were inline styling elements within the code itself. Knowing that this is bad practice, the developer tried to implement the styling rules into their own external style sheet but this proved difficult. Some of the styling copied over easily but they soon ran into issues whereby the embedding stopped working completely. The decision was made to ultimately leave the code as is (not to edit it) in order to maintain the integrity of the embedding.
 
+**Contact Form Issue (Press Kit Page)** - In the initial designs, the developer planned to use a modal to display a success message once the user submitted their details in the contact form (the code for which can be found in earlier versions found in my commit history). However, on testing, it was noted that the success message modal would pop up even when the user had not completed all required fields. In lacking the knowledge to fix this issue with Java Script, the developer opted to use a short message pop-up on button click. 
+
 [Back to top ⇧](#Kryan-Live)
 
 ## Technologies Used
