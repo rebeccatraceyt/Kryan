@@ -203,7 +203,14 @@ Manual testing was conducted on the following elements of the [Electronic Press 
 
 ## Automated Testing
 
-The [W3C Markup Validator](https://validator.w3.org/) and the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) services were used in validating each page of the project to ensure there were no syntax errors.
+### HTML
+The [W3C Markup Validator](https://validator.w3.org/) service was used to validate the `HTML` code used.
+
+**Results:**
+
+
+
+ and the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) services were used in validating each page of the project to ensure there were no syntax errors.
 
 ## Further testing: 
 
