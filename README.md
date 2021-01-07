@@ -2,7 +2,7 @@
 
 ![KryanLive Mockup Images](assets/readme-files/mockup.png)
 
-<a href="https://rebeccatraceyt.github.io/KryanLive/" target="_blank">View the live project here</a>
+[View the live project here](https://rebeccatraceyt.github.io/KryanLive/)
 
 ## Table of contents
 1. [Introduction](#Introduction)
@@ -97,7 +97,8 @@ Kryan is a Dublin based singer/songwriter multi-instrumentalist, focusing mainly
 
 ### Design
 #### Development Planes
-In order to create a comprehensive and informative website, the developer worked closely with the artist to distinguish the required functionality of the site and how it would answer the user stories, as described above. The developed created a [workbook](assets/readme-files/workbook.pdf "Development planes workbook"), based on the 5 Development Planes, with Ryan in order to layout these specifications.
+In order to create a comprehensive and informative website, the developer worked closely with the artist to distinguish the required functionality of the site and how it would answer the user stories, as described above. With the help of the artist, a [workbook](assets/readme-files/workbook.pdf "Development planes workbook"), was created, based on the 5 Development Planes it lays out the specifications necessary in implementing the website.
+
 #### Colour Scheme
 The main colours used throughout the website are a mixture of Black and White, with Red accents.
 
@@ -180,7 +181,7 @@ Each page of the website features a consistent responsive navigational system:
   </dd>
   <dd>There are two <strong>embedded links</strong> that were chosen to showcase the artist's best releases in both audio and video format:
      <ul>
-          <li><strong>Spotify</strong> embedding, showcasing the most played music on Kryan's spotify page</li>
+          <li><strong>Spotify</strong> embedding, showcasing the most played music on Kryan's Spotify page</li>
           <li><strong>IGTV</strong> embedding, showcasing his latest music video</li>
      </ul>
   </dd>
@@ -347,7 +348,7 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 - The text used in the 404 error page was sourced from [CopyAndPasteFonts](https://www.copyandpastefont.com/ "Link to Font editor") and edited by the developer.
 
 ### Code 
-The developer consulted multiple sites in order to better understand they were trying to implement. For code that was copied and edited, the developer made sure to reference this with the code. The following sites were used on a more regular basis:
+The developer consulted multiple sites in order to better understand the code they were trying to implement. For code that was copied and edited, the developer made sure to reference this with the code. The following sites were used on a more regular basis:
 - [Stack Overflow](https://stackoverflow.com/ "Link to Stack Overflow page")
 - [W3Schools](https://www.w3schools.com/ "Link to W3Schools page")
 - [Bootstrap](https://getbootstrap.com/ "Link to BootStrap page")
