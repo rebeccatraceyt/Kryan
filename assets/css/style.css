@@ -224,14 +224,14 @@ body {
 /* General styling for hero image */    
 #live-hero {
     /* Hero Image compatible with mobile devices */
-    background: url(../images/hero3.png) no-repeat center top;
+    background: url(../images/hero3-m.png) no-repeat center top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     
     width: 100vw;
-    min-height: 60vh;
+    min-height: 40vh;
 }
 
 /* General styling for Live text */
@@ -243,7 +243,7 @@ body {
     margin: auto;
 
     width: 100vw;
-    min-height: 40vh;
+    min-height: 60vh;
 
     justify-content: center;
     align-items: center;
@@ -257,11 +257,13 @@ body {
     margin: 15px 0px 5px 0px;
 }
 #live-info {
-    max-width: 80%;
+
+    min-width: 90%;
     margin: auto;
     padding: 5%; 
 }
 #live-table {
+    padding-bottom: 30px;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -299,6 +301,13 @@ body {
     font-size: small;
     word-spacing: 5px;
 }
+#live-table p > span {
+    /* Styling for event pricing (for UX purposes) */
+    font-size: inherit;
+    background-color: var(--accent);
+    border: 3px solid var(--accent);
+    border-radius: 3px;
+}
 #live-table a {
     color: var(--accent);
 }
@@ -327,12 +336,13 @@ body {
     border: 1px solid var(--colour1);
 }
 
-/* Event location styling (hidden smaller screens for UX purposes) */
+/* Event location styling */
 #live-location {
     margin: auto;
     padding: 0px 10px 0px 10px;
-    height: auto;
-    min-height: 100%;
+    width: 100%;
+    height: 20vh;
+    max-height: 100%;
 
     position: relative;
     overflow: hidden;
@@ -343,8 +353,8 @@ body {
 }
 #live-location iframe {
     border: none;
-    width: 100% !important;
-    height: 100% !important;
+    width: inherit;
+    height: inherit;
 }
 
 /*------------------------------------------------------- EPK Styling */
@@ -550,7 +560,27 @@ input[type=text], input[type=email], textarea {
 
     /*--------------------------------- Live Page Styling */
 
+    /* General styling for hero image */    
+    #live-hero {
+        /* Hero Image compatible with screens larger than mobile devices */
+        background: url(../images/hero3-d.png) no-repeat center top;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        
+        width: 100vw;
+        min-height: 60vh;
+    }
+
     /* General styling for live page on screens larger than mobile devices */
+    #live-details {
+        width: 100vw;
+        min-height: 40vh;
+    }
+    #live-table {
+        padding-top: 10px;
+    }
     #live-table h2 {
         /* Event date */
         font-size: 1em; 
@@ -566,26 +596,6 @@ input[type=text], input[type=email], textarea {
     #live-table p {
         /* Event time/price */
         font-size: 1em;
-    }
-
-    /* Event location styling (hidden smaller screens for UX purposes) */
-    #live-location {
-        margin: auto;
-        padding: 0px 10px 0px 10px;
-        height: auto;
-        min-height: 100%;
-
-        position: relative;
-        overflow: hidden;
-        
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    #live-location iframe {
-        border: none;
-        width: 100% !important;
-        height: 100% !important;
     }
    
     /*--------------------------------- EPK Styling */
@@ -709,10 +719,24 @@ input[type=text], input[type=email], textarea {
 
     /*--------------------------------- Live Page Styling */
 
-    /* For image on bigger screen */
+    /* General styling for hero image */    
     #live-hero {
-        height: 100vh;
+        /* Hero Image compatible with larger screens */
+        background: url(../images/hero3-d.png) no-repeat center top;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        
         width: 50vw;
+        height: 100vh;
+    }
+
+    /* General styling for Live text */
+    #live-details {
+        width: 50vw;
+        height: 100vh;
+        padding-top: 5%;
     }
 
     /* For text on bigger screen */
@@ -720,7 +744,6 @@ input[type=text], input[type=email], textarea {
         font-size: 2em;
     }
     #live-table {
-        padding-bottom: 30px;
         display: initial;
     }
     #live-table table {
@@ -747,24 +770,8 @@ input[type=text], input[type=email], textarea {
     #live-ticket a {
         font-size: 1.5em;
     }
-
-    /* Event location styling (hidden smaller screens for UX purposes) */
     #live-location {
-        width: 100%;
-        height: auto;
-        min-height: 100%;
-
-        position: relative;
-        overflow: hidden;
-        
-        justify-content: center;
-        align-items: center;
-        align-items: center;
-    }
-    #live-location iframe {
-        border: none;
-        width: 100% !important;
-        height: 100% !important;
+        height: 40vh;
     }
 
     /*--------------------------------- EPK Styling */
