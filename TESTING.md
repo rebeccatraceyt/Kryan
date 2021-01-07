@@ -1,4 +1,4 @@
-# KryanLive Website - Testing details
+# Kryan Live - Testing 
 
 [Main README.md file](/README.md)
 
@@ -81,6 +81,8 @@
 
      - Each page has highlighted features that is potential material for media enquirers.
      - The most commonly searched features are emphasized in order to draw the users directly to that information.
+
+[Back to top ⇧](#Kryan-Live---Testing)
 
 ## Manual Testing
 
@@ -213,6 +215,7 @@ Manual testing was conducted on the following elements of the [Electronic Press 
 
      ![Press Kit page responsiveness](assets/testing-files/epk-gif/epk-res.gif)
 
+[Back to top ⇧](#Kryan-Live---Testing)
 
 ## Automated Testing
 
@@ -253,6 +256,8 @@ The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) service was used t
 - Click [here](assets/testing-files/automated/lighthouse.pdf) for full report
 - No recommendations in this report have been implemented in the first release but will be looked into for future releases.
 
+[Back to top ⇧](#Kryan-Live---Testing)
+
 ## User testing 
 Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues. Their helpful advice throughout the process led to many UX changes in order to create a better experience. 
 
@@ -260,3 +265,7 @@ It was through this testing that the following changes were made:
 - Change to the Navbar background color on mobiles in order for the toggler menu icon to more distinguishable to the background image.
 - Change to Navbar font-size on mobile for clearer reading.
 - Complete overhaul of Live page in order to display the information in a more user-friendly way.
+
+[Back to top ⇧](#Kryan-Live---Testing)
+
+***
