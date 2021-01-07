@@ -117,11 +117,12 @@ The imagery is catching and visually represents the theme of the website.
 All imagery provides alternative text to be used in the event that the element cannot be rendered. The template used to provide alt text for background images can be found  [here](http://www.davidmacd.com/blog/alternate-text-for-css-background-images.html "Link to alt text reference on www.davidmacd.com").
 
 ### Wireframes
+Wireframe mockups were created using the software [Figma](https://www.figma.com/)
 
-   - [Home Page Wireframe](assets/readme-files/home.png "Home Page Wireframe")
-   - [Bio Page Wireframe](assets/readme-files/bio.png "Bio Page Wireframe")
-   - [Live Page Wireframe](assets/readme-files/live.png "Live Page Wireframe")
-   - [Electronic Press Kit Page Wireframe](assets/readme-files/presskit.png "Press Kit Page Wireframe")
+   - [Home Page Wireframe](assets/readme-files/home.pdf "Home Page Wireframe")
+   - [Bio Page Wireframe](assets/readme-files/bio.pdf "Bio Page Wireframe")
+   - [Live Page Wireframe](assets/readme-files/live.pdf "Live Page Wireframe")
+   - [Electronic Press Kit Page Wireframe](assets/readme-files/epk.pdf "Press Kit Page Wireframe")
 
 [Back to top ⇧](#Kryan-Live)
 

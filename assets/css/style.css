@@ -326,6 +326,26 @@ body {
     border: 1px solid var(--colour1);
 }
 
+/* Event location styling (hidden smaller screens for UX purposes) */
+#live-location {
+    margin: auto;
+    padding: 0px 10px 0px 10px;
+    height: auto;
+    min-height: 100%;
+
+    position: relative;
+    overflow: hidden;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#live-location iframe {
+    border: none;
+    width: 100% !important;
+    height: 100% !important;
+}
+
 /*------------------------------------------------------- EPK Styling */
 
 /* General styling for right side of page */

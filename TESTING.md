@@ -95,15 +95,27 @@ Manual testing was conducted on the following elements that appear on every page
 
 - Hovering over Social links will trigger `hover` effect and clicking on them will open a new tab
 
+     Facebook:
+
      ![Facebook Social link](assets/testing-files/gen-gif/facebook.gif)
+
+     Instagram:
 
      ![Instagram Social link](assets/testing-files/gen-gif/instagram.gif)
 
+     Twitter:
+
      ![Twitter Social link](assets/testing-files/gen-gif/twitter.gif)
+
+     Spotify:
 
      ![Spotify Social link](assets/testing-files/gen-gif/spotify.gif)
 
+     Apple Music:
+
      ![Apple Music Social link](assets/testing-files/gen-gif/apple-music.gif)
+
+     Deezer:
 
      ![Deezer Social link](assets/testing-files/gen-gif/deezer.gif)
 
@@ -138,10 +150,16 @@ Manual testing was conducted on the following elements of the [Bio Page](bio.htm
      ![Hover effect on bio links](assets/testing-files/bio-gif/bio-links.gif)
 
 - Clicking the links in each accordion menu link will open a new tab
+
+     Jordo and 'the Legs':
  
      ![Accordion link opens in new tab](assets/testing-files/bio-gif/bio-accordion1.gif)
 
+     The Scratch:
+
      ![Accordion link opens in new tab](assets/testing-files/bio-gif/bio-accordion2.gif)
+
+     The Hit Machine Drummers:
 
      ![Accordion link opens in new tab](assets/testing-files/bio-gif/bio-accordion3.gif)
 
